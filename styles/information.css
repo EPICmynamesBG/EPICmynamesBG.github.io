@@ -1,0 +1,68 @@
+.important {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #BDBEC2;
+    border-radius: 50%;
+    padding: 3%;
+}
+
+.experience {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.experience .job {
+    width: 90%;
+    padding-left: 5%;
+    display: block;
+    margin-top: 2%;
+    border-bottom: dotted 2px #8E8E93;
+}
+
+.job p:last-child {
+    margin-bottom: 2%;
+}
+
+.job *:not(a){
+    margin-left: 5%;
+    display: block;
+    margin-top: .2em;
+    margin-bottom: .2em;
+}
+
+.job h4 {
+    display: inline-block;
+}
+
+.job h6 {
+    display: inline-block;
+}
+
+.job .jobDesc{
+    text-indent: 2em;
+}
+
+.job div h5,h6 {
+    display: inline-block;
+    width: 27%;
+}
+
+.job div p {
+    font-size: 0.75em;
+    display: block;
+}
+
+.job:last-child{
+    margin-bottom: 2%;
+    border-bottom: none;
+}
+
+.columns ul {
+    vertical-align: top;
+}
+
+.traits {
+    list-style: none;
+}

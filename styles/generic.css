@@ -1,0 +1,214 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,900,300italic,700);
+
+*{
+    font-family: Roboto ,sans-serif, serif;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+p {
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    cursor: pointer;
+}
+
+ul {
+    list-style: circle;
+}
+
+* div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+h1 {
+    font-size: 1.4em;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+h3 {
+    font-size: 1.2em
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+html {
+    /*fallback*/
+    /*
+    background-color: #CC0000;
+    
+    background: -webkit-gradient(linear,left bottom, left top, to(#CC0000), from(#FFFFFF));
+    background: -webkit-linear-gradient(top, #CC0000, #FFFFFF);
+    background: -moz-linear-gradient(top, #CC0000, #FFFFFF);
+    background: -ms-linear-gradient(top, #CC0000, #FFFFFF);
+    background: -o-linear-gradient(top, #CC0000, #FFFFFF);
+    */
+}
+
+body {
+    /*fallback*/
+    background-color: #F7F7F7;
+    
+    background: -webkit-gradient(linear, left bottom, left top, to(#F7F7F7), from(#D7D7D7));
+    background: -webkit-linear-gradient(top, #F7F7F7, #D7D7D7);
+    background: -moz-linear-gradient(top, #F7F7F7, #D7D7D7);
+    background: -ms-linear-gradient(top, #F7F7F7, #D7D7D7);
+    background: -o-linear-gradient(top, #F7F7F7, #D7D7D7);
+    /*
+    -moz-box-shadow: 3px 3px 3px 3px #4E5E6D;
+    -webkit-box-shadow: 3px 3px 3px 3px #4E5E6D;
+    box-shadow: 3px 3px 3px 3px #4E5E6D;
+    width: 92%;*/
+    margin: 0px;
+    
+}
+
+#titleBar {
+    /*fallback*/
+    background-color: #4E5E6D;
+    
+    width: 100%;
+    /*background-color: #4A4A4A;*/
+    position: relative;
+}
+
+#titleBar .upper_content {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#headshot {
+    display: inline-block;
+    width: 25%;
+    max-width: 175px;
+    margin-left:auto;
+    margin-right: 1%;
+}
+
+#logo {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    width: 65%;
+    color: #1D62F0;
+    padding-left: 2%;
+}
+
+#navBar {
+    width: 100%;
+    background-color: #FF1300;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#navBar ul {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: outside none none;
+}
+
+#navBar ul li{
+    cursor: pointer;
+    margin-left: 0;
+    margin-right: 0;
+    width:24%;
+    display: inline-block;
+}
+
+#navBar ul li a{
+    color: #ffffff;
+    display: block;
+    margin: 0;
+    padding: .5em 1em .5em 1em;
+    text-decoration: none;
+    font-weight: bold;
+    moz-font-weight: 900, bold;
+}
+
+#navBar .first {
+    margin-left: 0px;
+}
+
+#navBar .last {
+    
+}
+
+.content *:not a{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.intro{
+    
+}
+
+.main_text{
+    
+}
+
+.recent_activity{
+    
+}
+
+.columns{
+    width: auto;
+}
+
+.columns ul{
+    display: inline-block;
+    width: 30%;
+}
+
+footer{
+    height:auto;
+    font-family: cursive;
+    font-style: italic;
+    position: relative;
+    display: block;
+    margin-right: 2%;
+    margin-left: 2%;
+    
+    font-size: .75em;
+}
+
+#copyright, #resume {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 45%;
+    text-align: right;
+}
+
+#resume {
+    margin-left: 5%;
+    text-align: left;
+    font-weight: 700;
+}
+
+#resume a{
+    text-decoration: none;
+    color: black;
+}
+
+.line {
+    background-color: #4A4A4A;
+    height: 1px;
+}

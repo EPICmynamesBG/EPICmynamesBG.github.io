@@ -1,0 +1,52 @@
+<div id="content" lang="en">
+    <div class="intro">
+        <h1>Introduction</h1>
+        <p>A graduate of the class of 2013 at Versailles High School, I am currently a sophomore at <a href="http://cms.bsu.edu/">Ball State University</a>. A student in the Honors College, I am actively pursuing a bachelor's degree in Computer Science and a minor in Computer Technology. I am expected to graduate in 2017. I thoroughly enjoy working with computers and technology on all levels; from Operating Systems to Coding to Hardware, I am always striving to learn more about what I love. I currently am in the process of creating this website, and with a group I have released my first Android app. I am also learning iOS Swift and Objective-C development in my spare time, a goal I've been targeting for quite some time now.</p>
+    </div>
+    <br/>
+    <div class="content">
+        <div class="important">
+            <h2>Major: Computer Science</h2>
+            <h4>Minor: Computer Technology</h4>
+            <h4>University: Ball State University</h4>
+            <h5>GPA: 3.75</h5>
+        </div>
+        <h3>Technical Skills</h3>
+        <div class="columns">
+            <ul class="column_one">
+            <li ng-repeat="skill in skillsA">{{skill}}</li>
+            </ul>
+            <ul class="column_two">
+            <li ng-repeat="skill in skillsB">{{skill}}</li>
+            </ul>
+        </div>
+        <h3>Interests</h3>
+        <div class="columns">
+            <ul class="column_one">
+            <li ng-repeat="interest in interestsA">{{interest}}</li>
+            </ul>
+            <ul class="column_two">
+            <li ng-repeat="interest in interestsB">{{interest}}</li>
+            </ul>
+        </div>
+        <h3>Personality Traits</h3>
+            <ul class="traits">
+                <li ng-repeat="trait in personalityTraits">{{trait}}</li>
+            </ul>
+    </div>
+    <br/>
+    <div class="experience">
+        <h2>Experience</h2>
+        <div class="job" ng-repeat="job in jobs">
+            <h4>{{job.title}} for {{job.company}}</h4>
+            <div>
+                <h5>{{job.location}}</h5>
+                <h6>{{job.start}} - {{job.end}}</h6>
+            </div>
+            <div>
+                <p>Contact: {{job.contact}} at <a href="mailto:{{job.contactEmail}}?subject=Brandon%20Groff">{{job.contactEmail}}</a></p>
+            </div>
+            <p class="jobDesc">{{job.description}}</p>
+        </div>
+    </div>
+</div>

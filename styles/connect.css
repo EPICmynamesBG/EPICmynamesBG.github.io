@@ -1,0 +1,14 @@
+.row{
+    width: 100%;
+}
+    
+.social{
+    display: inline-block;
+    margin: 1%;
+    width: 29%;
+    text-align: center;
+}
+
+.social img {
+    width: 100%;
+}

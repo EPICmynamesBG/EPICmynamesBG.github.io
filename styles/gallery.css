@@ -1,0 +1,37 @@
+.image_set {
+    margin-top: 1em;
+    width: 97%;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: dotted 2px #8E8E93;
+}
+
+#last {
+    border-bottom: none;
+}
+
+.image_set div:not(.description) {
+    display: inline-block;
+    width: 29%;
+    height: 200px;
+    margin-left: 2%;
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
+}
+
+.image_set div img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description p{
+    display: inline-block;
+    width: 28%;
+    margin-left: 0%;
+    margin-right: 5%;;
+    text-align: center;
+    font-size: .75em;
+}
