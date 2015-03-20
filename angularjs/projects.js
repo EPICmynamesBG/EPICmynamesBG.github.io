@@ -115,7 +115,7 @@ function ProjectsController($http, $scope, $route, $location) {
             status: "Completed",
             link: "/html/doesNotExist.html",
             start: "Nov 2014",
-            end: "Noc 2014",
+            end: "Nov 2014",
             event: "n/a",
             description: "This app was created for a course on Game Design. In this class, we met up with the Indianapolis Children's Museum and discussed the different displays that would be coming up. One of the displays mentioned was an exhibit on the International Space station; thus, the inspiration for this app came from that. After researching some ISS experiments, I came up with this concept of a simple interactive that would guide children through an experiment. This Android app was a simple way to show how that interactive might look.",
             images: [
