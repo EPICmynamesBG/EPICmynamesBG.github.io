@@ -1,16 +1,16 @@
 <div id="content" lang="en">
     <div class="project" ng-repeat="project in projects">
-        <h2><a href="{{project.link}}">{{project.title}}</a></h2>
+        <h2 ng-click="singleProjectClick(project.title)">{{project.title}}</h2>
         <div class="line"></div>
         <div class="project_content">
             <h3>Status: {{project.status}}</h3>
             <h5>Time Frame: {{project.start}} - {{project.end}}</h5>
-            <h6>Event: {{project.event}}</h6>
+            <h6 ng-show="{{project.event}}">Event: {{project.event}}</h6>
             <p>{{project.description}}</p>
         </div>
         <div class="project_carousel">
             <ul rn-carousel rn-carousel-transition="fadeAndSlide" rn-carousel-buffered rn-carousel-auto-slide="3" rn-carousel-pause-on-hover rn-carousel-controls>
-                <li ng-repeat="image in project.images"><img ng-src="{{image}}"/></li>
+                <li ng-repeat="image in project.images"><img alt="Loading..." ng-src="{{image}}"/></li>
             </ul>
         </div>
     </div>

@@ -1,5 +1,9 @@
 function ProjectsController($http, $scope, $route, $location) {
     
+    $scope.singleProjectClick = function(title) {
+            $location.path("/projects/"+title);
+        };
+    
     $scope.projects = [{ 
         title: "InBetween",
         status: "Published on Google Play Store",
@@ -22,12 +26,12 @@ function ProjectsController($http, $scope, $route, $location) {
          ]
         },{
             title: "Buzzed Buddy",
-            status: "In Progress",
+            status: "In Development",
             link: "http://challengepost.com/software/buzzed-buddy",
             start: "Feb 27, 2015",
             end: "Mar 1, 2015",
             event: "HackIllinois 2015",
-            description: "Created during HackIllinois 2015, the idea behind this app was to create something simple that would be useful for college students. The app features an extremely simple interface that aids in two things: finding nearby food, and going home. There is also a hidden feature that can be enabled in the settings. For this mobile application, we developed for iOS using the new Swift language. Buzzed Buddy makes use of the built in Apple Maps as well as the UIUC local bus system's API. ",
+            description: "Created during HackIllinois 2015, the idea behind this app was to create something simple that would be useful for college students. The app features an extremely simple interface that aids in two things: finding nearby food, and going home. There is also a hidden feature that can be enabled in the settings. For this mobile application, we developed for iOS using the new Swift language. Buzzed Buddy makes use of the built in Apple Maps as well as the UIUC local bus system's API.",
             images: [
                 "/images/HackIllinois_2015/buzzed-buddy_icon.png",
                 "/images/HackIllinois_2015/buzzed-buddy_launch.png",
@@ -44,7 +48,7 @@ function ProjectsController($http, $scope, $route, $location) {
         }, {
             title: "InBetween (iOS)",
             status: "In Development",
-            link: "/html/doesNotExist.html",
+            link: "#",
             start: "Dec 2014",
             end: "Present",
             event: "n/a",
@@ -61,7 +65,7 @@ function ProjectsController($http, $scope, $route, $location) {
         }, {
             title: "Audio-Sync",
             status: "In Development",
-            link: "/html/doesNotExist.html",
+            link: "#",
             start: "Feb 2014",
             end: "Present",
             event: "n/a",
@@ -98,9 +102,42 @@ function ProjectsController($http, $scope, $route, $location) {
                 "/images/HackIllinois_2014/hackIllinois2014_2.png"
             ]
         }, {
+            title: "Plex-Media Server",
+            status: "Completed",
+            link: "#",
+            start: "Jan 2015",
+            end: "Jan 2015",
+            event: "n/a",
+            description: "As a personal project, I built my own computer from scratch in order to use it as a Plex Media Server. In this computer build, my goal was to keep costs low while building a server fully capable of streaming 1080p HD to multiple devices with no issues. After assembling a parts list and aqcuiring all of the components, I built the system and set it up. To learn more details about this project, please click on the project banner above.",
+            images: [
+                "/images/Plex-Server/Plex_server_0.jpg",
+                "/images/Plex-Server/Plex_server_1.jpg",
+                "/images/Plex-Server/Plex_server_2.jpg",
+                "/images/Plex-Server/Plex_server_3.jpg",
+                "/images/Plex-Server/Plex_server_4.jpg",
+                "/images/Plex-Server/Plex_server_5.jpg",
+                "/images/Plex-Server/Plex_server_6.png",
+                "/images/Plex-Server/Plex_server_7.JPG",
+                "/images/Plex-Server/Plex_server_8.JPG",
+                "/images/Plex-Server/Plex_server_9.JPG",
+                "/images/Plex-Server/Plex_server_10.JPG",
+                "/images/Plex-Server/Plex_server_11.JPG",
+                "/images/Plex-Server/Plex_server_12.png",
+                "/images/Plex-Server/Plex_server_13.png",
+                "/images/Plex-Server/Plex_server_14.png",
+                "/images/Plex-Server/Plex_server_15.png",
+                "/images/Plex-Server/Plex_server_16.png",
+                "/images/Plex-Server/Plex_server_17.png",
+                "/images/Plex-Server/Plex_server_18.png",
+                "/images/Plex-Server/Plex_server_19.png",
+                "/images/Plex-Server/Plex_server_20.png",
+                "/images/Plex-Server/Plex_server_21.png",
+                "/images/Plex-Server/Plex_server_22.png"
+            ]
+        }, {
             title: "Code of Knighthood",
             status: "Completed",
-            link: "/html/doesNotExist.html",
+            link: "#",
             start: "Dec 2014",
             end: "Dec 2014",
             event: "n/a",
@@ -113,7 +150,7 @@ function ProjectsController($http, $scope, $route, $location) {
         }, {
             title: "Plants in Space",
             status: "Completed",
-            link: "/html/doesNotExist.html",
+            link: "#",
             start: "Nov 2014",
             end: "Nov 2014",
             event: "n/a",

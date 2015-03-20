@@ -23,6 +23,10 @@
                 controller: "SocialMediaController",
                 templateUrl: 'html/connect.html'
             })
+            .when('/projects/:title',{
+                controller: "SingleProjectController",
+                templateUrl: 'html/projects/singleProject.html'
+            })
             .otherwise({
                 controller: "DefaultController",
                 redirectTo: 'html/main.html'
@@ -61,4 +65,5 @@
     
     app.controller("SocialMediaController", ["$http", "$scope", "$route", "$location", SocialMediaController] );
     
+    app.controller("SingleProjectController", ["$http", "$scope", "$route", "$location", SingleProjectController] );
 })();

@@ -50,7 +50,7 @@ function InformationController($http,$scope, $route, $location){
     $scope.jobs = [{
         title: "Development Team Apprentice",
         company: "the Digital Corps",
-        location: "Ball State University in Muncie, IN",
+        location: "Ball State University, Muncie, IN",
         start: "Jan 2015",
         end: "Present",
         contact: "Brian O'Conner",
