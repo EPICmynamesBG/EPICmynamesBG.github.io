@@ -120,10 +120,10 @@ function ProjectsController($http, $scope, $route, $location) {
             description: "This app was created for a course on Game Design. In this class, we met up with the Indianapolis Children's Museum and discussed the different displays that would be coming up. One of the displays mentioned was an exhibit on the International Space station; thus, the inspiration for this app came from that. After researching some ISS experiments, I came up with this concept of a simple interactive that would guide children through an experiment. This Android app was a simple way to show how that interactive might look.",
             images: [
                 "/images/PlantsInSpace/icon.png",
-                "/images/PlantsInSpace/PIS_main.png",
-                "/images/PlantsInSpace/PIS_Q1.png",
-                "/images/PlantsInSpace/PIS_Q2.png",
-                "/images/PlantsInSpace/PIS_result.png"
+                "/images/PlantsInSpace/PiS_main.png",
+                "/images/PlantsInSpace/PiS_Q1.png",
+                "/images/PlantsInSpace/PiS_Q2.png",
+                "/images/PlantsInSpace/PiS_result.png"
             ]
         }];       
 }
