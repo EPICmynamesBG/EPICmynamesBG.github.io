@@ -4,7 +4,7 @@
         <div ng-mouseenter="leftHovering = true" ng-mouseleave="leftHovering = false" ng-class="{'hover': leftHovering}" id="leftArrow" ng-click="previous()">
             <span> < </span>
         </div>
-        <span><img ng-src="{{selectedImageURL}}"/></span>
+        <span ng-swipe-left="next()" ng-swipe-right="previous()"><img ng-src="{{selectedImageURL}}"/></span>
         <div ng-mouseenter="rightHovering = true" ng-mouseleave="rightHovering = false" ng-class="{'hover': rightHovering}" id="rightArrow"ng-click="next()">
             <span> > </span>
         </div>
