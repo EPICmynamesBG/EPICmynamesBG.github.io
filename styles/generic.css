@@ -129,7 +129,7 @@ body {
     cursor: pointer;
     margin-left: 0;
     margin-right: 0;
-    width:24%;
+    width:26%;
     display: inline-block;
 }
 
@@ -178,27 +178,43 @@ body {
 }
 
 footer{
+    background-color: #4E5E6D;
     height:auto;
     font-family: cursive;
     font-style: italic;
     position: relative;
     display: block;
-    margin-right: 2%;
-    margin-left: 2%;
-    
+    margin-right: 0%;
+    margin-left: 0%;
     font-size: .75em;
+}
+
+#connect{
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 31%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#connect img {
+    margin-left: 0;
+    width: 10%;
+    max-width: 40px;
+    display: inline-block;
 }
 
 #copyright, #resume {
     display: inline-block;
     margin-right: auto;
     margin-left: auto;
-    width: 45%;
+    width: 32%;
     text-align: right;
 }
 
 #resume {
-    margin-left: 5%;
+    margin-left: 2%;
     text-align: left;
     font-weight: 700;
 }
@@ -211,4 +227,8 @@ footer{
 .line {
     background-color: #4A4A4A;
     height: 1px;
+}
+
+.ng-click-active {
+    background-color: rgba(0,0,0, 0.4);
 }

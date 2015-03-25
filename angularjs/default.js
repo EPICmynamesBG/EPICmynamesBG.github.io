@@ -19,10 +19,6 @@
                 controller: "GalleryController",
                 templateUrl: 'html/gallery.html'
             })
-            .when('/connect', {
-                controller: "SocialMediaController",
-                templateUrl: 'html/connect.html'
-            })
             .when('/projects/:title',{
                 controller: "SingleProjectController",
                 templateUrl: 'html/projects/singleProject.html'
@@ -38,22 +34,22 @@
     app.controller('DefaultController', ["$http","$scope","$route","$location",function($http,$scope,$route, $location) {
         $scope.infoClick = function() {
             $location.path("/information");
+            $scope.element.addClass('clicked');
         };
         
         $scope.projectClick = function() {
             $location.path("/projects");
+            $scope.element.addClass('clicked');
         };
         
         $scope.galleryClick = function() {
             $location.path("/gallery");
-        };
-        
-        $scope.socialClick = function() {
-            $location.path("/connect");
+            $scope.element.addClass('clicked');
         };
         
         $scope.homeClick = function() {
             $location.path("/");
+            $scope.element.addClass('clicked');
         };
     }]);
     
@@ -62,8 +58,6 @@
     app.controller("ProjectsController", ["$http", "$scope", "$route", "$location", ProjectsController] );
     
     app.controller("GalleryController", ["$http", "$scope", "$route", "$location", GalleryController] );
-    
-    app.controller("SocialMediaController", ["$http", "$scope", "$route", "$location", SocialMediaController] );
     
     app.controller("SingleProjectController", ["$http", "$scope", "$route", "$location", SingleProjectController] );
 })();
