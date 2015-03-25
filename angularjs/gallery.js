@@ -142,19 +142,19 @@ function GalleryController($http,$scope, $route, $location){
         image: "/images/Plex-Server/Plex_server_6.png",
         description: "Plex Server RAM: Crucial 8GB"
     }, {
-        image: "/images/Plex-Server/Plex_server_7.jpg",
+        image: "/images/Plex-Server/Plex_server_7.JPG",
         description: "Personally Assembled Plex Server"
     }, {
-        image: "/images/Plex-Server/Plex_server_8.jpg",
+        image: "/images/Plex-Server/Plex_server_8.JPG",
         description: "Personally Assembled Plex Server"
     }, {
-        image: "/images/Plex-Server/Plex_server_9.jpg",
+        image: "/images/Plex-Server/Plex_server_9.JPG",
         description: "Personally Assembled Plex Server"
     }, {
-        image: "/images/Plex-Server/Plex_server_10.jpg",
+        image: "/images/Plex-Server/Plex_server_10.JPG",
         description: "Personally Assembled Plex Server"
     }, {
-        image: "/images/Plex-Server/Plex_server_11.jpg",
+        image: "/images/Plex-Server/Plex_server_11.JPG",
         description: "Personally Assembled Plex Server"
     }, {
         image: "/images/Plex-Server/Plex_server_12.png",
