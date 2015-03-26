@@ -5,7 +5,7 @@
         <div class="project_content">
             <h3>Status: {{project.status}}</h3>
             <h5>Time Frame: {{project.start}} - {{project.end}}</h5>
-            <h6 ng-show="{{project.event}}">Event: {{project.event}}</h6>
+            <h6 ng-show="project.showEvent">Event: {{project.event}}</h6>
             <p>{{project.description}}</p>
         </div>
         <div class="project_carousel">

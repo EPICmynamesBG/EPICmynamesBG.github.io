@@ -34,22 +34,18 @@
     app.controller('DefaultController', ["$http","$scope","$route","$location",function($http,$scope,$route, $location) {
         $scope.infoClick = function() {
             $location.path("/information");
-            $scope.element.addClass('clicked');
         };
         
         $scope.projectClick = function() {
             $location.path("/projects");
-            $scope.element.addClass('clicked');
         };
         
         $scope.galleryClick = function() {
             $location.path("/gallery");
-            $scope.element.addClass('clicked');
         };
         
         $scope.homeClick = function() {
             $location.path("/");
-            $scope.element.addClass('clicked');
         };
     }]);
     
