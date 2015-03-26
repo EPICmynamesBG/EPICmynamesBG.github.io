@@ -207,7 +207,7 @@ function GalleryController($http,$scope, $route, $location){
     
     $scope.next = function(){
         currentIndex+=1;
-        if (currentIndex > $scope.photoGallery.length){
+        if (currentIndex > $scope.photoGallery.length - 1){
             currentIndex = 0;
         }
         $scope.selectedImageURL = $scope.photoGallery[currentIndex].image;
@@ -215,8 +215,8 @@ function GalleryController($http,$scope, $route, $location){
     
     $scope.previous = function(){
         currentIndex-=1;
-        if (currentIndex < $scope.photoGallery.length){
-            currentIndex = $scope.photoGallery.length;
+        if (currentIndex < 0){
+            currentIndex = $scope.photoGallery.length - 1;
         }
         $scope.selectedImageURL = $scope.photoGallery[currentIndex].image;
     }
