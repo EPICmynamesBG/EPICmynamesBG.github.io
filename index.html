@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html ng-app="Default">
+<html ng-app="Main">
     <head lang="en">
         <title>Brandon's Portfolio</title>
         <link rel=icon href="images/Generic-Folder-Blue-icon.png"/>
         <!-- Meta Tags -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Language" lang="en" />
+        <meta charset="utf-8"/>
         <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
         <!-- Stylesheets -->
         <link rel="stylesheet" type="text/css" href="styles/generic.css" charset="utf-8"/>
@@ -17,6 +19,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular-route.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular-touch.js"></script>
         <!-- Angular Carousel -->
+        <!-- Angular Carousel was not created by me, but is openly availble on GitHub. All credits go to the creator.-->
         <link rel="stylesheet" type="text/css" href="styles/angular-carousel.css" charset="utf-8"/>
         <script src="angularjs/angular-carousel.js"></script>
         <script src="angularjs/angular-carousel.min.js"></script>
@@ -29,7 +32,7 @@
         
     </head>
     <body>
-        <header ng-controller="DefaultController">
+        <header ng-controller="NavController">
         <div id="titleBar">
             <div class="upper_content">
                 <br/>
@@ -50,7 +53,6 @@
         </ng-view>
     </body>
     <footer>
-        <div class="line"></div>
         <p id="resume"><a href="files/BrandonGroff.pdf">Download My Resume</a></p>
         <span id="connect">
             <a href="www.linkedin.com/pub/brandon-groff/93/58/6a2/en" target="_blank"><img src="/images/SocialMedia/linkedIn.png"/></a>

@@ -40,11 +40,7 @@
     display: inline-block;
 }
 
-.job .jobDesc{
-    text-indent: 2em;
-}
-
-.job div h5,h6 {
+.job div h5, .job div h6 {
     display: inline-block;
     width: 27%;
 }

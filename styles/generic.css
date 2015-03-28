@@ -1,18 +1,23 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:300,900,300italic,700);
+/*@import url(http://fonts.googleapis.com/css?family=Roboto:300,900,300italic,700);*/
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,700,900,900italic);
 
 *{
-    font-family: Roboto ,sans-serif, serif;
+    font-family: "Source Sans Pro" ,sans-serif, serif;
     position: relative;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -ms-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
-
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
 
 p {
+    display: block;
     font-size: 1em;
+    max-width: 500px;
+    margin-left: 5%;
+    text-indent: 2em;
+    font-weight: 300;
 }
 
 a {
@@ -33,15 +38,27 @@ ul {
 }
 
 h1 {
-    font-size: 1.4em;
+    font-size: 1.7em;
 }
 
 h2 {
-    font-size: 1.3em;
+    font-size: 1.6em;
 }
 
 h3 {
-    font-size: 1.2em
+    font-size: 1.3em
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+h5 {
+    font-size: 0.8em;
+}
+
+h6 {
+    font-size: 0.6em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -135,12 +152,12 @@ body {
 
 #navBar ul li a{
     color: #ffffff;
+    font-size: 1.25em;
     display: block;
     margin: 0;
     padding: .5em 1em .5em 1em;
     text-decoration: none;
     font-weight: bold;
-    moz-font-weight: 900, bold;
 }
 
 #navBar .first {
@@ -156,18 +173,6 @@ body {
     margin-right: 2%;
 }
 
-.intro{
-    
-}
-
-.main_text{
-    
-}
-
-.recent_activity{
-    
-}
-
 .columns{
     width: auto;
 }
@@ -175,6 +180,19 @@ body {
 .columns ul{
     display: inline-block;
     width: 30%;
+}
+
+.intro p, .history p{
+    display: inline-block;
+}
+
+#cardinal, #tiger {
+    display: inline-block;
+    width: 15%;
+    min-width: 80px;
+    max-width: 300px;
+    max-height: 200px;
+    margin-left: 10%;
 }
 
 footer{
@@ -201,7 +219,8 @@ footer{
 #connect img {
     margin-left: 0;
     width: 10%;
-    max-width: 40px;
+    min-width: 30px;
+    max-width: 50px;
     display: inline-block;
 }
 
@@ -217,16 +236,6 @@ footer{
     margin-left: 2%;
     text-align: left;
     font-weight: 700;
-}
-
-#resume a{
-    text-decoration: none;
-    color: black;
-}
-
-.line {
-    background-color: #4A4A4A;
-    height: 1px;
 }
 
 .ng-click-active {

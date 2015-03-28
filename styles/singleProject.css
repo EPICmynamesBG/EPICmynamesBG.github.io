@@ -81,3 +81,11 @@ ul[rn-carousel] {
     max-height: 100%;
     vertical-align: bottom;
 }
+
+.singleProjLinkImage {
+    height: 60px;
+}
+
+.singleProjLinkText {
+    margin-top: 0;
+}

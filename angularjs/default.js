@@ -1,11 +1,10 @@
 (function(){
-    var app = angular.module("Default", ['ngRoute', 'angular-carousel']);
+    var app = angular.module("Main", ['ngRoute', 'angular-carousel']);
     
     app.config(function($routeProvider, $locationProvider){
         $routeProvider
             .when('/', {
-            controller: "DefaultController",
-            templateUrl: 'html/main.html'
+                redirectTo : '/projects'
             })
             .when('/information', {
                 controller: "InformationController",
@@ -24,14 +23,13 @@
                 templateUrl: 'html/projects/singleProject.html'
             })
             .otherwise({
-                controller: "DefaultController",
-                redirectTo: 'html/main.html'
+                redirectTo : '/projects'
             });
-
     });
-
     
-    app.controller('DefaultController', ["$http","$scope","$route","$location",function($http,$scope,$route, $location) {
+    
+    
+    app.controller('NavController', ["$http","$scope","$route","$location",function($http,$scope,$route, $location) {
         $scope.infoClick = function() {
             $location.path("/information");
         };

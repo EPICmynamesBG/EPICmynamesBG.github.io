@@ -13,7 +13,7 @@ function GalleryController($http,$scope, $route, $location){
         image: "/images/InBetween/Default/inGame.png",
         description: "InBetween in game"
     }, {
-        image: "/images/InBetween/Default/inGame.png",
+        image: "/images/InBetween/Default/EN_10in_inGame.png",
         description: "InBetween tablet in game"
     }, {
         image: "/images/InBetween/Default/EN_10in_gameOver.png",
@@ -219,6 +219,5 @@ function GalleryController($http,$scope, $route, $location){
             currentIndex = $scope.photoGallery.length - 1;
         }
         $scope.selectedImageURL = $scope.photoGallery[currentIndex].image;
-    }
-          
+    }   
 };

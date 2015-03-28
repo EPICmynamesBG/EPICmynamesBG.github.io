@@ -29,7 +29,13 @@ function SingleProjectController($http,$scope, $route, $location){
         end: "Present",
         event: "n/a",
         description: [
-            "In Between is a simple card game that is relatively unfound on app stores. For our group's final project in CS222 (Advanced Programming), we are creating an Android app of this game. Under my direction, we consistently met and achieved goals that brought us closer to having a final product. On 11/22/2014, version 1 of the app was released worldwide on the Google Play store. The current version is 1.1.1."
+            "My first ever released Android application, this app took months of hard work and collaboration to complete. Done as the final project for my Advanced Programming class, myself and 3 other groups memeber went on a long and difficult journey to learn Android and complete an app in under 9 weeks. Every week presented it's challenges, but in the end, we managed to overcome the hurdles and release our app and an update before the 9 weeks was up.",
+            "From day 1, I was the person in our group who took charge. Throughout the project, I was in charge of keeping our group in contact, notifying members when and where we were meeting, and keeping us all on track. In leading the group, I learnt a few things after the first couple weeks, and I began to implement better practices. One of these practices was leading off each group meeting with an agenda: where are we now, what needs to get done by the end of the night, what bugs exist, and similar were generally the first questions I brought up. From there, we would each take a task and begin knocking things off of the list. Some nights we completed everything; other nights we didn't.",
+            "For the first iteration of our project, we had to learn the game In Between. After playing the game a couple times, we all had a grasp of what needed to get done, and we began to draw up a list of objects, classes, and methods that we would probably need. Each week, every person was expected to get an object completed and the code pushed to the school's mercurial server. By the end of the first 2 weeks, we had everything created, and the last part was creating our game rules. For this first iteration, we focused on completing the backend: the game mechanics and objects. We made the game console playable, and although there were a few bugs, it worked fine.",
+            "Iteration 2 began the most difficult part of the process: implementing the Android app. The first iteration was all Java based, no Android needed. For this iteration, we stated that we would have a basic UI completed. With no experience in how Android creates UIs, this was a massive challenge. Because there were other things left to do, I took on the task of creating our UI while I divied up some cleanup and bug fixing work for the others. As I made progress, I would let the other members know, and show them how to map a button or such so that the backend could begin working with the UI. At the end of iteration 2, the UI was very buggy but a user could successfully traverse through our 4 or so views. At this point, some of the in game view was working, but our game was unplayable due to many bug and glitches.",
+            "Iteration 3 turned out to be 3 things: completion, cleanup, and updating. With all of the struggles of Iteration 2, we had finally grasped the workings of Android, and within the fist week, we were able to complete the app. The second week of this iteration consisted of small bug fixes and some code cleanup. At this point, the app was completed. It wasn't beautiful, but it worked exactly as expected, and it didn't crash. Again, I took charge and created a Google account specifically for our app, and I went through the process of putting our app on the Play Store. Within 2 days, the app was live. But we still had about a week left, and I was uncontent with the UI. So, in the last week of the project, I cleaned up the UI, and my other group members went on a massive code purge in which all code was cleaned and simplified. Hours before the projec deadline, we finished all of our updates and pushed the new version to the Play Store. As this update says on the Play Store, there is a polished UI with new card images, a new wait function to see each AI player's move, added tablet and language support, and lastly, the invisible code cleaning.",
+            "Looking back at this project, this is one of the greatest learning experiences I've had. I'm proud of this app for the simple fact that it looks decent and it works. If I had to go back and change one thing, it wouldn't be anything to do with the app: it would be our development process. In starting with the backend, it made a massive mess whenever we transition to integrate it with the UI. This created bugs in the code that had once been fixed. Based on this, I learned that it is easier to start with the front-end (UI), and then do that back-end. Of course, Model-View separation kept in mind, this is in my opinion the best way to develop an application.",
+            "Following this project, I created two other unpublished Android apps for other classes. For these, I started with a UI first design, and the app creation went so much smoother. The code is also public, so go check them out on the projects page!"
         ],
         images: [
              "/images/InBetween/icon.png",
@@ -50,12 +56,19 @@ function SingleProjectController($http,$scope, $route, $location){
             status: "In Development",
             link: "http://challengepost.com/software/buzzed-buddy",
             linkText: "View on ChallengePost",
-            linkImage: "",
+            linkImage: "/images/SocialMedia/ChallengePost_icon.png",
             start: "Feb 27, 2015",
             end: "Mar 1, 2015",
             event: "HackIllinois 2015",
             description: [
-            "Created during HackIllinois 2015, the idea behind this app was to create something simple that would be useful for college students. The app features an extremely simple interface that aids in two things: finding nearby food, and going home. There is also a hidden feature that can be enabled in the settings. For this mobile application, we developed for iOS using the new Swift language. Buzzed Buddy makes use of the built in Apple Maps as well as the UIUC local bus system's API."
+                "Forming a group of 3 students from UIUC and myself, this application is the result of a collaborative effort at HackIllinois 2015. This app was a great learning experience for all of us as it gave them a chance to learn Swift, and myself a chance to improve upon my Swift knowledge.",
+                "With no preconceived idea of what to do, this app idea was a spur of the moment thought. The concept behind this app was that every partying college student needs a friend that can help them A) find food, and B) get home. This in mind, we began to design our app with the notion that it must be simple, and that's what we did.",
+                "After our idea was established, I took charge of our group and layed out exactly what would need to be done since I was the only person with any iOS experience. Because Storyboard's can be challenging to first learn, I took that portion of the project. Beyond that, I separated all of the back-end functions out to our members to complete. I had faith in all of them because Swift is a really easy language to pick up, and they are all very intelligent.",
+                "After many hours of work, I completed the front-end just as the other group member were ready to begin linking to the UI. I have each of them a short tutorial and example on how to link up things to the UI, and with my help, everything got linked up and our app started to look like an actual functioning application.",
+                "From this point, the development really consisted polishing up some of the features, fixing bugs, error catching, and refining the UI and backend to mesh together nicely. I spent a lot of time cleaning up the UI and making sure that every UI update was getting called correctly. During this, we came up with the idea that we should implement a 'Call your Ex' function, just as a joke. As it turned out, it was really easy to implement a button that makes a phone call, so within 2 hours, all of that was set up and working. We also decided to add a few other features, like scrollable text directions below the map view.",
+                "As time was running out, our app suddenly began to face a problem of crashing a lot. Some of the issue had to do with the local bus system API that we used in our app. But othertimes, the app just didn't work well on some of our test devices. And so time ran out, and we were unable to solve the mysterious app crash. The crashes were seemingly sporatic, and they only happend on some of the devices, leaving us to this day unable to really pinpoint the cause.",
+                "We've spoken of coming back to this app and releasing it, and so I believe this Summer we will revisit the app and finish it off. At this point in time, the app idly sits in a private GitHub repository. Upon completion, we may release the code.",
+                "This crash course app development taught us all a lot about iOS and Swift development. After coming back and working on my other iOS apps, I frequently find myself looking a code snippets from the project because there were just so many good, clean implementations of saving settings, network calls, etc. This app was also a great experience for me to really nail iOS Auto-Layout, and creating Storyboards is now easier than ever."
             ],
             images: [
                 "/images/HackIllinois_2015/buzzed-buddy_icon.png",
@@ -75,14 +88,19 @@ function SingleProjectController($http,$scope, $route, $location){
     var InBetween_iOS = [{
             title: "InBetween (iOS)",
             status: "In Development",
-            link: "#",
-            linkText: "",
-            linkImage: "",
+            link: "https://github.com/EPICmynamesBG/InBetween_iOS",
+            linkText: "View on GitHub",
+            linkImage: "/images/SocialMedia/github-1024-black.png",
             start: "Dec 2014",
             end: "Present",
             event: "n/a",
             description: [
-            "Upon completion of InBetween for Android, I felt as though an iOS version should also be released. Thus, I began to study Swift for iOS and have since started creating the remake of InBetween for iOS. The process has been fairly difficult at times, but I am content with the progress I have made so far."
+                "Upon completion of InBetween for Android, I felt as though an iOS version should also be released. But with no experience developing for iOS, I was intimidated to begin. Finally, after weeks of debate, I followed an online video tutorial and created a simple app using Swift. From there, it all kept rolling.",
+                "One of the most reassuring things about beginning this app was that fact that all of the back-end code already existed; all that I would have to do is interpret it into Swift. With my experience in the app devlopment process, I also knew that I needed to start with the UI. All of this in mind, I began my smy first struggle not with Storyborads and Auto-Layout, but with XCode and Git. It took me forever to get XCode to push to my repository, and things didn't really get easier from there.",
+                "Designing the UI was super easy because I knew exactly what it needed to look like: the Android version. Designing the UI was also the hardest part because using Auto-Layout and figuring out how to dynamically resize objects to work on all screen sizes was a massive pain. The biggest thing I learnt here was to not be afraid to use many UIViews, either as button containers or even just empty ones to make sure things get properly spaced in all situations.",
+                "Taking a short break from the UI, I began to translate some of the back-end code into Swift. I ran into a few issues along the way dealing with the use of 'static', but I was able to resolve all of those. At this point, all of the simple objects like a Card and Hand are completed. The game logic has yet to come, as does the Deck XML Parser.",
+                "I also decided to add a 4th button to the main screen so that users can view their wins/losses. This itself has created some bugs with the main screen in landscape orientation, and I am currently working out those kinks.",
+                "At this time, the biggest thing I've learned from this app is saving user settings from the settings pane. I thought this would be massively difficult, but it turned out to be super easy, and it's a great feeling of accomplishment knowing that it didn't take and arm and a leg to get those working.",
             ],
             images: [
                 "/images/InBetween_iOS/icon.png",
@@ -98,14 +116,15 @@ function SingleProjectController($http,$scope, $route, $location){
     var Audio_Sync = [{
             title: "Audio-Sync",
             status: "In Development",
-            link: "#",
-            linkText: "",
+            link: "",
+            linkText: "Not publicly available",
             linkImage: "",
             start: "Feb 2014",
             end: "Present",
             event: "n/a",
             description: [
-            'After learning the basics of Swift, I thought of a new app idea. The thought behind this is app is this: "Have you ever wanted to play syncronized music playback between you and your friends device?" The answer for me at least is yes, and so I began my journey to create this cross-platform compatible app. While I am currently only developing for iOS, I intend to follow up with an Android version.'
+                'After learning the basics of Swift, I thought of a new app idea. The thought behind this is app is this: "Have you ever wanted to play syncronized music playback between you and your friends device?" The answer for me at least is yes, and so I began my journey to create this cross-platform compatible app. While I am currently only developing for iOS, I intend to follow up with an Android version.',
+                "This app is currently in its early stages. Like many other projects, I am starting with the UI first. At this point, I am using a tab view controller to move between my three views: Connect, Host, and Settings. This is my first experience with tab views, but so far the experience has been positive. Further updates will be posted as this app begins to progress more." 
             ],
             images: [
                 "/images/Audio-Sync/icon.png",
@@ -119,12 +138,16 @@ function SingleProjectController($http,$scope, $route, $location){
             status: "Incomplete",
             link: "http://challengepost.com/software/mcverilog",
             linkText: "View on ChallengePost",
-            linkImage: "",
+            linkImage: "/images/SocialMedia/ChallengePost_icon.png",
             start: "Oct 17, 2014",
             end: "Oct 19, 2015",
             event: "BoilerMake 2014",
             description: [
-            "Created at the Boilermake 2014 Hackathon, our group of 4 created a compiler that could convert Verilog low level machine code into Redstone circuits in Minecraft. The project uses a public project known as MCModify as part of the base. The project is 80% complete at this time and may be revisited in the future to complete and clean. The code is at this time located in a private repository."
+            "Created at the Boilermake 2014 Hackathon, our group of 4 created a compiler that could convert Verilog low level machine code into Redstone circuits in Minecraft. The project uses a public project known as MCModify as part of the base. Being unfamiliar with this API, I spent most of my time at the hackathon struggling to comprehend it. Thankfully, my friend had spent some time studying it already and was able to help me along.",
+                "The first thing we did at the hackathon was figure out how the code works and what changes in the MineCraft world whenever we upload our modified file. After hours of testing, we were able to figure out what needs to be done. At this point, we broke off into teams of 2: one team worked on the Verilog compiler, and the other worked on the logic gate and circuit creation logic for MineCraft.",
+                "From here, I don't really know what went on in the Verilog compiler world, but in block generation world, we made a lot of awesome progress with immediately noticable results. I was given the task of creating functions that would generate a given logic gate; this meant placing certain blocks in a certain order from a given starting point. It took a lot of time to map all of those out, but I managed to finish it. Meanwhile, my friend was creating an algorithm for collision avoidance. That turned out to be really awesome, and that is why in the screenshots there are massive interwoven loops of blocks. All of this is generated without collision thanks to his algorithm.",
+                "As the hackathon neared its' end, all of us were beaten down my lack of sleep and exhaustion. Disappointingly, we were unable to piece together the last part: connecting the Verilog compiler with the circuit generator. We were able to get the compiler to generate the basic logic gates, but the logic gates weren't connected, so it was completely useless. We were disappointed, but we showed our project off with pride knowing that we had visible progress and were so close to our goal.",
+                "At the final demos, we got a lot of positive feedback on our project, and although we didn't win, we got the equivalent of an honarable mention when winners were being read off. At the end of this event, I felt like I hadn't contributed as much as my peers. I felt ashamed of what I offered to the group; but I held me head high because I had done something. I did contribute. And I was only a first semester sophmore; this was just one more reason to push myself to learn more about software development, and I have done since then to keep learning."
             ],
             images: [
                 "/images/BoilerMake_2014/McVerilog1.png",
@@ -138,12 +161,14 @@ function SingleProjectController($http,$scope, $route, $location){
             status: "Incomplete",
             link: "http://challengepost.com/software/augmented-reality-scavenger-hunt",
             linkText: "View on ChallengePost",
-            linkImage: "",
+            linkImage: "/images/SocialMedia/ChallengePost_icon.png",
             start: "Apr 11, 2014",
             end: "Apr 13, 2014",
             event: "HackIllinois 2014",
             description: [
-            "Created at HackIllinois 2014, this unfinished app was our groups first experience at both a hackathon and Android. While the app was and remains unfinished, this app served its' purpose in introducing us to Android app development. the app itself was supposed to be an Augmented Virtual Reality Scavenger Hunt in which there would be a map view show hunt location pins, and the VR part where a virtual compass was overlaid on the screen. The user would have to take a picture at the location to capture that point."
+                "Created at HackIllinois 2014, this unfinished app was our groups first experience at both a hackathon and Android. While the app was and remains unfinished, this app served its' purpose in introducing us to Android app development. The app itself was supposed to be an Augmented Virtual Reality Scavenger Hunt in which there would be a map view show hunt location pins placed there by the event admin. For the VR part there was a compass arrow overlay placed on the live camera view. The function of this was to lead the person to the nearest pin without reopening the map view. Because there were only two views, we made use of a 2 tab view controller.",
+                "The most difficult of this project was implementing the Google Maps API. At one point, we even had some Google members sitting with us, helping to implement the API. Eventually, we got it all figured out, and our app finally had some functionability.",
+                "This hacakthon proved to be a great eye opener in multiple ways. First, we learned to come prepared. We didn't have a repository or anything set up before getting there, and with many issues holding us up, we ended up only being able to develop on one computer. Second, we learned that Android is NOT something to try and learn as a crash course in 36 hours. It's just not a good idea as it causes a lot of stress and confusion. Lastly, we learned that hackathons are really awesome, and we couldn't wait to go to the next one and hopefully come up with something a little better than this app."
             ],
             images: [
                 "/images/HackIllinois_2014/hack_illinois_scavenger_2.png",
@@ -232,15 +257,19 @@ function SingleProjectController($http,$scope, $route, $location){
     
     var CodeOfKnighthood = [{
             title: "Code of Knighthood",
-            status: "Completed",
-            link: "#",
-            linkText: "",
-            linkImage: "",
+            status: "Completed, Unpublished",
+            link: "https://github.com/EPICmynamesBG/Code-Of-Knighthood",
+            linkText: "View on GitHub",
+            linkImage: "/images/SocialMedia/github-1024-black.png",
             start: "Dec 2014",
             end: "Dec 2014",
             event: "n/a",
             description: [
-            "As a final project for an honors class, I have decided to make an Android app. In this app, with the help of a classmate, we are simply analyzing and explaining the Code of Knighthood in a Medieval and Modern context. I also experimented with Android Fragment Activities in this app."
+                "As a final project for an Honors class, I decided to make an Android app. In this app, with the help of a classmate, we are simply analyzing and explaining the Code of Knighthood in a Medieval and Modern context.",
+                "This app was put together rather quickly, in under a weeks time. I attributte this speedy development to the fact that I was just finishing up InBetween for Android, and was more than confident in my abilities to create a simple app that only needed to display some text and images.",
+                "Starting with the UI, I decided that there would be 3 or 4 views, and that I wanted to be able to swipe left and right to go to the next/previous view. After research, this meant implementing a Fragment Activity and Manager. I figured this would be difficult, but it didn't turn out to be too bad.",
+                "Once I had figured this out, all I had to do was set up the text file parsing. For this app, I wanted it to be so that all of the text would be filled in from a text file because it was my partner's job to acquire most of the content. By doing this, all I needed to do was past the given content into the text files, and the text appeared as was in the app.",
+                "This app was a nice and simple follow up to InBetween, and while I didn't learn near as much from it, I did learn that it is possible to speedily create mobile applications whenever you aren't trying to learn everything."
             ],
             images: [
                 "/images/CodeOfKnighthood/icon.png",
@@ -251,15 +280,19 @@ function SingleProjectController($http,$scope, $route, $location){
     
     var PlantsInSpace = [{
             title: "Plants in Space",
-            status: "Completed",
-            link: "#",
-            linkText: "",
-            linkImage: "",
+            status: "Completed, Unpublished",
+            link: "https://github.com/EPICmynamesBG/Plants-In-Space",
+            linkText: "View on GitHub",
+            linkImage: "/images/SocialMedia/github-1024-black.png",
             start: "Nov 2014",
             end: "Nov 2014",
             event: "n/a",
             description: [
-            "This app was created for a course on Game Design. In this class, we met up with the Indianapolis Children's Museum and discussed the different displays that would be coming up. One of the displays mentioned was an exhibit on the International Space station; thus, the inspiration for this app came from that. After researching some ISS experiments, I came up with this concept of a simple interactive that would guide children through an experiment. This Android app was a simple way to show how that interactive might look."
+                "This app was created for a course on Game Design. In this class, we met up with the Indianapolis Children's Museum and discussed the different displays that would be coming up. One of the displays mentioned was an exhibit on the International Space station; thus, the inspiration for this app came from that. After researching some ISS experiments, I came up with this concept of a simple interactive that would guide children through an experiment. This Android app was a simple way to show how that interactive might look.",
+                "The concept behind this interactive is that plants grow differently with different levels of light and gravity. Using this simple app, users can see that a plant growing on earth without sunlight will hardly grow, while a plant grown in space with no sunlight will still grow a little, but it grows in every direction. Similarly, growing both with sunlight, the one in space grows taller because there is less vertical resistance. This experiment proves that plant growth direction and height is determined both by light and gravity. ",
+                "Being as this app was only a mock up of an interactive, there really wasn't much to this app besides the UI. I spent a good deal of time getting the UI set up properly, but besides that, there are just a few boolean variables in the back-end that determine which plant will be shown at the end of the experiment.",
+                "I creating this app, there was no real learning curve or experience; it simply demonstrated how far I had come since developing InBetween, and how much I had learned over that process. At the beginning of the semester, I would have never imagined throwing together an app in 3 hours.",
+                "This app isn't going to be released to the Play Store, but the code is openly available on GitHub for anybody who wants to test it out."
             ],
             images: [
                 "/images/PlantsInSpace/icon.png",

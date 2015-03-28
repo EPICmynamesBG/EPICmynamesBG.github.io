@@ -149,7 +149,7 @@ function ProjectsController($http, $scope, $route, $location) {
             end: "Dec 2014",
             showEvent: false,
             event: "",
-            description: "As a final project for an honors class, I have decided to make an Android app. In this app, with the help of a classmate, we are simply analyzing and explaining the Code of Knighthood in a Medieval and Modern context. I also experimented with Android Fragment Activities in this app.",
+            description: "As a final project for an honors class, I decided to make an Android app. In this app, with the help of a classmate, we are simply analyzing and explaining the Code of Knighthood in a Medieval and Modern context. I also experimented with Android Fragment Activities in this app.",
             images: [
                 "/images/CodeOfKnighthood/icon.png",
             "/images/CodeOfKnighthood/CoK_main.png",

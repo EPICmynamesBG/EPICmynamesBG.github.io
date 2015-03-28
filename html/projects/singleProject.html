@@ -1,11 +1,14 @@
 <div id="singleProjectContent" lang="en" ng-repeat="project in project">
     <h1>{{project.title}}</h1>
     <div class="singleProject_carousel">
-        <ul rn-carousel rn-carousel-transition="fadeAndSlide" rn-carousel-buffered rn-carousel-auto-slide="3" rn-carousel-pause-on-hover rn-carousel-controls>
+        <ul rn-carousel rn-carousel-transition="fadeAndSlide" rn-carousel-buffered rn-carousel-auto-slide="3" rn-carousel-controls>
             <li ng-repeat="image in project.images"><img alt="Loading..." ng-src="{{image}}"/></li>
         </ul>
     </div>
-    <a href="{{project.link}}" target="_blank"><img ng-src="{{project.linkImage}}" ng-show={{project.linkImage}}/><h4 ng-show={{project.linkText}}>{{project.linkText}}</h4></a>
+    <a href="{{project.link}}" target="_blank">
+        <img class="singleProjLinkImage" ng-src="{{project.linkImage}}" ng-show={{project.linkImage}}/>
+        <h4 class="singleProjLinkText" ng-show={{project.linkText}}>{{project.linkText}}</h4>
+    </a>
     <span>
         <h3>{{project.status}}</h3>
         <h5>Time Frame: {{project.start}} - {{project.end}}</h5>
@@ -15,5 +18,4 @@
     <li class="partList" ng-show={{project.parts}} ng-repeat="part in project.parts">
         <a href="{{part.link}}" target="_blank"><h5>{{part.part}}</h5></a>
     </li>
-
 </div>
