@@ -279,25 +279,28 @@ function SingleProjectController($http,$scope, $route, $location){
                 project = InBetween;
                 break;
             case "Buzzed Buddy":
-                project = BuzzedBuddy; //change
+                project = BuzzedBuddy; 
                 break;
             case "InBetween (iOS)":
-                project = InBetween_iOS; //change
+                project = InBetween_iOS; 
+                break;
+            case "Audio-Sync":
+                project = Audio_Sync;
                 break;
             case "McVerilog":
-                project = McVerilog;//change
+                project = McVerilog;
                 break;
             case "Augmented Reality Scavenger Hunt":
-                project = AugRealScavenger;//change
+                project = AugRealScavenger;
                 break;
             case "Plex-Media Server":
-                project = PlexServer; //change
+                project = PlexServer; 
                 break;
             case "Code of Knighthood":
-                project = CodeOfKnighthood; //change
+                project = CodeOfKnighthood; 
                 break;
             case "Plants in Space":
-                project = PlantsInSpace; //change
+                project = PlantsInSpace; 
                 break;
             default:
                 project = blank;
