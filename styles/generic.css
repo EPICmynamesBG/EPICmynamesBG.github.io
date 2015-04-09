@@ -150,6 +150,14 @@ body {
     display: inline-block;
 }
 
+#navBar ul li:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+#navBar ul li:active , #logo:active{
+    background-color: rgba(0,0,0, 0.4);
+}
+
 #navBar ul li a{
     color: #ffffff;
     font-size: 1.25em;
@@ -162,10 +170,6 @@ body {
 
 #navBar .first {
     margin-left: 0px;
-}
-
-#navBar .last {
-    
 }
 
 .content *:not a{
@@ -191,7 +195,7 @@ body {
     width: 15%;
     min-width: 80px;
     max-width: 300px;
-    max-height: 200px;
+    max-height: 220px;
     margin-left: 10%;
 }
 
@@ -236,8 +240,4 @@ footer{
     margin-left: 2%;
     text-align: left;
     font-weight: 700;
-}
-
-.ng-click-active {
-    background-color: rgba(0,0,0, 0.4);
 }

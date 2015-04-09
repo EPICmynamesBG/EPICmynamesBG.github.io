@@ -8,6 +8,7 @@
     margin-right: auto;
     align-content: center;
     text-align: center;
+    transition: all .25s;
 }
 
 .image_set img {
@@ -52,12 +53,20 @@
 }
 
 #close {
-    background-color: red;
+    background-color: rgba(255,0,0, 0.75);
     cursor: pointer;
     display: inline;
     border-radius: 8%;
     font-weight: 700;
     padding: 2px;
+}
+
+#close:hover {
+    background-color: rgba(255,0,0, 1.0) ;
+}
+
+#close:active {
+    background-color: rgba(255,0,0, 0.5);
 }
 
 #imagePane{
@@ -103,12 +112,16 @@
     transform: translateY(-50%);
 }
 
-#leftArrow span {
-    
+#leftArrow:hover , #rightArrow:hover {
+    background: rgb(255, 255, 255);
+    /* Fall-back for browsers that don't support rgba */
+    background: rgba(255, 255, 255, .5);
 }
 
-#rightArrow span {
-    
+#leftArrow:active , #rightArrow:active {
+    background: rgb(0, 0, 0);
+    /* Fall-back for browsers that don't support rgba */
+    background: rgba(0, 0, 0, .4);
 }
 
 #rightArrow {
@@ -117,10 +130,4 @@
 
 #leftArrow {
     margin-left: 4%;
-}
-
-.hover {
-    background: rgb(255, 255, 255); 
-    /* Fall-back for browsers that don't support rgba */
-    background: rgba(255, 255, 255, .5);
 }
