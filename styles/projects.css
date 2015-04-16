@@ -6,11 +6,18 @@
 
 .project_content, .project_carousel {
     display: inline-block;
+    width: 45%;
+}
+
+@media screen and (max-width:800px){
+    .project_content, .project_carousel {
+        display: block;
+        width: 98%;
+    }
 }
 
 .project_content {
     vertical-align: top;
-    width:45%;
     color: #333C45;
 }
 
@@ -24,7 +31,6 @@
 }
     
 .project_carousel {
-    width: 45%;
     height:280px;
     margin-top:1%;
     margin-left: 6%;
