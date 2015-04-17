@@ -8,7 +8,16 @@
     margin-right: auto;
     align-content: center;
     text-align: center;
-    transition: all .25s;
+    transition-delay: 0.25s;
+    transition-duration: 2s;
+    -webkit-transition-delay: 0.25s;
+    -webkit-transition-duration: 2s;
+    -moz-transition-delay:0.25s;
+    -moz-transition-duration: 2s;
+    -ms-transition-delay: 0.25s;
+    -ms-transition-duration: 2s;
+    -o-transition-delay: 0.25s;
+    -o-transition-duration: 2s;
 }
 
 @media screen and (max-width:1000px){

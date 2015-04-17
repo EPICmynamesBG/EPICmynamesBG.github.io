@@ -4,6 +4,19 @@
     min-width: inherit;
 }
 
+.project *{
+    transition-delay: 0.5s;
+    transition-duration: 2s;
+    -webkit-transition-delay: 0.5s;
+    -webkit-transition-duration: 2s;
+    -moz-transition-delay:0.5s;
+    -moz-transition-duration: 2s;
+    -ms-transition-delay: 0.5s;
+    -ms-transition-duration: 2s;
+    -o-transition-delay: 0.5s;
+    -o-transition-duration: 2s;
+}
+
 .project_content, .project_carousel {
     display: inline-block;
     width: 45%;
@@ -76,6 +89,16 @@ ul[rn-carousel] {
 .project_carousel li {
     text-align: center;
     vertical-align: bottom;
+    transition-delay: 0s;
+    transition-duration: 2s;
+    -webkit-transition-delay: 0s;
+    -webkit-transition-duration: 2s;
+    -moz-transition-delay:0s;
+    -moz-transition-duration: 2s;
+    -ms-transition-delay: 0s;
+    -ms-transition-duration: 2s;
+    -o-transition-delay: 0s;
+    -o-transition-duration: 2s;
 }
 
 .project_carousel img {
