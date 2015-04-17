@@ -106,13 +106,16 @@ body {
 }
 
 #titleBar .upper_content {
+    display: table-cell;
     width: 95%;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 5px;
 }
 
 #headshot {
     display: inline-block;
+    vertical-align: middle;
     width: 25%;
     max-width: 175px;
     margin-left: 5%;
@@ -122,11 +125,24 @@ body {
 #logo {
     cursor: pointer;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
     width: 65%;
     color: #1D62F0;
-    margin-top: 6%;
     padding-left: 2%;
+}
+
+@media screen and (max-width:400px){
+    #headshot, #logo {
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: none;
+    }
+    
+    #logo {
+        margin-bottom: 10px;
+    }
 }
 
 #navBar {
@@ -138,9 +154,9 @@ body {
 }
 
 #navBar ul {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
@@ -161,6 +177,15 @@ body {
     background-color: rgba(0,0,0, 0.4);
 }
 
+@media screen and (max-width:400px){
+    #navBar ul li {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
+
 #navBar ul li a{
     color: #ffffff;
     font-size: 1.25em;
@@ -175,32 +200,7 @@ body {
     margin-left: 0px;
 }
 
-.content *:not a{
-    margin-left: 2%;
-    margin-right: 2%;
-}
-
-.columns{
-    width: auto;
-}
-
-.columns ul{
-    display: inline-block;
-    width: 30%;
-}
-
-.intro p, .history p{
-    display: inline-block;
-}
-
-#cardinal, #tiger {
-    display: inline-block;
-    width: 15%;
-    min-width: 80px;
-    max-width: 300px;
-    max-height: 220px;
-    margin-left: 10%;
-}
+/* -------- FOOTER -------- */
 
 footer{
     background-color: #4E5E6D;
@@ -243,4 +243,26 @@ footer{
     margin-left: 2%;
     text-align: left;
     font-weight: 700;
+}
+
+@media screen and (max-width:400px){
+    #connect {
+        display: block;
+        width: 100%;
+    }
+    #copyright, #resume {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 1.25em;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #resume a {
+        width: 100%;
+        margin:0 auto;
+        padding: 0;
+        text-align: center;
+    }
 }

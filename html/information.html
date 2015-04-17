@@ -2,13 +2,13 @@
     <div class="intro">
         <h1>Introduction</h1>
         <p>As a student in the Honors College at <a href="http://cms.bsu.edu/" target="_blank">Ball State University</a>, I am actively pursuing a bachelor's degree in Computer Science and a minor in Computer Technology. I am expected to graduate in 2017. I thoroughly enjoy working with computers and technology on all levels; from Operating Systems to Coding to Hardware, I am always striving to learn more about what I love. My most recent achievment is the completion of this website, which I created from scratch. I've also just finished learning the foundation of Objective-C, and am on my way to devloping iOS apps. To see what else I'm busy with, check out the projects tab!</p>
-        <img id="cardinal" src="images/cardinal.png" title="Ball State Cardinal's" alt="Cardinal"/>
+        <img id="cardinal" src="/images/cardinal.png" title="Ball State Cardinal's" alt="Cardinal"/>
         <!-- Image copyright of Ball State University. I did not create this image.-->
     </div>
     <div class="history">
         <h3>History</h3>
         <p>Hailing from the small town of <a href="http://www.versaillesohio.cc" target="_blank">Versailles, OH</a>, I am a proud graduate of the Versailles High School Class of 2013. Throughout high school, my focuses were grades, music, and sports. While graduating high school with ~3.9 GPA, I also was a varsity golfer and bowler; as if that wasn't enough, I was a dance captain in our show choir and I played a lead role in the musical every year. Coming to college, I decided to study Computer Science because I always loved math and was intrigued by the calculator programming that a friend had taught me. At the time, I never thought that learning something so small would drive me to the place I am now.</p>
-        <img id="tiger" src="images/versailles_150.jpg" title="Versailles Tigers" alt="Tiger"/>
+        <img id="tiger" src="/images/versailles_150.jpg" title="Versailles Tigers" alt="Tiger"/>
         <!-- Image copyright of Versailles High School. I did not create this image.-->
     </div>
     <br/>
@@ -26,20 +26,14 @@
         </div>
         <h3>Technical Skills</h3>
         <div class="columns">
-            <ul class="column_one">
-            <li ng-repeat="skill in skillsA">{{skill}}</li>
-            </ul>
-            <ul class="column_two">
-            <li ng-repeat="skill in skillsB">{{skill}}</li>
+            <ul>
+            <li ng-repeat="skill in skills">{{skill}}</li>
             </ul>
         </div>
         <h3>Interests</h3>
         <div class="columns">
-            <ul class="column_one">
-            <li ng-repeat="interest in interestsA">{{interest}}</li>
-            </ul>
-            <ul class="column_two">
-            <li ng-repeat="interest in interestsB">{{interest}}</li>
+            <ul>
+            <li ng-repeat="interest in interests">{{interest}}</li>
             </ul>
         </div>
         <h3>Personality Traits</h3>

@@ -14,11 +14,19 @@
         display: block;
         width: 98%;
     }
+    
+    .project h2, .project_content h3, .project_content h5, .project_content h6{
+        text-align: center;
+    }
 }
 
 .project_content {
     vertical-align: top;
     color: #333C45;
+}
+
+.project_content p {
+    margin: 10px auto;
 }
 
 .project_content h5 {
@@ -36,6 +44,13 @@
     margin-left: 6%;
 }
 
+@media screen and (max-width:800px){
+    .project_carousel {
+        margin-left: 0;
+        margin-bottom: 1%;
+    }
+}
+
 ul[rn-carousel] {
     margin-right: 10%;
     width:90%;
@@ -44,17 +59,18 @@ ul[rn-carousel] {
 }
 
 .project_carousel .rn-carousel-control {
-    margin-top: 27%;
+    position: absolute;
+    transform: translate(0, 250%);
+    -moz-transform: translate(0, 250%);
+    -o-transform: translate(0, 250%);
+    -ms-transform: translate(0, 250%);
+    -webkit-transform: translate(0, 250%);
     background-color: #ccc;
     padding: 1%;
 }
 
-.project_carousel .rn-carousel-control.rn-carousel-control-prev {
-    left: .5em;
-}
-
-.project_carousel .rn-carousel-control.rn-carousel-control-next {
-    right: -0.5em;
+.project_carousel .rn-carousel-control:active {
+    background-color: darkgrey;
 }
 
 .project_carousel li {
@@ -63,6 +79,14 @@ ul[rn-carousel] {
 }
 
 .project_carousel img {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
     max-width: 90%;
     max-height: 100%;
     vertical-align: bottom;

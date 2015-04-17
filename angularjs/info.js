@@ -6,7 +6,7 @@ function InformationController($http,$scope, $route, $location){
         "Reliable"
     ]
     
-    $scope.skillsA = [
+    $scope.skills = [
         "Operating Systems",
         "Windows",
         "Computer Proficient",
@@ -17,10 +17,7 @@ function InformationController($http,$scope, $route, $location){
         "CSS",
         "jQuery",
         "Information Technology",
-        "Computer Hardware"
-        ]
-    
-    $scope.skillsB = [
+        "Computer Hardware",
         "OS X",
         "Linux",
         "iOS Development",
@@ -33,14 +30,11 @@ function InformationController($http,$scope, $route, $location){
         "Computer Repair"
         ]
     
-    $scope.interestsA = [
+    $scope.interests = [
         "Computers",
         "Programming",
         "Virtual Machines",
-        "Music & Music Production"
-    ];
-    
-    $scope.interestsB = [
+        "Music & Music Production",
         "Computer Hardware",
         "Operating Systems",
         "Mobile App Development",

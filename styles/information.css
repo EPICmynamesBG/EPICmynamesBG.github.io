@@ -1,11 +1,70 @@
+.intro p, .history p{
+    display: inline-block;
+}
+
+#cardinal, #tiger {
+    display: inline-block;
+    width: 15%;
+    min-width: 80px;
+    max-width: 300px;
+    max-height: 220px;
+    margin-left: 10%;
+}
+
+@media screen and (max-width:660px){
+    .content h3, .experience h2 , .intro h1, .history h3, .recent_activity h5{
+        text-align: center;
+    }
+    
+    #cardinal, #tiger {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 .important {
     width: 50%;
+    min-width: 260px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     background-color: #BDBEC2;
     border-radius: 50%;
     padding: 3%;
+}
+
+.columns {
+    margin-left:0;
+}
+
+.columns ul {
+    width: 100%;
+    vertical-align: top;
+    columns: 3;
+    -webkit-columns:3;
+    -moz-columns:3;
+    -ms-columns:3;
+    -o-columns:3;
+}
+
+.content * ul li {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width:660px){
+    .columns ul {
+        columns: 2;
+        -webkit-columns:2;
+        -moz-columns:2;
+        -ms-columns:2;
+        -o-columns:2;
+    }
+}
+
+.traits {
+    list-style: none;
 }
 
 .experience {
@@ -32,17 +91,21 @@
     margin-bottom: .2em;
 }
 
-.job h4 {
+/*.job h4 {
     display: inline-block;
-}
-
-.job h6 {
-    display: inline-block;
-}
+}*/
 
 .job div h5, .job div h6 {
     display: inline-block;
-    width: 27%;
+    width: 40%;
+}
+
+@media screen and (max-width:700px){
+    .job h4, .job div h5, .job div h6 {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
 }
 
 .job div p {
@@ -50,15 +113,20 @@
     display: block;
 }
 
+.job div p:first-child {
+    width: 100%;
+}
+
+@media screen and (max-width:600px){
+    .job div p:first-child, .job div p:first-child a{
+        margin:auto;
+        text-align: center;
+    }
+    
+    
+}
+
 .job:last-child{
     margin-bottom: 2%;
     border-bottom: none;
-}
-
-.columns ul {
-    vertical-align: top;
-}
-
-.traits {
-    list-style: none;
 }

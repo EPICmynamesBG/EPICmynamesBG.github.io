@@ -11,11 +11,36 @@
     transition: all .25s;
 }
 
+@media screen and (max-width:1000px){
+    .image_set {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .image_set {
+        width: 48%; 
+    }
+}
+
+@media screen and (max-width:600px){
+    .image_set {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .image_set {
+        width: 98%;
+        height: 150px;
+    }
+}
+
 .image_set img {
     cursor: pointer;
     display: block;
     max-width: 100%;
-    max-height: 90%;
+    max-height: 85%;
     margin-top: auto;
     margin-bottom: auto;
     margin-left: auto;
@@ -24,6 +49,8 @@
 }
 
 .description{
+    margin-left: 0;
+    width: 100%;
     display: block;
     text-align: center;
     font-size: .75em;
@@ -32,6 +59,8 @@
 
 #imagePopup {
     position: fixed;
+    display: table-cell;
+    vertical-align: middle;
     width: 86%;
     height: 86%;
     background-color: #4E5E6D;
@@ -41,15 +70,16 @@
     bottom: 7%;
     left: 7%;
     right:7%;
-    border-radius: 20% 5%;
+    border-radius: 15px;
     border: 5px solid black;
 }
 
 #closeDIV {
-    display: block;
+    vertical-align: top;
     text-align: right;
-    margin-right: 4%;
+    margin-right: 1%;
     margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 #close {
@@ -70,36 +100,33 @@
 }
 
 #imagePane{
-    display: block;
-    height: 80%;
+    vertical-align: middle;
+    height: 88%;
     width: 100%;
     margin: auto auto auto auto;
 }
 
-#imagePopup span {
-    width:88%;
-    height: 100%;
-    display: inline-block;
-}
-
 #imagePopup img {
-    display: block;
-    max-width: 100%;
+    position: absolute;
+    max-width: 86%;
     max-height: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    left: 50%;
     text-align: center;
     vertical-align: middle;
 }
 
 #rightArrow, #leftArrow {
-    display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
     cursor: pointer;
-    height: 96%;
-    width: 2%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    height: 100%;
+    width: 3%;
+    min-width: 20px;
     font-weight: 900;
     text-align: center;
 }
@@ -126,8 +153,10 @@
 
 #rightArrow {
     margin-right: 2%;
+    float: right;
 }
 
 #leftArrow {
-    margin-left: 4%;
+    float: left;
+    margin-left: 2%;
 }

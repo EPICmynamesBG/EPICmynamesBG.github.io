@@ -38,10 +38,11 @@
 }
 
 .partList {
-    text-align: left;
+    list-style-type: none;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
 }
 
 .singleProject_carousel {
@@ -58,17 +59,18 @@ ul[rn-carousel] {
 }
 
 .singleProject_carousel .rn-carousel-control {
-    margin-top: 10%;
+    position: absolute;
+    transform: translate(0, 250%);
+    -moz-transform: translate(0, 250%);
+    -o-transform: translate(0, 250%);
+    -ms-transform: translate(0, 250%);
+    -webkit-transform: translate(0, 250%);
     background-color: #ccc;
     padding: 1%;
 }
 
-.singleProject_carousel .rn-carousel-control.rn-carousel-control-prev {
-    left: .5em;
-}
-
-.singleProject_carousel .rn-carousel-control.rn-carousel-control-next {
-    right: -0.5em;
+.singleProject_carousel .rn-carousel-control:active {
+    background-color: darkgrey;
 }
 
 .singleProject_carousel li {
@@ -77,6 +79,14 @@ ul[rn-carousel] {
 }
 
 .singleProject_carousel img {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
     max-width: 90%;
     max-height: 100%;
     vertical-align: bottom;
