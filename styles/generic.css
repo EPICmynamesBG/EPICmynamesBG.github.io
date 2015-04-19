@@ -169,7 +169,7 @@ body {
 
 @media screen and (max-width:400px){
     #headshot, #logo {
-        width: 100%;
+        width: 95%;
         display: block;
         margin-left: auto;
         margin-right: auto;
