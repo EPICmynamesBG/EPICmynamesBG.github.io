@@ -1,12 +1,12 @@
-function GalleryController($http,$scope, $route, $location){
-  
+function GalleryController($http, $scope, $route, $location) {
+
     $scope.photoGallery = [{
-        image: "/images/InBetween/icon.png" ,
+        image: "/images/InBetween/icon.png",
         description: "InBetween app icon"
     }, {
         image: "/images/InBetween/Default/main.png",
         description: "InBetween main menu"
-    }, { 
+    }, {
         image: "/images/InBetween/Default/10in_main.png",
         description: "InBetween tablet main menu"
     }, {
@@ -189,35 +189,83 @@ function GalleryController($http,$scope, $route, $location){
     }, {
         image: "/images/Plex-Server/Plex_server_22.png",
         description: "Plex Server RAM Stats"
+    }, {
+        image: "/images/Bombnanza/Bombnanza0.png",
+        description: "Bombnanza Main Screen"
+    }, {
+        image: "/images/Bombnanza/Bombnanza1.png",
+        description: "Testing Range - Choice View"
+    }, {
+        image: "/images/Bombnanza/Bombnanza2.png",
+        description: "Testing Range - Falling Bomb"
+    }, {
+        image: "/images/Bombnanza/Bombnanza3.png",
+        description: "Testing Range - Falling Bomb"
+    }, {
+        image: "/images/Bombnanza/Bombnanza4.png",
+        description: "Testing Range - Explosion Start"
+    }, {
+        image: "/images/Bombnanza/Bombnanza5.png",
+        description: "Testing Range - Explosion"
+    }, {
+        image: "/images/Bombnanza/Bombnanza6.png",
+        description: "Testing Range - Explosion Peak"
+    }, {
+        image: "/images/Bombnanza/Bombnanza7.png",
+        description: "Testing Range - Live Map Pressure Overlay"
+    }, {
+        image: "/images/Bombnanza/Bombnanza8.png",
+        description: "Testing Range - Live Map Thermal Overlay"
+    }, {
+        image: "/images/Bombnanza/Bombnanza9.png",
+        description: "Bomb Knowledgebase - Bomb Choice"
+    }, {
+        image: "/images/Bombnanza/Bombnanza10.png",
+        description: "Bomb Info View"
+    }, {
+        image: "/images/Bombnanza/Bombnanza11.png",
+        description: "Bomb Info View"
+    }, {
+        image: "/images/Bombnanza/Bombnanza12.png",
+        description: "Cold War After Effects - Military"
+    }, {
+        image: "/images/Bombnanza/Bombnanza13.png",
+        description: "Cold War After Effects - Society"
+    }, {
+        image: "/images/Bombnanza/Bombnanza14.png",
+        description: "Cold War After Effects - Technology"
+    }, {
+        image: "/images/Bombnanza/Bombnanza15.png",
+        description: "Cold War After Effects - Space Exploration"
     }];
-    
+
     $scope.leftHovering = false;
     $scope.rightHovering = false;
     var currentIndex = 0;
-    
-    $scope.loadImage = function(index){
+
+    $scope.loadImage = function (index) {
         currentIndex = index;
         $scope.selectedImageURL = $scope.photoGallery[currentIndex].image;
         $scope.showPopup = true;
     }
-    
-    $scope.closePopup = function(){
+
+    $scope.closePopup = function () {
         $scope.showPopup = false;
     }
-    
-    $scope.next = function(){
-        currentIndex+=1;
-        if (currentIndex > $scope.photoGallery.length - 1){
+
+    $scope.next = function () {
+        currentIndex += 1;
+        if (currentIndex > $scope.photoGallery.length - 1) {
             currentIndex = 0;
         }
         $scope.selectedImageURL = $scope.photoGallery[currentIndex].image;
     }
-    
-    $scope.previous = function(){
-        currentIndex-=1;
-        if (currentIndex < 0){
+
+    $scope.previous = function () {
+        currentIndex -= 1;
+        if (currentIndex < 0) {
             currentIndex = $scope.photoGallery.length - 1;
         }
         $scope.selectedImageURL = $scope.photoGallery[currentIndex].image;
-    }   
+    }
 };
