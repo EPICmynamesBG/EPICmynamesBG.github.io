@@ -42,14 +42,23 @@ function InformationController($http, $scope, $route, $location) {
     ];
 
     $scope.jobs = [{
+        title: "Development Team Apprentice",
+        company: "the Digital Corps",
+        location: "Ball State University, Muncie, IN",
+        start: "August 2015",
+        end: "Present",
+        contact: "Brian O'Conner",
+        contactEmail: "bpoconner.bsu@gmail.com",
+        description: "As a second semester developer Apprentice, it is my job to begin applying my skills. While I will still be learning, I will now be focusing on project work that comes into the Digital Corps. As a project team member, I will be assigned development tasks that will need completed in a timely manor and communicate with others on the project team."
+    }, {
         title: "Information Technology Intern",
         company: "Midmark",
         location: "Versailles, OH",
         start: "May 2015",
-        end: "Present",
+        end: "August 2015",
         contact: "Nicole Robbins",
         contactEmail: "nrobbins@midmark.com",
-        description: "For my second summer back at Midmark, my duties are similar to those of the prior summer, but with a few additions. Because I am a returning intern, I have been put into a position of guidance over the other interns. It will be my duty to assist them in training and help them with any day to day tasks. On top of this, I will again be helping setup and fix computer systems, both software and hardware issues, as needed."
+        description: "For my second summer back at Midmark, my duties were similar to those of the prior summer, but with a few additions. As a returning intern, on top of all the tasks I was assigned last year, I lead and trained the first year interns. I also was assigned as the Tier 2 technician to the Office Upgrade project. My role in the project was creating the Office package that would be deployed through SCCM 2012 and troubleshooting issues during champion testing. Because I had to leave for school before the project went live for the company, I also documented everything about the package/project in order to pass it along."
     }, {
         title: "Development Team Apprentice",
         company: "the Digital Corps",
@@ -58,7 +67,7 @@ function InformationController($http, $scope, $route, $location) {
         end: "May 2015",
         contact: "Brian O'Conner",
         contactEmail: "bpoconner.bsu@gmail.com",
-        description: "As a Digital Corp Apprentice on the Development Team, I am currently being trained on many skills, including UNIX terminal, iOS, Android, Front-End Web, and Back-End Web development. After completing my training, I recieved a promotion to specialist, a title I will begin holding next Fall when school resumes."
+        description: "As a Digital Corp Apprentice on the Development Team, I am currently being trained on many skills, including UNIX terminal, iOS, Android, Front-End Web, and Back-End Web development."
     }, {
         title: "Information Technology Intern",
         company: "Midmark",
