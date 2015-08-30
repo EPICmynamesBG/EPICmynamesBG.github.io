@@ -53,7 +53,7 @@ function SingleProjectController($http, $scope, $route, $location) {
 
     var BuzzedBuddy = [{
         title: "Buzzed Buddy",
-        status: "In Development",
+        status: "Completed",
         link: "http://challengepost.com/software/buzzed-buddy",
         linkText: "View on ChallengePost",
         linkImage: "/images/SocialMedia/ChallengePost_icon.png",
@@ -112,30 +112,30 @@ function SingleProjectController($http, $scope, $route, $location) {
                 "/images/InBetween_iOS/stats.png"
             ]
         }];
-
-    var Audio_Sync = [{
-        title: "Audio-Sync",
-        status: "In Development",
-        link: "",
-        linkText: "Not publicly available",
-        linkImage: "",
-        start: "Feb 2014",
-        end: "Present",
-        event: "n/a",
-        description: [
-                'After learning the basics of Swift, I thought of a new app idea. The thought behind this is app is this: "Have you ever wanted to play syncronized music playback between you and your friends device?" The answer for me at least is yes, and so I began my journey to create this cross-platform compatible app. While I am currently only developing for iOS, I intend to follow up with an Android version.',
-                "This app is currently in its early stages. Like many other projects, I am starting with the UI first. At this point, I am using a tab view controller to move between my three views: Connect, Host, and Settings. This is my first experience with tab views, but so far the experience has been positive. Further updates will be posted as this app begins to progress more."
-            ],
-        images: [
-                "/images/Audio-Sync/icon.png",
-                "/images/Audio-Sync/launch.png",
-                "/images/Audio-Sync/inApp.png"
-            ]
-        }];
-
+    /*
+        var Audio_Sync = [{
+            title: "Audio-Sync",
+            status: "Cancelled",
+            link: "",
+            linkText: "Not publicly available",
+            linkImage: "",
+            start: "Feb 2014",
+            end: "Present",
+            event: "n/a",
+            description: [
+                    'After learning the basics of Swift, I thought of a new app idea. The thought behind this is app is this: "Have you ever wanted to play syncronized music playback between you and your friends device?" The answer for me at least is yes, and so I began my journey to create this cross-platform compatible app. While I am currently only developing for iOS, I intend to follow up with an Android version.',
+                    "This app is currently in its early stages. Like many other projects, I am starting with the UI first. At this point, I am using a tab view controller to move between my three views: Connect, Host, and Settings. This is my first experience with tab views, but so far the experience has been positive. Further updates will be posted as this app begins to progress more."
+                ],
+            images: [
+                    "/images/Audio-Sync/icon.png",
+                    "/images/Audio-Sync/launch.png",
+                    "/images/Audio-Sync/inApp.png"
+                ]
+            }];
+    */
     var McVerilog = [{
         title: "McVerilog",
-        status: "Incomplete",
+        status: "Incomplete, not in Development",
         link: "http://challengepost.com/software/mcverilog",
         linkText: "View on ChallengePost",
         linkImage: "/images/SocialMedia/ChallengePost_icon.png",
@@ -158,7 +158,7 @@ function SingleProjectController($http, $scope, $route, $location) {
 
     var AugRealScavenger = [{
         title: "Augmented Reality Scavenger Hunt",
-        status: "Incomplete",
+        status: "Incomplete, not in Development",
         link: "http://challengepost.com/software/augmented-reality-scavenger-hunt",
         linkText: "View on ChallengePost",
         linkImage: "/images/SocialMedia/ChallengePost_icon.png",
