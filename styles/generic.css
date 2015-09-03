@@ -1,14 +1,14 @@
 /*@import url(http://fonts.googleapis.com/css?family=Roboto:300,900,300italic,700);*/
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,700,900,900italic);
 
-*{
-    font-family: "Source Sans Pro" ,sans-serif, serif;
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,700,900,900italic);
+* {
+    font-family: "Source Sans Pro", sans-serif, serif;
     position: relative;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -ms-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
 }
 
 p {
@@ -39,7 +39,7 @@ ul {
     transition-duration: 2s;
     -webkit-transition-delay: 0.5s;
     -webkit-transition-duration: 2s;
-    -moz-transition-delay:0.5s;
+    -moz-transition-delay: 0.5s;
     -moz-transition-duration: 2s;
     -ms-transition-delay: 0.5s;
     -ms-transition-duration: 2s;
@@ -47,7 +47,7 @@ ul {
     -o-transition-duration: 2s;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:500px) {
     * div {
         width: 99%;
     }
@@ -77,7 +77,12 @@ h6 {
     font-size: 0.6em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: 700;
 }
 
@@ -85,7 +90,7 @@ html {
     /*fallback*/
     /*
     background-color: #CC0000;
-    
+
     background: -webkit-gradient(linear,left bottom, left top, to(#CC0000), from(#FFFFFF));
     background: -webkit-linear-gradient(top, #CC0000, #FFFFFF);
     background: -moz-linear-gradient(top, #CC0000, #FFFFFF);
@@ -97,7 +102,6 @@ html {
 body {
     /*fallback*/
     background-color: #F7F7F7;
-    
     background: -webkit-gradient(linear, left bottom, left top, to(#F7F7F7), from(#D7D7D7));
     background: -webkit-linear-gradient(top, #F7F7F7, #D7D7D7);
     background: -moz-linear-gradient(top, #F7F7F7, #D7D7D7);
@@ -109,13 +113,11 @@ body {
     box-shadow: 3px 3px 3px 3px #4E5E6D;
     width: 92%;*/
     margin: 0px;
-    
 }
 
 #titleBar {
     /*fallback*/
     background-color: #4E5E6D;
-    
     width: 100%;
     /*background-color: #4A4A4A;*/
     position: relative;
@@ -140,7 +142,7 @@ body {
     transition-duration: 2s;
     -webkit-transition-delay: 0.5s;
     -webkit-transition-duration: 2s;
-    -moz-transition-delay:0.5s;
+    -moz-transition-delay: 0.5s;
     -moz-transition-duration: 2s;
     -ms-transition-delay: 0.5s;
     -ms-transition-duration: 2s;
@@ -159,7 +161,7 @@ body {
     transition-duration: 2s;
     -webkit-transition-delay: 0.5s;
     -webkit-transition-duration: 2s;
-    -moz-transition-delay:0.5s;
+    -moz-transition-delay: 0.5s;
     -moz-transition-duration: 2s;
     -ms-transition-delay: 0.5s;
     -ms-transition-duration: 2s;
@@ -167,15 +169,15 @@ body {
     -o-transition-duration: 2s;
 }
 
-@media screen and (max-width:400px){
-    #headshot, #logo {
+@media screen and (max-width:400px) {
+    #headshot,
+    #logo {
         width: 95%;
         display: block;
         margin-left: auto;
         margin-right: auto;
         vertical-align: none;
     }
-    
     #logo {
         margin-bottom: 10px;
     }
@@ -196,11 +198,11 @@ body {
     list-style: none;
 }
 
-#navBar ul li{
+#navBar ul li {
     cursor: pointer;
     margin-left: 0;
     margin-right: 0;
-    width:32%;
+    width: 32%;
     min-width: 180px;
     display: inline-block;
     transition-duration: 0.5s;
@@ -214,11 +216,12 @@ body {
     background-color: rgba(255, 255, 255, 0.25);
 }
 
-#navBar ul li:active , #logo:active{
-    background-color: rgba(0,0,0, 0.4);
+#navBar ul li:active,
+#logo:active {
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:400px) {
     #navBar ul li {
         display: block;
         width: 100%;
@@ -227,7 +230,7 @@ body {
     }
 }
 
-#navBar ul li a{
+#navBar ul li a {
     color: #ffffff;
     font-size: 1.25em;
     display: block;
@@ -241,11 +244,12 @@ body {
     margin-left: 0px;
 }
 
+
 /* -------- FOOTER -------- */
 
-footer{
+footer {
     background-color: #4E5E6D;
-    height:auto;
+    height: auto;
     font-family: cursive;
     font-style: italic;
     position: relative;
@@ -261,7 +265,7 @@ footer * {
     transition-duration: 2s;
     -webkit-transition-delay: 0.5s;
     -webkit-transition-duration: 2s;
-    -moz-transition-delay:0.5s;
+    -moz-transition-delay: 0.5s;
     -moz-transition-duration: 2s;
     -ms-transition-delay: 0.5s;
     -ms-transition-duration: 2s;
@@ -269,12 +273,48 @@ footer * {
     -o-transition-duration: 2s;
 }
 
-#connect{
+#connect {
     display: inline-block;
     margin-right: auto;
     margin-left: auto;
     width: 31%;
     text-align: center;
+}
+
+@media screen and (min-width: 1650px) {
+    #connect {
+        width: 34%;
+    }
+}
+
+@media screen and (min-width: 1750px) {
+    #connect {
+        width: 37%;
+    }
+}
+
+@media screen and (min-width: 1850px) {
+    #connect {
+        width: 41%;
+    }
+}
+
+@media screen and (min-width: 1950px) {
+    #connect {
+        width: 44%;
+    }
+}
+
+@media screen and (min-width: 2050px) {
+    #connect {
+        width: 47%;
+    }
+}
+
+@media screen and (min-width: 2250px) {
+    #connect {
+        width: 50%;
+    }
 }
 
 #connect img {
@@ -287,7 +327,7 @@ footer * {
     transition-duration: 2s;
     -webkit-transition-delay: 0s;
     -webkit-transition-duration: 2s;
-    -moz-transition-delay:0s;
+    -moz-transition-delay: 0s;
     -moz-transition-duration: 2s;
     -ms-transition-delay: 0s;
     -ms-transition-duration: 2s;
@@ -295,13 +335,14 @@ footer * {
     -o-transition-duration: 2s;
 }
 
-@media screen and (max-width:515px){
+@media screen and (max-width:515px) {
     #connect img {
         min-width: 40px;
     }
 }
 
-#copyright, #resume {
+#copyright,
+#resume {
     display: inline-block;
     margin-right: auto;
     margin-left: auto;
@@ -310,18 +351,23 @@ footer * {
     text-align: right;
 }
 
+#copyright {
+    margin-right: 2%;
+}
+
 #resume {
     margin-left: 2%;
     text-align: left;
     font-weight: 700;
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:400px) {
     #connect {
         display: block;
         width: 100%;
     }
-    #copyright, #resume {
+    #copyright,
+    #resume {
         display: block;
         width: 100%;
         text-align: center;
@@ -329,10 +375,9 @@ footer * {
         margin: 2.5px 0;
         padding: 0;
     }
-    
     #resume a {
         width: 100%;
-        margin:0 auto;
+        margin: 0 auto;
         padding: 0;
         text-align: center;
     }
