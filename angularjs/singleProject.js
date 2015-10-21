@@ -389,7 +389,7 @@ function SingleProjectController($http, $scope, $route, $location) {
     case "Bombnanza":
         project = Bombnanza;
         break;
-    case "Hack-O-Lantern":
+    case "Hack-o-lantern":
         project = HackOLantern;
         break;
     default:
