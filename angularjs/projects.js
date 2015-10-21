@@ -52,6 +52,18 @@ function ProjectsController($http, $scope, $route, $location) {
                 "/images/Bombnanza/Bombnanza14.png",
                 "/images/Bombnanza/Bombnanza15.png"
             ]
+        }, {            
+            title: "Hack-o-lantern",
+                        status: "Completed",
+                        link: "http://devpost.com/software/trick-or-tweet",
+                        start: "Oct 16, 2015",
+                        end: "Oct 18, 2015",
+                        showEvent: true,
+                        event: "BoilerMake 2015",
+                        description: "Created during the BoilerMake 2015 hackathon, our group wanted to do something in the spirit of Halloween. Inspired by some ideas we saw online, we decided we wanted to use capacitive touch to make our pumpkin do something. With a Pumpkin, a Raspberry Pi, and a camera module, we set out to make the first Jack-o-lantern that would live tweet a selfie on touch.",
+                        images: [
+                "/images/BoilerMake_2015/PumpkinPromo.jpg"
+            ]        
         }, {
             title: "Buzzed Buddy",
             status: "Completed",

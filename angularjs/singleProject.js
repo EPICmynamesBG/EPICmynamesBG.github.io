@@ -339,6 +339,21 @@ function SingleProjectController($http, $scope, $route, $location) {
             ]
         }];
 
+    var HackOLantern = [{        
+        title: "Hack-o-lantern",
+                status: "Completed",
+                link: "http://devpost.com/software/trick-or-tweet",
+                linkText: "View on Devpost",
+                linkImage: "",
+                start: "Oct 16, 2015",
+                end: "Oct 18, 2015",
+                event: "BoilerMake 2015",
+                description: ["Created during the BoilerMake 2015 hackathon, our group wanted to do something in the spirit of Halloween. Inspired by some ideas we saw online, we decided we wanted to use capacitive touch to make our pumpkin do something. With a Pumpkin, a Raspberry Pi, and a camera module, we set out to make the first Jack-o-lantern that would live tweet a selfie on touch. With a little Python and some hardware, we accomplished the most creative and amusing photo booth the world may have ever seen. Check out the full details and promo video at the link provided!"],
+                images: [
+                "/images/BoilerMake_2015/PumpkinPromo.jpg"
+            ]        
+    }];
+
     //-------------ACTIVE CODE------------------------
 
     var project = [];
@@ -353,9 +368,9 @@ function SingleProjectController($http, $scope, $route, $location) {
     case "InBetween (iOS)":
         project = InBetween_iOS;
         break;
-    case "Audio-Sync":
-        project = Audio_Sync;
-        break;
+        /*case "Audio-Sync":
+            project = Audio_Sync;
+            break;*/
     case "McVerilog":
         project = McVerilog;
         break;
@@ -373,6 +388,9 @@ function SingleProjectController($http, $scope, $route, $location) {
         break;
     case "Bombnanza":
         project = Bombnanza;
+        break;
+    case "Hack-O-Lantern":
+        project = HackOLantern;
         break;
     default:
         project = blank;

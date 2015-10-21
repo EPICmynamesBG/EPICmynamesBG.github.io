@@ -239,6 +239,9 @@ function GalleryController($http, $scope, $route, $location) {
     }, {
             image: "/images/Bombnanza/Bombnanza15.png",
             description: "Cold War After Effects - Space Exploration"
+    }, {
+            image: "/images/BoilerMake_2015/PumpkinPromo.jpg",
+            description: "Hack-o-lantern Tweeting Pumpkin"
     }];
 
     $scope.leftHovering = false;
