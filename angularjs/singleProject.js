@@ -54,7 +54,7 @@ function SingleProjectController($http, $scope, $route, $location) {
     var BuzzedBuddy = [{
         title: "Buzzed Buddy",
         status: "Completed",
-        link: "http://challengepost.com/software/buzzed-buddy",
+        link: "http://devpost.com/software/buzzed-buddy",
         linkText: "View on ChallengePost",
         linkImage: "/images/SocialMedia/ChallengePost_icon.png",
         start: "Feb 27, 2015",
@@ -136,7 +136,7 @@ function SingleProjectController($http, $scope, $route, $location) {
     var McVerilog = [{
         title: "McVerilog",
         status: "Incomplete, not in Development",
-        link: "http://challengepost.com/software/mcverilog",
+        link: "http://devpost.com/software/mcverilog",
         linkText: "View on ChallengePost",
         linkImage: "/images/SocialMedia/ChallengePost_icon.png",
         start: "Oct 17, 2014",

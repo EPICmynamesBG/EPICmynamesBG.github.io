@@ -67,7 +67,7 @@ function ProjectsController($http, $scope, $route, $location) {
         }, {
             title: "Buzzed Buddy",
             status: "Completed",
-            link: "http://challengepost.com/software/buzzed-buddy",
+            link: "http://devpost.com/software/buzzed-buddy",
             start: "Feb 27, 2015",
             end: "Mar 1, 2015",
             showEvent: true,
@@ -123,7 +123,7 @@ function ProjectsController($http, $scope, $route, $location) {
         {
             title: "McVerilog",
             status: "Incomplete, not in Development",
-            link: "http://challengepost.com/software/mcverilog",
+            link: "http://devpost.com/software/mcverilog",
             start: "Oct 17, 2014",
             end: "Oct 19, 2015",
             showEvent: true,
