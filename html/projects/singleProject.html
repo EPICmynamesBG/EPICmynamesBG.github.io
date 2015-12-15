@@ -6,7 +6,7 @@
         </ul>
     </div>
     <a href="{{project.link}}" target="_blank">
-        <img class="singleProjLinkImage" ng-src="{{project.linkImage}}" ng-show={{project.linkImage}}/>
+        <img class="singleProjLinkImage" ng-src="{{project.linkImage}}" ng-if="project.linkImage"/>
         <h4 class="singleProjLinkText" ng-show={{project.linkText}}>{{project.linkText}}</h4>
     </a>
     <span>

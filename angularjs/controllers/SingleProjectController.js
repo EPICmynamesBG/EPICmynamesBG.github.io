@@ -23,7 +23,6 @@ app.controller("SingleProjectController", function ($scope, $route, $json) {
 
     $json.loadFile("projects/" + title + ".json")
         .then(function successCallback(response) {
-            console.log(response.data);
             $scope.project = response.data;
         }, function errorCallback(response) {
             $json.errorResponse(response);

@@ -48,11 +48,11 @@
             </div>
             <div id="navBar">
                 <ul class="navigation">
-                    <li><a class="navBar_item first" title="Information" ng-click="infoClick()">Information</a>
+                    <li><a class="navBar_item first" title="Information" ng-click="infoClick()" ng-class="'Information' == current ? 'currentPage': ''">Information</a>
                     </li>
-                    <li><a class="navBar_item" title="Projects" ng-click="projectClick()">Projects</a>
+                    <li><a class="navBar_item" title="Projects" ng-click="projectClick()" ng-class="'Projects' == current ? 'currentPage': ''">Projects</a>
                     </li>
-                    <li><a class="navBar_item last" title="Gallery" ng-click="galleryClick()">Gallery</a>
+                    <li><a class="navBar_item last" title="Gallery" ng-click="galleryClick()" ng-class="'Gallery' == current ? 'currentPage': ''">Gallery</a>
                     </li>
                 </ul>
             </div>
