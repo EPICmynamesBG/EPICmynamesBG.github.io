@@ -1,0 +1,22 @@
+{
+    "title": "Code of Knighthood",
+    "status": "Completed, Unpublished",
+    "link": "https://github.com/EPICmynamesBG/Code-Of-Knighthood",
+    "linkText": "View on GitHub",
+    "linkImage": "/images/SocialMedia/github-1024-black.png",
+    "start": "Dec 2014",
+    "end": "Dec 2014",
+    "event": "n/a",
+    "description": [
+                "As a final project for an Honors class, I decided to make an Android app. In this app, with the help of a classmate, we are simply analyzing and explaining the Code of Knighthood in a Medieval and Modern context.",
+                "This app was put together rather quickly, in under a weeks time. I attributte this speedy development to the fact that I was just finishing up InBetween for Android, and was more than confident in my abilities to create a simple app that only needed to display some text and images.",
+                "Starting with the UI, I decided that there would be 3 or 4 views, and that I wanted to be able to swipe left and right to go to the next/previous view. After research, this meant implementing a Fragment Activity and Manager. I figured this would be difficult, but it didn't turn out to be too bad.",
+                "Once I had figured this out, all I had to do was set up the text file parsing. For this app, I wanted it to be so that all of the text would be filled in from a text file because it was my partner's job to acquire most of the content. By doing this, all I needed to do was past the given content into the text files, and the text appeared as was in the app.",
+                "This app was a nice and simple follow up to InBetween, and while I didn't learn near as much from it, I did learn that it is possible to speedily create mobile applications whenever you aren't trying to learn everything."
+            ],
+    "images": [
+                "/images/CodeOfKnighthood/icon.png",
+            "/images/CodeOfKnighthood/CoK_main.png",
+            "/images/CodeOfKnighthood/CoK_inApp.png"
+            ]
+}

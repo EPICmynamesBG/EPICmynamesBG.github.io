@@ -1,0 +1,35 @@
+{
+    "title": "Bombnanza",
+    "status": "Completed, Unpublished",
+    "link": "https://github.com/EPICmynamesBG/Bombnanza",
+    "linkText": "View on GitHub",
+    "linkImage": "/images/SocialMedia/github-1024-black.png",
+    "start": "Apr 2015",
+    "end": "Apr 2015",
+    "event": "n/a",
+    "description": [
+                "This app was created for a course final creative project. This is my first fully completed iOS app, and it is written in Objective-C. For testing, I had access to 2 iPod 4th Gens and 1 iPad 4. This application does work on all of them, so I am confident it would work on any iOS 6+ device. The purpose of this application was to deomnstrate the after effects of the Cold War on modern America and even the world. This app features three parts: a Testing Range, a Knowledgebase, and the Cold War After Effects.",
+            "During development, I spent the most time creating the testing range. The testing range features a dropping bomb that when it sinks below the bottom of the screen, it explodes at a scale equal to the bomb's yield. There is also an explosion sound effect done at the same time. All of this animation took a while to figure out as I had previously learnt how to do it on iOS 7+, but not 6. After this was all set up, I looked online for a potential project that featured overlays on a modern map. The Carlos Labs project was exactly what I was looking for, and they even had their source code available. With a few modifications to the html, css, and js, I was able to get the map view looking sharp on both the iPod and iPad screens. In my opinion, this is the coolest feature because users can use the Google Map view to locate their town, then see what a bomb like Fat Man would do to it.",
+            "The next view I worked on was the knowledgebase. From some work projects, I was familiar with using table views and json data for populating them, so that's what I chose to do. After all the research was done, it was pretty simple to just set up the table view and the subsequent bomb information view that features stats like the yield, what nation developed it, when it was developed, and even information on how the live tests went. Overall, this section was fairly easy, and the research was the most time consuming part.",
+            "The last view was the actual information on the Cold War's after effects. To mix things up, I treid to use a page view controller. After finding an example online, this proved to be fairly simple. Again, I used a json file to populate each page view, and it worked like a charm. Overall, this section took the least amount of time because it was nearly all text.",
+            "From the beginning, I knew I wouldn't release this app. While it is complete, the app has its problems, the biggest being that some of the images used are presumably copyright protected. That didn't matter since I was using them for educational purposes, but to release them in as part of my own app is another thing. Also, while I did my best to make all of the research accurate, I cannot gurantee that everything is correct. All of this aside though, I was proud of how this app turned out, and I am thrilled to be able to say that I have completed my own iOS app."
+            ],
+    "images": [
+                "/images/Bombnanza/Bombnanza0.png",
+                "/images/Bombnanza/Bombnanza1.png",
+                "/images/Bombnanza/Bombnanza2.png",
+                "/images/Bombnanza/Bombnanza3.png",
+                "/images/Bombnanza/Bombnanza4.png",
+                "/images/Bombnanza/Bombnanza5.png",
+                "/images/Bombnanza/Bombnanza6.png",
+                "/images/Bombnanza/Bombnanza7.png",
+                "/images/Bombnanza/Bombnanza8.png",
+                "/images/Bombnanza/Bombnanza9.png",
+                "/images/Bombnanza/Bombnanza10.png",
+                "/images/Bombnanza/Bombnanza11.png",
+                "/images/Bombnanza/Bombnanza12.png",
+                "/images/Bombnanza/Bombnanza13.png",
+                "/images/Bombnanza/Bombnanza14.png",
+                "/images/Bombnanza/Bombnanza15.png"
+            ]
+}

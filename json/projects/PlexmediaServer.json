@@ -1,0 +1,77 @@
+{
+    "title": "Plex-Media Server",
+    "status": "Completed",
+    "link": "#",
+    "linkText": "",
+    "linkImage": "",
+    "start": "Jan 2015",
+    "end": "Jan 2015",
+    "event": "n/a",
+    "description": [
+            "As a personal project, I built my own computer from scratch in order to use it as a Plex Media Server. In this computer build, my goal was to keep costs low while building a server fully capable of streaming 1080p HD to multiple devices with no issues. After assembling a parts list and aqcuiring all of the components, I built the system and set it up.",
+            "For this build, I began with fist choosing my motherboard: an ASUS M5A78L-M LX PLUS. At around $40 after rebate, this micro-ATX motherboard was more than capable to meet my requirements and it was cost effective.",
+            "Step two was choosing the CPU. Since the motherboard had an AM3+ CPU socket, I had to get an AMD processor. So I began to look for compatible CPUs that had multiple cores, yet it was cheap. And so I found the AMD FX-6300, a six core CPU that cost around $100 and would be fully capable of dishing out 1080p movies to more than one device.",
+            "Since my core components were now chosen, I went through and found compatible RAM on Crucial.com. With Crucial compatibility guranteed, I found an 8GB Kit (4GBx2) for again around $100. Although 8GB was a little more than I should have needed, I didn't feel comfortable with only 4GB of RAM.",
+            "Now came the 'after-thought' parts of my build. Because this build was only a media server, priority was not on appearance but on cost. This in mind, I searched Amazon until I found the cheapest possible solution: a two in one micro-ATX case and power supply. With about a $40 cost, this was by far the cheapest route I could have taken.",
+            'Because slow USB transfer speeds bother me and this motherboard only supported USB 2.0, I made a cheap investment of $20 for a USB 3.0 PCIe add on card. Beyond this, I made no other costs on my build because I already had some parts, like a 750GB HDD from my Mac. I also had the 2.5" to 3.5" adapter on hand. With everything set, I made my purchases.',
+            'Up until a month later when I purchased a 1TB 3.5" HDD on sale for $45, my build clocked in at around $330 ($375 after the new HDD). And after assembling all of the hardware, which took a few hours, I began setting up the software side.',
+            "I'd planned for this for a while now, so on Virtual Machine's I'd practiced setting up a server. For my build, I went ahead and installed Ubuntu 14.04 x64 server: no problems there. I then proceded to install the basic GNOME interface because while I can use a terminal, I prefer to have a GUI. After my GUI was up and working, I installed TeamViewer so I could control the server without a keyboard and mouse attached. After TeamViewer came the most important part, the reason for the build: Plex. Installing Plex was a breeze; the most time consuming part was all of the settings and configuration, as well as the time to transfer all of my media to the server.",
+            "Eventually I got everything set up and running, and since then I have been able to watch/listen to all my media over the local Ball State network. However, it didn't go quite as planned: of course I ran into a few issues while building this machine. On the hardware, everything went smooth until it came to hooking up the front panel; even with the motherboard guide, it took some trial and error to get all the pins set correctly. Then came the Plex file permissions error. Because of where I placed my media on my server, I had to manually change the file and folder permissions to public. This realization came after an hour of thinking Plex just couldn't find my files. And lastly, Plex itself had some issues; the most recent release version would have random issues where upon reboot, Plex would not be running. Because of this, I am running a version of Plex behind the current version until the bug is fixed.",
+            "After all of these struggles, I can successfully say that I have built my own server, and I get great use out of it. In my opinion, this build was worth more in knowledge than it was money; I learnt so much about computer hardware and assembly, and I learnt more about Linux, the awesome free Operating System. If you're interested in my build, the parts list with links is posted below, so feel free to check it out and maybe even make your own!"
+            ],
+    "images": [
+                "/images/Plex-Server/Plex_server_0.jpg",
+                "/images/Plex-Server/Plex_server_1.jpg",
+                "/images/Plex-Server/Plex_server_2.jpg",
+                "/images/Plex-Server/Plex_server_3.jpg",
+                "/images/Plex-Server/Plex_server_4.jpg",
+                "/images/Plex-Server/Plex_server_5.jpg",
+                "/images/Plex-Server/Plex_server_6.png",
+                "/images/Plex-Server/Plex_server_7.JPG",
+                "/images/Plex-Server/Plex_server_8.JPG",
+                "/images/Plex-Server/Plex_server_9.JPG",
+                "/images/Plex-Server/Plex_server_10.JPG",
+                "/images/Plex-Server/Plex_server_11.JPG",
+                "/images/Plex-Server/Plex_server_12.png",
+                "/images/Plex-Server/Plex_server_13.png",
+                "/images/Plex-Server/Plex_server_14.png",
+                "/images/Plex-Server/Plex_server_15.png",
+                "/images/Plex-Server/Plex_server_16.png",
+                "/images/Plex-Server/Plex_server_17.png",
+                "/images/Plex-Server/Plex_server_18.png",
+                "/images/Plex-Server/Plex_server_19.png",
+                "/images/Plex-Server/Plex_server_20.png",
+                "/images/Plex-Server/Plex_server_21.png",
+                "/images/Plex-Server/Plex_server_22.png"
+            ],
+    "parts": [
+        {
+            "part": "ASUS M5A78L-M LX PLUS AM3+ AMD 760G Micro ATX AMD Motherboard",
+            "link": "http://www.amazon.com/M5A78L-M-LX-PLUS-Micro-Motherboard/dp/B005WUUFBW/ref=sr_1_1?s=electronics&ie=UTF8&qid=1426882372&sr=1-1&keywords=ASUS+M5A78L-M+LX+PLUS+AM3%2B+AMD+760G+Micro+ATX+AMD+Motherboard"
+                },
+        {
+            "part": "AMD FD6300WMHKBOX FX-6300 6-Core Processor Black Edition",
+            "link": "http://www.amazon.com/AMD-FD6300WMHKBOX-FX-6300-6-Core-Processor/dp/B009O7YORK/ref=sr_1_1?s=electronics&ie=UTF8&qid=1426882351&sr=1-1&keywords=AMD+FD6300WMHKBOX+FX-6300+6-Core+Processor+Black+Edition"
+                },
+        {
+            "part": "Crucial RAM 8GB Kit (4GBx2)",
+            "link": "http://www.crucial.com/ProductDisplay?modelCatId=18885&storeId=10151&productId=11432&urlRequestType=Base&langId=-1&externalPartNumber=CT2684790&catalogId=10001"
+                },
+        {
+            "part": "Rosewill Dual Fans MicroATX Mini Tower Computer Case FBM-01",
+            "link": "http://www.amazon.com/Rosewill-MicroATX-Tower-Computer-FBM-01/dp/B005LIDU5S/ref=sr_1_1?s=electronics&ie=UTF8&qid=1426882380&sr=1-1&keywords=Rosewill+Dual+Fans+MicroATX+Mini+Tower+Computer+Case+FBM-01"
+                },
+        {
+            "part": "Anker Uspeed USB 3.0 PCI-E Express Card",
+            "link": "http://www.amazon.com/Anker%C2%AE-Express-Connector-Desktops-Chipset/dp/B005ARQV6U/ref=sr_1_1?s=electronics&ie=UTF8&qid=1426882328&sr=1-1&keywords=Anker%C2%AE+Uspeed+USB+3.0+PCI-E+Express+Card+with+4+USB+3.0+Ports+and+5V+4-Pin+Power+Connector+for+Desktops+[VL805+Chipset]"
+                },
+        {
+            "part": "WD Blue 1TB SATA 6Gb/s 7200rpm Internal Hard Drive",
+            "link": "http://www.amazon.com/Blue-SATA-7200rpm-Internal-Drive/dp/B0088PUEPK/ref=sr_1_1?s=electronics&ie=UTF8&qid=1426882386&sr=1-1&keywords=WD+Blue+1TB+SATA+6Gb%2Fs+7200rpm+Internal+Hard+Drive"
+                },
+        {
+            "part": "Ubuntu 14.04 Server OS",
+            "link": "http://www.ubuntu.com/desktop"
+                }
+            ]
+}

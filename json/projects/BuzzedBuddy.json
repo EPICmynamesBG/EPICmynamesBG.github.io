@@ -1,0 +1,33 @@
+{
+    "title": "Buzzed Buddy",
+    "status": "Completed",
+    "link": "http://devpost.com/software/buzzed-buddy",
+    "linkText": "View on ChallengePost",
+    "linkImage": "/images/SocialMedia/ChallengePost_icon.png",
+    "start": "Feb 27, 2015",
+    "end": "Mar 1, 2015",
+    "event": "HackIllinois 2015",
+    "description": [
+                "Forming a group of 3 students from UIUC and myself, this application is the result of a collaborative effort at HackIllinois 2015. This app was a great learning experience for all of us as it gave them a chance to learn Swift, and myself a chance to improve upon my Swift knowledge.",
+                "With no preconceived idea of what to do, this app idea was a spur of the moment thought. The concept behind this app was that every partying college student needs a friend that can help them A) find food, and B) get home. This in mind, we began to design our app with the notion that it must be simple, and that's what we did.",
+                "After our idea was established, I took charge of our group and layed out exactly what would need to be done since I was the only person with any iOS experience. Because Storyboard's can be challenging to first learn, I took that portion of the project. Beyond that, I separated all of the back-end functions out to our members to complete. I had faith in all of them because Swift is a really easy language to pick up, and they are all very intelligent.",
+                "After many hours of work, I completed the front-end just as the other group member were ready to begin linking to the UI. I have each of them a short tutorial and example on how to link up things to the UI, and with my help, everything got linked up and our app started to look like an actual functioning application.",
+                "From this point, the development really consisted polishing up some of the features, fixing bugs, error catching, and refining the UI and backend to mesh together nicely. I spent a lot of time cleaning up the UI and making sure that every UI update was getting called correctly. During this, we came up with the idea that we should implement a 'Call your Ex' function, just as a joke. As it turned out, it was really easy to implement a button that makes a phone call, so within 2 hours, all of that was set up and working. We also decided to add a few other features, like scrollable text directions below the map view.",
+                "As time was running out, our app suddenly began to face a problem of crashing a lot. Some of the issue had to do with the local bus system API that we used in our app. But othertimes, the app just didn't work well on some of our test devices. And so time ran out, and we were unable to solve the mysterious app crash. The crashes were seemingly sporatic, and they only happend on some of the devices, leaving us to this day unable to really pinpoint the cause.",
+                "We've spoken of coming back to this app and releasing it, and so I believe this Summer we will revisit the app and finish it off. At this point in time, the app idly sits in a private GitHub repository. Upon completion, we may release the code.",
+                "This crash course app development taught us all a lot about iOS and Swift development. After coming back and working on my other iOS apps, I frequently find myself looking a code snippets from the project because there were just so many good, clean implementations of saving settings, network calls, etc. This app was also a great experience for me to really nail iOS Auto-Layout, and creating Storyboards is now easier than ever."
+            ],
+    "images": [
+                "/images/HackIllinois_2015/buzzed-buddy_icon.png",
+                "/images/HackIllinois_2015/buzzed-buddy_launch.png",
+                "/images/HackIllinois_2015/buzzed-buddy_main1.png",
+                "/images/HackIllinois_2015/buzzed-buddy_settings1.png",
+                "/images/HackIllinois_2015/buzzed-buddy_settings2.png",
+                "/images/HackIllinois_2015/buzzed-buddy_main2.png",
+                "/images/HackIllinois_2015/buzzed-buddy_food.png",
+                "/images/HackIllinois_2015/buzzed-buddy_foodChoice.png",
+                "/images/HackIllinois_2015/buzzed-buddy_foodMap.png",
+                "/images/HackIllinois_2015/buzzed-buddy_home.png",
+                "/images/HackIllinois_2015/buzzed-buddy_info.png"
+            ]
+}

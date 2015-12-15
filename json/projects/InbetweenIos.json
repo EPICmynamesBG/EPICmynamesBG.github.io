@@ -1,0 +1,27 @@
+{
+    "title": "InBetween (iOS)",
+    "status": "In Development",
+    "link": "https://github.com/EPICmynamesBG/InBetween_iOS",
+    "linkText": "View on GitHub",
+    "linkImage": "/images/SocialMedia/github-1024-black.png",
+    "start": "Dec 2014",
+    "end": "Present",
+    "event": "n/a",
+    "description": [
+                "Upon completion of InBetween for Android, I felt as though an iOS version should also be released. But with no experience developing for iOS, I was intimidated to begin. Finally, after weeks of debate, I followed an online video tutorial and created a simple app using Swift. From there, it all kept rolling.",
+                "One of the most reassuring things about beginning this app was that fact that all of the back-end code already existed; all that I would have to do is interpret it into Swift. With my experience in the app devlopment process, I also knew that I needed to start with the UI. All of this in mind, I began my smy first struggle not with Storyborads and Auto-Layout, but with XCode and Git. It took me forever to get XCode to push to my repository, and things didn't really get easier from there.",
+                "Designing the UI was super easy because I knew exactly what it needed to look like: the Android version. Designing the UI was also the hardest part because using Auto-Layout and figuring out how to dynamically resize objects to work on all screen sizes was a massive pain. The biggest thing I learnt here was to not be afraid to use many UIViews, either as button containers or even just empty ones to make sure things get properly spaced in all situations.",
+                "Taking a short break from the UI, I began to translate some of the back-end code into Swift. I ran into a few issues along the way dealing with the use of 'static', but I was able to resolve all of those. At this point, all of the simple objects like a Card and Hand are completed. The game logic has yet to come, as does the Deck XML Parser.",
+                "I also decided to add a 4th button to the main screen so that users can view their wins/losses. This itself has created some bugs with the main screen in landscape orientation, and I am currently working out those kinks.",
+                "At this time, the biggest thing I've learned from this app is saving user settings from the settings pane. I thought this would be massively difficult, but it turned out to be super easy, and it's a great feeling of accomplishment knowing that it didn't take and arm and a leg to get those working.",
+            ],
+    "images": [
+                "/images/InBetween_iOS/icon.png",
+                "/images/InBetween_iOS/main.png",
+                "/images/InBetween_iOS/inGame.png",
+                "/images/InBetween_iOS/paused.png",
+                "/images/InBetween_iOS/help.png",
+                "/images/InBetween_iOS/settings.png",
+                "/images/InBetween_iOS/stats.png"
+            ]
+}
