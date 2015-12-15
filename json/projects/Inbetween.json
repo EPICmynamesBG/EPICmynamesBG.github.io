@@ -1,0 +1,31 @@
+{
+    "title": "InBetween",
+    "status": "Published on Google Play Store",
+    "linkText": "",
+    "linkImage": "https://developer.android.com/images/brand/en_generic_rgb_wo_60.png",
+    "link": "https://play.google.com/store/apps/details?id=com.BSU.inbetween",
+    "start": "Sept 2014",
+    "end": "Present",
+    "event": "n/a",
+    "description": [
+            "My first ever released Android application, this app took months of hard work and collaboration to complete. Done as the final project for my Advanced Programming class, myself and 3 other groups memeber went on a long and difficult journey to learn Android and complete an app in under 9 weeks. Every week presented it's challenges, but in the end, we managed to overcome the hurdles and release our app and an update before the 9 weeks was up.",
+            "From day 1, I was the person in our group who took charge. Throughout the project, I was in charge of keeping our group in contact, notifying members when and where we were meeting, and keeping us all on track. In leading the group, I learnt a few things after the first couple weeks, and I began to implement better practices. One of these practices was leading off each group meeting with an agenda: where are we now, what needs to get done by the end of the night, what bugs exist, and similar were generally the first questions I brought up. From there, we would each take a task and begin knocking things off of the list. Some nights we completed everything; other nights we didn't.",
+            "For the first iteration of our project, we had to learn the game In Between. After playing the game a couple times, we all had a grasp of what needed to get done, and we began to draw up a list of objects, classes, and methods that we would probably need. Each week, every person was expected to get an object completed and the code pushed to the school's mercurial server. By the end of the first 2 weeks, we had everything created, and the last part was creating our game rules. For this first iteration, we focused on completing the backend: the game mechanics and objects. We made the game console playable, and although there were a few bugs, it worked fine.",
+            "Iteration 2 began the most difficult part of the process: implementing the Android app. The first iteration was all Java based, no Android needed. For this iteration, we stated that we would have a basic UI completed. With no experience in how Android creates UIs, this was a massive challenge. Because there were other things left to do, I took on the task of creating our UI while I divied up some cleanup and bug fixing work for the others. As I made progress, I would let the other members know, and show them how to map a button or such so that the backend could begin working with the UI. At the end of iteration 2, the UI was very buggy but a user could successfully traverse through our 4 or so views. At this point, some of the in game view was working, but our game was unplayable due to many bug and glitches.",
+            "Iteration 3 turned out to be 3 things: completion, cleanup, and updating. With all of the struggles of Iteration 2, we had finally grasped the workings of Android, and within the fist week, we were able to complete the app. The second week of this iteration consisted of small bug fixes and some code cleanup. At this point, the app was completed. It wasn't beautiful, but it worked exactly as expected, and it didn't crash. Again, I took charge and created a Google account specifically for our app, and I went through the process of putting our app on the Play Store. Within 2 days, the app was live. But we still had about a week left, and I was uncontent with the UI. So, in the last week of the project, I cleaned up the UI, and my other group members went on a massive code purge in which all code was cleaned and simplified. Hours before the projec deadline, we finished all of our updates and pushed the new version to the Play Store. As this update says on the Play Store, there is a polished UI with new card images, a new wait function to see each AI player's move, added tablet and language support, and lastly, the invisible code cleaning.",
+            "Looking back at this project, this is one of the greatest learning experiences I've had. I'm proud of this app for the simple fact that it looks decent and it works. If I had to go back and change one thing, it wouldn't be anything to do with the app: it would be our development process. In starting with the backend, it made a massive mess whenever we transition to integrate it with the UI. This created bugs in the code that had once been fixed. Based on this, I learned that it is easier to start with the front-end (UI), and then do that back-end. Of course, Model-View separation kept in mind, this is in my opinion the best way to develop an application.",
+            "Following this project, I created two other unpublished Android apps for other classes. For these, I started with a UI first design, and the app creation went so much smoother. The code is also public, so go check them out on the projects page!"
+        ],
+    "images": [
+        "/images/InBetween/icon.png",
+        "/images/InBetween/Default/main.png",
+        "/images/InBetween/Default/inGame.png",
+        "/images/InBetween/Default/EN_settings.png",
+        "/images/InBetween/Default/EN_help.png",
+        "/images/InBetween/Default/10in_main.png",
+        "/images/InBetween/Default/EN_10_settings.png",
+        "/images/InBetween/Default/EN_10in_inGame.png",
+        "/images/InBetween/Default/EN_10in_gameOver.png",
+        "/images/InBetween/Default/EN_10in_help.png"
+    ]
+}

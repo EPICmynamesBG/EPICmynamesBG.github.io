@@ -1,0 +1,22 @@
+{
+    "title": "McVerilog",
+    "status": "Incomplete, not in Development",
+    "link": "http://devpost.com/software/mcverilog",
+    "linkText": "View on ChallengePost",
+    "linkImage": "/images/SocialMedia/ChallengePost_icon.png",
+    "start": "Oct 17, 2014",
+    "end": "Oct 19, 2015",
+    "event": "BoilerMake 2014",
+    "description": [
+            "Created at the Boilermake 2014 Hackathon, our group of 4 created a compiler that could convert Verilog low level machine code into Redstone circuits in Minecraft. The project uses a public project known as MCModify as part of the base. Being unfamiliar with this API, I spent most of my time at the hackathon struggling to comprehend it. Thankfully, my friend had spent some time studying it already and was able to help me along.",
+                "The first thing we did at the hackathon was figure out how the code works and what changes in the MineCraft world whenever we upload our modified file. After hours of testing, we were able to figure out what needs to be done. At this point, we broke off into teams of 2: one team worked on the Verilog compiler, and the other worked on the logic gate and circuit creation logic for MineCraft.",
+                "From here, I don't really know what went on in the Verilog compiler world, but in block generation world, we made a lot of awesome progress with immediately noticable results. I was given the task of creating functions that would generate a given logic gate; this meant placing certain blocks in a certain order from a given starting point. It took a lot of time to map all of those out, but I managed to finish it. Meanwhile, my friend was creating an algorithm for collision avoidance. That turned out to be really awesome, and that is why in the screenshots there are massive interwoven loops of blocks. All of this is generated without collision thanks to his algorithm.",
+                "As the hackathon neared its' end, all of us were beaten down my lack of sleep and exhaustion. Disappointingly, we were unable to piece together the last part: connecting the Verilog compiler with the circuit generator. We were able to get the compiler to generate the basic logic gates, but the logic gates weren't connected, so it was completely useless. We were disappointed, but we showed our project off with pride knowing that we had visible progress and were so close to our goal.",
+                "At the final demos, we got a lot of positive feedback on our project, and although we didn't win, we got the equivalent of an honarable mention when winners were being read off. At the end of this event, I felt like I hadn't contributed as much as my peers. I felt ashamed of what I offered to the group; but I held me head high because I had done something. I did contribute. And I was only a first semester sophmore; this was just one more reason to push myself to learn more about software development, and I have done since then to keep learning."
+            ],
+    "images": [
+                "/images/BoilerMake_2014/McVerilog1.png",
+                "/images/BoilerMake_2014/McVerilog2.png",
+                "/images/BoilerMake_2014/McVerilog3.png"
+            ]
+}

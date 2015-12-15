@@ -1,0 +1,20 @@
+{
+    "title": "Augmented Reality Scavenger Hunt",
+    "status": "Incomplete, not in Development",
+    "link": "http://challengepost.com/software/augmented-reality-scavenger-hunt",
+    "linkText": "View on ChallengePost",
+    "linkImage": "/images/SocialMedia/ChallengePost_icon.png",
+    "start": "Apr 11, 2014",
+    "end": "Apr 13, 2014",
+    "event": "HackIllinois 2014",
+    "description": [
+                "Created at HackIllinois 2014, this unfinished app was our groups first experience at both a hackathon and Android. While the app was and remains unfinished, this app served its' purpose in introducing us to Android app development. The app itself was supposed to be an Augmented Virtual Reality Scavenger Hunt in which there would be a map view show hunt location pins placed there by the event admin. For the VR part there was a compass arrow overlay placed on the live camera view. The function of this was to lead the person to the nearest pin without reopening the map view. Because there were only two views, we made use of a 2 tab view controller.",
+                "The most difficult of this project was implementing the Google Maps API. At one point, we even had some Google members sitting with us, helping to implement the API. Eventually, we got it all figured out, and our app finally had some functionability.",
+                "This hacakthon proved to be a great eye opener in multiple ways. First, we learned to come prepared. We didn't have a repository or anything set up before getting there, and with many issues holding us up, we ended up only being able to develop on one computer. Second, we learned that Android is NOT something to try and learn as a crash course in 36 hours. It's just not a good idea as it causes a lot of stress and confusion. Lastly, we learned that hackathons are really awesome, and we couldn't wait to go to the next one and hopefully come up with something a little better than this app."
+            ],
+    "images": [
+                "/images/HackIllinois_2014/hack_illinois_scavenger_2.png",
+                "/images/HackIllinois_2014/hackIllinois2014_1.png",
+                "/images/HackIllinois_2014/hackIllinois2014_2.png"
+            ]
+}

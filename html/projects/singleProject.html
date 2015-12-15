@@ -1,4 +1,4 @@
-<div id="singleProjectContent" lang="en" ng-repeat="project in project">
+<div id="singleProjectContent" lang="en">
     <h1>{{project.title}}</h1>
     <div class="singleProject_carousel">
         <ul rn-carousel rn-carousel-transition="fadeAndSlide" rn-carousel-buffered rn-carousel-auto-slide="3" rn-carousel-controls>
@@ -6,7 +6,7 @@
         </ul>
     </div>
     <a href="{{project.link}}" target="_blank">
-        <img class="singleProjLinkImage" ng-src="{{project.linkImage}}" ng-show={{project.linkImage}}/>
+        <img class="singleProjLinkImage" ng-src="{{project.linkImage}}" ng-if="project.linkImage"/>
         <h4 class="singleProjLinkText" ng-show={{project.linkText}}>{{project.linkText}}</h4>
     </a>
     <span>

@@ -1,0 +1,24 @@
+{
+    "title": "Plants in Space",
+    "status": "Completed, Unpublished",
+    "link": "https://github.com/EPICmynamesBG/Plants-In-Space",
+    "linkText": "View on GitHub",
+    "linkImage": "/images/SocialMedia/github-1024-black.png",
+    "start": "Nov 2014",
+    "end": "Nov 2014",
+    "event": "n/a",
+    "description": [
+                "This app was created for a course on Game Design. In this class, we met up with the Indianapolis Children's Museum and discussed the different displays that would be coming up. One of the displays mentioned was an exhibit on the International Space station; thus, the inspiration for this app came from that. After researching some ISS experiments, I came up with this concept of a simple interactive that would guide children through an experiment. This Android app was a simple way to show how that interactive might look.",
+                "The concept behind this interactive is that plants grow differently with different levels of light and gravity. Using this simple app, users can see that a plant growing on earth without sunlight will hardly grow, while a plant grown in space with no sunlight will still grow a little, but it grows in every direction. Similarly, growing both with sunlight, the one in space grows taller because there is less vertical resistance. This experiment proves that plant growth direction and height is determined both by light and gravity. ",
+                "Being as this app was only a mock up of an interactive, there really wasn't much to this app besides the UI. I spent a good deal of time getting the UI set up properly, but besides that, there are just a few boolean variables in the back-end that determine which plant will be shown at the end of the experiment.",
+                "I creating this app, there was no real learning curve or experience; it simply demonstrated how far I had come since developing InBetween, and how much I had learned over that process. At the beginning of the semester, I would have never imagined throwing together an app in 3 hours.",
+                "This app isn't going to be released to the Play Store, but the code is openly available on GitHub for anybody who wants to test it out."
+            ],
+    "images": [
+                "/images/PlantsInSpace/icon.png",
+                "/images/PlantsInSpace/PiS_main.png",
+                "/images/PlantsInSpace/PiS_Q1.png",
+                "/images/PlantsInSpace/PiS_Q2.png",
+                "/images/PlantsInSpace/PiS_result.png"
+            ]
+}
