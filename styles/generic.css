@@ -107,7 +107,7 @@ body {
 
 #titleBar {
 	/*fallback*/
-	background-color: #4E5E6D;
+	background-color: #425563;
 	width: 100%;
 	/*background-color: #4A4A4A;*/
 	position: relative;
@@ -217,7 +217,7 @@ body {
 /* -------- FOOTER -------- */
 
 footer {
-	background-color: #4E5E6D;
+	background-color: #425563;
 	height: auto;
 	font-family: cursive;
 	font-style: italic;

@@ -1,0 +1,81 @@
+[
+	{
+            "title": "InBetween (iOS)",
+            "status": "In Development",
+            "link": "#",
+            "start": "Dec 2014",
+            "end": "Present",
+            "showEvent": false,
+            "event": "",
+            "description": "Upon completion of InBetween for Android, I felt as though an iOS version should also be released. Thus, I began to study Swift for iOS and have since started creating the remake of InBetween for iOS. The process has been fairly difficult at times, but I am content with the progress I have made so far.",
+            "images": [
+                "/images/InBetween_iOS/icon.png",
+                "/images/InBetween_iOS/main.png",
+                "/images/InBetween_iOS/inGame.png",
+                "/images/InBetween_iOS/paused.png",
+                "/images/InBetween_iOS/help.png",
+                "/images/InBetween_iOS/settings.png",
+                "/images/InBetween_iOS/stats.png"
+            ]
+        },
+        {
+            "title": "McVerilog",
+            "status": "Incomplete, not in Development",
+            "link": "http://devpost.com/software/mcverilog",
+            "start": "Oct 17, 2014",
+            "end": "Oct 19, 2015",
+            "showEvent": true,
+            "event": "BoilerMake 2014",
+            "description": "Created at the Boilermake 2014 Hackathon, our group of 4 created a compiler that could convert Verilog low level machine code into Redstone circuits in Minecraft. The project uses a public project known as MCModify as part of the base. The project is 80% complete at this time and may be revisited in the future to complete and clean. The code is at this time located in a private repository.",
+            "images": [
+                "/images/BoilerMake_2014/McVerilog1.png",
+                "/images/BoilerMake_2014/McVerilog2.png",
+                "/images/BoilerMake_2014/McVerilog3.png"
+            ]
+        }, {
+            "title": "Augmented Reality Scavenger Hunt",
+            "status": "Incomplete, not in Development",
+            "link": "http://challengepost.com/software/augmented-reality-scavenger-hunt",
+            "start": "Apr 11, 2014",
+            "end": "Apr 13, 2014",
+            "showEvent": true,
+            "event": "HackIllinois 2014",
+            "description": "Created at HackIllinois 2014, this unfinished app was our groups first experience at both a hackathon and Android. While the app was and remains unfinished, this app served its' purpose in introducing us to Android app development. the app itself was supposed to be an Augmented Virtual Reality Scavenger Hunt in which there would be a map view show hunt location pins, and the VR part where a virtual compass was overlaid on the screen. The user would have to take a picture at the location to capture that point.",
+            "images": [
+                "/images/HackIllinois_2014/hack_illinois_scavenger_2.png",
+                "/images/HackIllinois_2014/hackIllinois2014_1.png",
+                "/images/HackIllinois_2014/hackIllinois2014_2.png"
+            ]
+        }, {
+            "title": "Code of Knighthood",
+            "status": "Completed",
+            "link": "#",
+            "start": "Dec 2014",
+            "end": "Dec 2014",
+            "showEvent": false,
+            "event": "",
+            "description": "As a final project for an honors class, I decided to make an Android app. In this app, with the help of a classmate, we are simply analyzing and explaining the Code of Knighthood in a Medieval and Modern context. I also experimented with Android Fragment Activities in this app.",
+            "images": [
+                "/images/CodeOfKnighthood/icon.png",
+            "/images/CodeOfKnighthood/CoK_main.png",
+            "/images/CodeOfKnighthood/CoK_inApp.png"
+            ]
+        }, {
+            "title": "Plants in Space",
+            "status": "Completed",
+            "link": "#",
+            "start": "Nov 2014",
+            "end": "Nov 2014",
+            "showEvent": false,
+            "event": "",
+            "description": "This app was created for a course on Game Design. In this class, we met up with the Indianapolis Children's Museum and discussed the different displays that would be coming up. One of the displays mentioned was an exhibit on the International Space station; thus, the inspiration for this app came from that. After researching some ISS experiments, I came up with this concept of a simple interactive that would guide children through an experiment. This Android app was a simple way to show how that interactive might look.",
+            "images": [
+                "/images/PlantsInSpace/icon.png",
+                "/images/PlantsInSpace/PiS_main.png",
+                "/images/PlantsInSpace/PiS_Q1.png",
+                "/images/PlantsInSpace/PiS_Q2.png",
+                "/images/PlantsInSpace/PiS_result.png"
+            ]
+        }
+	
+]
