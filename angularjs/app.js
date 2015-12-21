@@ -17,10 +17,6 @@ app.config(function ($routeProvider, $locationProvider) {
             controller: "OldProjectsController",
             templateUrl: 'html/oldProjects.html'
         })
-        .when('/gallery', {
-            controller: "GalleryController",
-            templateUrl: 'html/gallery.html'
-        })
         .when('/projects/:title', {
             controller: "SingleProjectController",
             templateUrl: 'html/projects/singleProject.html'

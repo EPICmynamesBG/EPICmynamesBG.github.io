@@ -172,7 +172,7 @@ body {
 	cursor: pointer;
 	margin-left: 0;
 	margin-right: 0;
-	width: 32%;
+	width: 49%;
 	min-width: 180px;
 	display: inline-block;
 }
@@ -230,6 +230,7 @@ footer {
 
 footer * {
 	vertical-align: middle;
+	color: white;
 }
 
 #connect {

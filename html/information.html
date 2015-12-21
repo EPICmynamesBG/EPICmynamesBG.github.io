@@ -27,18 +27,18 @@
         <h3>Technical Skills</h3>
         <div class="columns">
             <ul>
-                <li ng-repeat="skill in skills">{{skill}}</li>
+                <li ng-repeat="skill in skills | orderBy: name">{{skill}}</li>
             </ul>
         </div>
         <h3>Interests</h3>
         <div class="columns">
             <ul>
-                <li ng-repeat="interest in interests">{{interest}}</li>
+                <li ng-repeat="interest in interests | orderBy: name">{{interest}}</li>
             </ul>
         </div>
         <h3>Personality Traits</h3>
         <ul class="traits">
-            <li ng-repeat="trait in personalityTraits">{{trait}}</li>
+            <li ng-repeat="trait in personalityTraits | orderBy: name">{{trait}}</li>
         </ul>
     </div>
     <br/>

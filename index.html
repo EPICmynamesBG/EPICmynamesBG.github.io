@@ -2,78 +2,75 @@
 <html ng-app="Main">
 
 <head lang="en">
-    <title>Brandon's Portfolio</title>
-    <link rel=icon href="images/Generic-Folder-Blue-icon.png" />
-    <!-- Meta Tags -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="Content-Language" lang="en" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
-    <meta name="description" content="Personal portfolio and resume of Brandon Groff, CS major at Ball State" />
-    <meta name="keywords" content="Brandon Groff, mynamesbg, portfolio, Ball State, CS, Computer Science, Versailles, OH" />
-    <!-- Stylesheets -->
-    <link rel="stylesheet" type="text/css" href="styles/generic.css" charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="styles/information.css" charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="styles/gallery.css" charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="styles/projects.css" charset="utf-8" />
-    <link rel="stylesheet" type="text/css" href="styles/singleProject.css" charset="utf-8" />
-    <!-- Angular Source Scripts -->
-    <script src="libraries/angular.js"></script>
-    <script src="libraries/angular-route.js"></script>
-    <script src="libraries/angular-touch.js"></script>
-    <!-- Angular Carousel -->
-    <!-- Angular Carousel was not created by me, but is openly availble on GitHub. All credits go to the creator.-->
-    <link rel="stylesheet" type="text/css" href="styles/angular-carousel.css" charset="utf-8" />
-    <script src="angularjs/angular-carousel.js"></script>
-    <script src="angularjs/angular-carousel.min.js"></script>
-    <!-- Angular Scripts -->
-    <script type="text/javascript" src="angularjs/app.js"></script>
-    <script type="text/javascript" src="angularjs/services/JSON.js"></script>
-    <script type="text/javascript" src="angularjs/controllers/GalleryController.js"></script>
-    <script type="text/javascript" src="angularjs/controllers/InfoController.js"></script>
-    <script type="text/javascript" src="angularjs/controllers/NavController.js"></script>
-    <script type="text/javascript" src="angularjs/controllers/ProjectsController.js"></script>
-    <script type="text/javascript" src="angularjs/controllers/OldProjectsController.js"></script>
-    <script type="text/javascript" src="angularjs/controllers/SingleProjectController.js"></script>
-    <script type="text/javascript" src="scripts/googleAnalytics.js"></script>
+	<title>Brandon's Portfolio</title>
+	<link rel=icon href="images/Generic-Folder-Blue-icon.png" />
+	<!-- Meta Tags -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Language" lang="en" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+	<meta name="description" content="Personal portfolio and resume of Brandon Groff, CS major at Ball State" />
+	<meta name="keywords" content="Brandon Groff, mynamesbg, portfolio, Ball State, CS, Computer Science, Versailles, OH" />
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="styles/generic.css" charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="styles/information.css" charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="styles/gallery.css" charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="styles/projects.css" charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="styles/singleProject.css" charset="utf-8" />
+	<!-- Angular Source Scripts -->
+	<script src="libraries/angular.js"></script>
+	<script src="libraries/angular-route.js"></script>
+	<script src="libraries/angular-touch.js"></script>
+	<!-- Angular Carousel -->
+	<!-- Angular Carousel was not created by me, but is openly availble on GitHub. All credits go to the creator.-->
+	<link rel="stylesheet" type="text/css" href="styles/angular-carousel.css" charset="utf-8" />
+	<script src="angularjs/angular-carousel.js"></script>
+	<script src="angularjs/angular-carousel.min.js"></script>
+	<!-- Angular Scripts -->
+	<script type="text/javascript" src="angularjs/app.js"></script>
+	<script type="text/javascript" src="angularjs/services/JSON.js"></script>
+	<script type="text/javascript" src="angularjs/controllers/InfoController.js"></script>
+	<script type="text/javascript" src="angularjs/controllers/NavController.js"></script>
+	<script type="text/javascript" src="angularjs/controllers/ProjectsController.js"></script>
+	<script type="text/javascript" src="angularjs/controllers/OldProjectsController.js"></script>
+	<script type="text/javascript" src="angularjs/controllers/SingleProjectController.js"></script>
+	<script type="text/javascript" src="scripts/googleAnalytics.js"></script>
 </head>
 
 <body>
-    <header ng-controller="NavController">
-        <div id="titleBar">
-            <div class="upper_content">
-                <br/>
-                <img id="logo" src="images/logo1@3x.png" srcset="images/logo1.png 200w, images/logo1@2x.png 400w" ng-click="homeClick()" />
-                <img id="headshot" src="images/headshot_crop@3x.jpg" srcset="images/headshot_crop.jpg 200w, images/headshot_crop@2x.jpg 400w" />
-            </div>
-            <div id="navBar">
-                <ul class="navigation">
-                    <li><a class="navBar_item first" title="Information" ng-click="infoClick()" ng-class="'Information' == current ? 'currentPage': ''">Information</a>
-                    </li>
-                    <li><a class="navBar_item" title="Projects" ng-click="projectClick()" ng-class="'Projects' == current ? 'currentPage': ''">Projects</a>
-                    </li>
-                    <li><a class="navBar_item last" title="Gallery" ng-click="galleryClick()" ng-class="'Gallery' == current ? 'currentPage': ''">Gallery</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </header>
-    <ng-view>
+	<header ng-controller="NavController">
+		<div id="titleBar">
+			<div class="upper_content">
+				<br/>
+				<img id="logo" src="images/logo1@3x.png" srcset="images/logo1.png 200w, images/logo1@2x.png 400w" ng-click="homeClick()" />
+				<img id="headshot" src="images/headshot_crop@3x.jpg" srcset="images/headshot_crop.jpg 200w, images/headshot_crop@2x.jpg 400w" />
+			</div>
+			<div id="navBar">
+				<ul class="navigation">
+					<li><a class="navBar_item first" title="Information" ng-click="infoClick()" ng-class="'Information' == current ? 'currentPage': ''">Information</a>
+					</li>
+					<li><a class="navBar_item last" title="Projects" ng-click="projectClick()" ng-class="'Projects' == current ? 'currentPage': ''">Projects</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<ng-view>
 
-    </ng-view>
+	</ng-view>
 </body>
 <footer>
-    <p id="resume"><a href="files/BrandonGroff.pdf">Download My Resume</a>
-    </p>
-    <span id="connect">
+	<p id="resume"><a href="files/BrandonGroff.pdf">Download My Resume</a>
+	</p>
+	<span id="connect">
             <a href="https://www.linkedin.com/pub/brandon-groff/93/58/6a2/en" target="_blank"><img src="images/SocialMedia/linkedIn.png"/></a>
             <a href="https://github.com/EPICmynamesBG" target="_blank"><img src="images/SocialMedia/github-1024-black.png"/></a>
             <a href="http://devpost.com/EPICmynamesbg" target="_blank"><img src="images/SocialMedia/devpost_logo.svg"/></a>
             <a href="https://www.facebook.com/brandon.groff.58" target="_blank"><img src="images/SocialMedia/facebook-icon.png"/></a>
             <a href="https://twitter.com/EPICmynamesbg" target="_blank"><img src="images/SocialMedia/Twitter_logo.png"/></a>
         </span>
-    <p id="copyright">Content and Design Copyright Brandon Groff 2015 &#169</p>
+	<p id="copyright">Content and Design Copyright Brandon Groff 2015 &#169</p>
 </footer>
 
 </html>

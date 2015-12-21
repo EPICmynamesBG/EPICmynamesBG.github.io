@@ -1,5 +1,44 @@
     [
         {
+            "title": "Asteroid Blaster",
+            "status": "Completed, Unpublished",
+            "link": "https://github.com/EPICmynamesBG/Asteroid-Blaster",
+            "start": "Dec 2015",
+            "end": "Dec 2015",
+            "showEvent": false,
+            "event": "",
+            "description": "Asteroid Blaster is a simple iOS game create for my course on mobile application development. It was written using Swift 2.0 using SpriteKit. For this app, the course objectives stated that the game must have a 30 second timer, a score tracker, and that the actual gameplay should include tapping to fire an object from the bottom of the screen to a falling object.",
+            "images": [
+				"/images/AsteroidBlaster/AsteroidBlaster_icon.png",
+                "/images/AsteroidBlaster/AsteroidBlaster_start.png",
+				"/images/AsteroidBlaster/AsteroidBlaster_game1.png",
+				"/images/AsteroidBlaster/AsteroidBlaster_game2.png",
+				"/images/AsteroidBlaster/AsteroidBlaster_pause.png",
+				"/images/AsteroidBlaster/AsteroidBlaster_game3.png",
+				"/images/AsteroidBlaster/AsteroidBlaster_gameover.png"
+            ]
+        }, {
+            "title": "Simple Student DB",
+            "status": "Completed, Unpublished",
+            "link": "https://github.com/EPICmynamesBG/CS320.Assignment4",
+            "start": "Nov 2, 2015",
+            "end": "Nov 8, 2015",
+            "showEvent": false,
+            "event": "n/a",
+            "description": "Simple Student DB is an application made for my mobile applications development course. The requirements were relatively simple: create an application that can interact with an on campus database of students. Essentially, the app had to be able to view, edit, create, and delete a student. However, I used this application as a way to further my knowledge and push myself. From this, I created not just a simple app, but an elegant, well-themed app with an added watch application and the ability to do background fetching and generate updates.",
+            "images": [
+				"/images/SimpleStudentDB/SimpleStudentDB_watch1.png",
+				"/images/SimpleStudentDB/SimpleStudentDB_watch2.png",
+				"/images/SimpleStudentDB/SimpleStudentDB_watch3.png",
+				"/images/SimpleStudentDB/SimpleStudentDB_watch4.png",
+                "/images/SimpleStudentDB/SimpleStudentDB1.png",
+				"/images/SimpleStudentDB/SimpleStudentDB2.png",
+				"/images/SimpleStudentDB/SimpleStudentDB3.png",
+				"/images/SimpleStudentDB/SimpleStudentDB4.png",
+				"/images/SimpleStudentDB/SimpleStudentDB5.png"
+				
+            ]
+        },	{
             "title": "InBetween",
             "status": "Published on Google Play Store",
             "link": "https://play.google.com/store/apps/details?id=com.BSU.inbetween",
@@ -32,23 +71,6 @@
             "images": [
                 "/images/BoilerMake_2015/PumpkinPromo.jpg",
                 "/images/BoilerMake_2015/pumpkinSelfies.png"
-            ]
-        }, {
-            "title": "Asteroid Blaster",
-            "status": "Completed",
-            "link": "https://github.com/EPICmynamesBG/Asteroid-Blaster",
-            "start": "Dec 2015",
-            "end": "Dec 2015",
-            "showEvent": false,
-            "event": "",
-            "description": "Asteroid Blaster is a simple iOS game create for my course on mobile application development. It was written using Swift 2.0 using SpriteKit. For this app, the course objectives stated that the game must have a 30 second timer, a score tracker, and that the actual gameplay should include tapping to fire an object from the bottom of the screen to a falling object.",
-            "images": [
-                "/images/AsteroidBlaster/AsteroidBlaster_start.png",
-				"/images/AsteroidBlaster/AsteroidBlaster_game1.png",
-				"/images/AsteroidBlaster/AsteroidBlaster_game2.png",
-				"/images/AsteroidBlaster/AsteroidBlaster_pause.png",
-				"/images/AsteroidBlaster/AsteroidBlaster_game3.png",
-				"/images/AsteroidBlaster/AsteroidBlaster_gameover.png"
             ]
         }, {
             "title": "Bombnanza",

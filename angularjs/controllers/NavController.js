@@ -4,9 +4,7 @@ app.controller("NavController", function ($scope, $location, $route) {
 	
 	var updateCurrent = function(){
 		var route = $location.$$path;
-		if (route == "/gallery"){
-			$scope.current = "Gallery";
-		} else if (route == "/information"){
+		if (route == "/information"){
 			$scope.current = "Information";
 		} else if (route == "/projects" || route == "/"){
 			$scope.current = "Projects"
@@ -22,11 +20,6 @@ app.controller("NavController", function ($scope, $location, $route) {
 
     $scope.projectClick = function () {
         $location.path("/projects");
-		updateCurrent();
-    };
-
-    $scope.galleryClick = function () {
-        $location.path("/gallery");
 		updateCurrent();
     };
 
