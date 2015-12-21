@@ -21,6 +21,36 @@
              "/images/InBetween/Default/EN_10in_help.png"
          ]
         }, {
+            "title": "Hack-o-lantern",
+            "status": "Completed",
+            "link": "http://devpost.com/software/trick-or-tweet",
+            "start": "Oct 16, 2015",
+            "end": "Oct 18, 2015",
+            "showEvent": true,
+            "event": "BoilerMake 2015",
+            "description": "Created during the BoilerMake 2015 hackathon, our group wanted to do something in the spirit of Halloween. Inspired by some ideas we saw online, we decided we wanted to use capacitive touch to make our pumpkin do something. With a Pumpkin, a Raspberry Pi, and a camera module, we set out to make the first Jack-o-lantern that would live tweet a selfie on touch.",
+            "images": [
+                "/images/BoilerMake_2015/PumpkinPromo.jpg",
+                "/images/BoilerMake_2015/pumpkinSelfies.png"
+            ]
+        }, {
+            "title": "Asteroid Blaster",
+            "status": "Completed",
+            "link": "https://github.com/EPICmynamesBG/Asteroid-Blaster",
+            "start": "Dec 2015",
+            "end": "Dec 2015",
+            "showEvent": false,
+            "event": "",
+            "description": "Asteroid Blaster is a simple iOS game create for my course on mobile application development. It was written using Swift 2.0 using SpriteKit. For this app, the course objectives stated that the game must have a 30 second timer, a score tracker, and that the actual gameplay should include tapping to fire an object from the bottom of the screen to a falling object.",
+            "images": [
+                "/images/AsteroidBlaster/AsteroidBlaster_start.png",
+				"/images/AsteroidBlaster/AsteroidBlaster_game1.png",
+				"/images/AsteroidBlaster/AsteroidBlaster_game2.png",
+				"/images/AsteroidBlaster/AsteroidBlaster_pause.png",
+				"/images/AsteroidBlaster/AsteroidBlaster_game3.png",
+				"/images/AsteroidBlaster/AsteroidBlaster_gameover.png"
+            ]
+        }, {
             "title": "Bombnanza",
             "status": "Completed",
             "link": "https://github.com/EPICmynamesBG/Bombnanza",
@@ -46,20 +76,6 @@
                 "/images/Bombnanza/Bombnanza13.png",
                 "/images/Bombnanza/Bombnanza14.png",
                 "/images/Bombnanza/Bombnanza15.png"
-            ]
-        },
-        {
-            "title": "Hack-o-lantern",
-            "status": "Completed",
-            "link": "http://devpost.com/software/trick-or-tweet",
-            "start": "Oct 16, 2015",
-            "end": "Oct 18, 2015",
-            "showEvent": true,
-            "event": "BoilerMake 2015",
-            "description": "Created during the BoilerMake 2015 hackathon, our group wanted to do something in the spirit of Halloween. Inspired by some ideas we saw online, we decided we wanted to use capacitive touch to make our pumpkin do something. With a Pumpkin, a Raspberry Pi, and a camera module, we set out to make the first Jack-o-lantern that would live tweet a selfie on touch.",
-            "images": [
-                "/images/BoilerMake_2015/PumpkinPromo.jpg",
-                "/images/BoilerMake_2015/pumpkinSelfies.png"
             ]
         }, {
             "title": "Buzzed Buddy",
