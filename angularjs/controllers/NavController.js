@@ -6,11 +6,9 @@ app.controller("NavController", function ($scope, $location, $route) {
 		var route = $location.$$path;
 		if (route == "/information"){
 			$scope.current = "Information";
-		} else if (route == "/projects" || route == "/"){
+		} else{
 			$scope.current = "Projects"
-		} else {
-			$scope.current = "";
-		}
+		} 
 	};
 	
     $scope.infoClick = function () {

@@ -5,12 +5,22 @@
 	"linkText": "View on GitHub",
 	"linkImage": "/images/SocialMedia/github-1024-black.png",
 	"start": "Dec 8, 2015",
-	"end": "Dec 10, 2015",
+	"end": "Version 1: Dec 10, 2015",
 	"event": "n/a",
 	"description": [
-                ""
+                "SKButton is a project/add-on for developers using the iOS SpriteKit. In my experience developing with SpriteKit, I realized that there was no simple Button. Based on this, I decided to make my own implementation of a button that would act exactly like the SpriteKitNode and Label objects, with some similarities and added features like that of a regular UIButton. And thus, my SKButton came into existence. It is a single .Swift file that can simply be copied/imported into any iOS Swift app, and even comes with full documentation.",
+				"SKButton is technically an SKNode object made up of 3 SKSpriteNodes and a SKLabelNode on top. How it works is generally, there is a default color or image that is the button. On tap, this SKSpriteNode is hidden and the one with a darker color or other image is shown. On release, the switch happens again, except back to default. The third SKSpriteNode is the semi-transparent tint color, which by default is clear. And of course, the text is a part of the SKLabelNode that is on top.",
+				"SKButton is open-source and available for everyone to use under the MIT License. In the GitHub repository are 4 demo projects to help users get acquianted with the usage of the SKButton. The SKButton class is also 100% documented, as well as supplied with a README that documents and notes many of the uses for the SKButton. There is also a Wiki in progress for the SKButton.",
+				"Besides the simple SKButton, there are actually a few other smaller classes and structs within the SKButton.swift file that the user and SKButton class can/do use. Most importantly is the SKButtonDelegate which allows users to get notified when a button is touched. Without this, the SKButton is nothing but a block of color on the screen. Another usable class is the SKButtonPosition class, a static class that makes it easy to position a button on the screen with or without a margin. Behind the scene, there is also a Device struct (used for getting the device screen size and ratio), a SKButtonDefaults struct (for all the SKButton default settings), and a UIColor extension (used to accurately darken and tint the button).",
+				"This project took a number of long hours to complete, and is under continual development for the sake of improvements, bug fixes, and feature additions. Of course, one feature I expect will be requested is that the SKButton be implemented in Objective-C, something I am capable of but do not see the need to do until I have heard from users. Lastly, I can only hope that my project will one day inspire Apple to include an SKButtonNode in SpriteKit so that developers will have even easier access to the power of buttons."
             ],
 	"images": [
-				""
+				"/images/SKButton/SKButton_1.png",
+				"/images/SKButton/SKButton_2.png",
+				"/images/SKButton/SKButton_3.png",
+				"/images/SKButton/SKButton_4.png",
+				"/images/SKButton/SKButton_5.png",
+				"/images/SKButton/SKButton_6.png",
+				"/images/SKButton/SKButton_7.png"
             ]
 }

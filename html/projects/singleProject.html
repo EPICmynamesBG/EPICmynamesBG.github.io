@@ -1,13 +1,13 @@
 <div id="singleProjectContent" lang="en">
     <h1>{{project.title}}</h1>
     <div class="singleProject_carousel">
-        <ul rn-carousel rn-carousel-transition="fadeAndSlide" rn-carousel-buffered rn-carousel-auto-slide="5" rn-carousel-controls>
+        <ul rn-carousel rn-carousel-transition="fadeAndSlide" rn-carousel-buffered rn-carousel-auto-slide="5" rn-carousel-pause-on-hover rn-carousel-controls>
             <li ng-repeat="image in project.images"><img alt="Loading..." ng-src="{{image}}"/></li>
         </ul>
     </div>
     <a href="{{project.link}}" target="_blank">
         <img class="singleProjLinkImage" ng-src="{{project.linkImage}}" ng-if="project.linkImage"/>
-        <h4 class="singleProjLinkText" ng-show={{project.linkText}}>{{project.linkText}}</h4>
+        <h4 class="singleProjLinkText" ng-if=project.linkText>{{project.linkText}}</h4>
     </a>
     <span>
         <h3>{{project.status}}</h3>

@@ -1,0 +1,22 @@
+{
+	"title": "Charlie Eats Worms",
+	"status": "Completed",
+	"link": "http://apso.bsu.edu/2015/charlie_cardinal_web/mutt_mwc_remake/",
+	"linkText": "Play in Browser",
+	"linkImage": "",
+	"start": "August 2015",
+	"end": "October 2015",
+	"event": "Project at the Digital Corps",
+	"description": [
+                "Charlie Eats Worms is a game developed for the custom 70in touchscreen located just outside the Digital Corps at Ball State University. The objectives of this game were simple: create something simple, quick, and Ball State themed. Charlie Eats Worms is a simple game where users tap the flying worms (opponent MAC schools) and Charlie Cardinal eats them. The game gets harder over time, and there is a local highscore system in place so everyone that plays at the big touchscreen can see how their score compares.",
+				"Charlies Eats Worms is based off an open-source game that we found online. The game has been modified and reskinned from the original version. This game is powered using PhaserJS, a JavaScript game framework. After all of the work I did to create this game (with the help of another developer and designers), I would just like to note that while Phaser made game development simple, I do not think that it is a practical use framework, and as a game engine, it has flaws. The biggest issue we found with is was it required OpenGL to run well and no matter what was happening on screen, it was always refreshing at 60fps, causing a lag issue on some browsers and lesser devices.",
+				"A web playable version of Charlie Eats Worms is linked above. The game is a little slower paced than the full touch screen version, but it is nonetheless the same game and enjoyable."
+            ],
+	"images": [
+		"/images/CharlieEatsWorms/Charlie_1.png",
+		"/images/CharlieEatsWorms/Charlie_2.png",
+		"/images/CharlieEatsWorms/Charlie_3.png", 
+		"/images/CharlieEatsWorms/Charlie_4.png",
+		"/images/CharlieEatsWorms/Charlie_5.png"
+            ]
+}
