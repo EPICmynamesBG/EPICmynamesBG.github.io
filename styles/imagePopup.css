@@ -1,0 +1,84 @@
+.imagePopup {
+	display: block;
+	position: fixed;
+	padding: 5px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	height: 100%;
+	border-radius: 4px;
+	background-color: rgba(33, 33, 33, 0.5);
+}
+
+.relFrame {
+	position: relative;
+	display: block;
+}
+
+.top {
+	height: 2%;
+	min-height: 20px;
+	width: 100%;
+}
+
+.bottom {
+	height: 96%;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+}
+
+.closePopup {
+	position: absolute;
+	margin: auto;
+	right: 12px;
+	top: 12px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 28px;
+	cursor: pointer;
+	border: 1px solid black;
+	border-radius: 4px;
+	box-sizing: border-box;
+	background-image: linear-gradient(rgba(252, 18, 72, 0.75), rgba(242, 8, 62, 0.75));
+	z-index: 10;
+}
+
+.closePopup:hover {
+	background-image: linear-gradient(rgba(252, 18, 72, 1.0), rgba(242, 8, 62, 1.0));
+}
+
+.closePopup:active {
+	background-image: linear-gradient(rgba(252, 18, 72, 0.5), rgba(242, 8, 62, 0.5));
+}
+
+.popupImage {
+	vertical-align: baseline;
+	max-height: 100%;
+	max-width: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.fade.ng-hide {
+  opacity: 0;
+}
+
+.fade.ng-hide-remove,
+.fade.ng-hide-add {
+  display: block !important;
+}
+
+.fade.ng-hide-remove {
+  transition: all linear 250ms;
+}
+
+.fade.ng-hide-add {
+  transition: all linear 375ms;
+}

@@ -1,4 +1,4 @@
-var app = angular.module("Main", ['ngRoute', 'angular-carousel']);
+var app = angular.module("Main", ['ngRoute', 'angular-carousel','ngAnimate']);
 
 app.config(function ($routeProvider, $locationProvider) {
     $routeProvider
@@ -13,9 +13,9 @@ app.config(function ($routeProvider, $locationProvider) {
             controller: "ProjectsController",
             templateUrl: 'html/projects.html'
         })
-        .when('/gallery', {
-            controller: "GalleryController",
-            templateUrl: 'html/gallery.html'
+		.when('/old-projects', {
+            controller: "OldProjectsController",
+            templateUrl: 'html/oldProjects.html'
         })
         .when('/projects/:title', {
             controller: "SingleProjectController",

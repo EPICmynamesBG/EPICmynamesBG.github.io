@@ -1,0 +1,26 @@
+{
+	"title": "Asteroid Blaster",
+	"status": "Completed, Unpublished",
+	"link": "https://github.com/EPICmynamesBG/Asteroid-Blaster",
+	"linkText": "View on GitHub",
+	"linkImage": "/images/SocialMedia/github-1024-black.png",
+	"start": "Nov 29, 2015",
+	"end": "Dec 10, 2015",
+	"event": "n/a",
+	"description": [
+                "Asteroid Blaster is a simple iOS game create for my course on mobile application development. It was written using Swift 2.0 using SpriteKit. For this app, the course objectives stated that the game must have a 30 second timer, a score tracker, and that the actual gameplay should include tapping to fire an object from the bottom of the screen to a falling object.",
+			"While this app could have been much simpler, I decided that I wanted something that would look like it could be released. This being said, I took the time to find/create good graphics and create animations and movement as necessary. I do not claim the rights to any of the images used in the app; I found them and used them simply for educational purposes.",
+			"As far as app functionality is concerned, the app has a few simple features. In the start menu is a simple button to start the game, a button which I custom designed and later released a fuller version of online (see the SKButton project). In that actual game, it's 30 seconds of tap to shoot the falling asteroids. There's no pnealty for missing, but the goal is to shoot as many as possible for a high score. Finally, on the game over screen, the player's score is displayed, along with a high score banner is a new high score is set. At the bottom left of every screen, the current high score is displayed. And lastly, there is a replay button on the game over screen to play the game again.",
+		"Something that was not required but that I implemented was the high score system, which simply uses the NSUserDefaults to save the high score. Another added feature was game pausing/resuming and automatic game pausing on app close. This took some time to figure out, but I was able to successfully implement it, and I am pleased with the result.",
+		"All of the code for this app is available on GitHub. I love helping people learn, so I encourage everyone interested in using SpriteKit to look at my project as an example for when trying to do anything like buttons, collision handling, and animations in SpriteKit."
+            ],
+	"images": [
+				"/images/AsteroidBlaster/AsteroidBlaster_icon.png",
+                "/images/AsteroidBlaster/AsteroidBlaster_start.png",
+				"/images/AsteroidBlaster/AsteroidBlaster_game1.png",
+				"/images/AsteroidBlaster/AsteroidBlaster_game2.png",
+				"/images/AsteroidBlaster/AsteroidBlaster_pause.png",
+				"/images/AsteroidBlaster/AsteroidBlaster_game3.png",
+				"/images/AsteroidBlaster/AsteroidBlaster_gameover.png"
+            ]
+}

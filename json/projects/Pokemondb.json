@@ -1,0 +1,35 @@
+{
+	"title": "PokemonDB",
+	"status": "Completed, Available on GitHub",
+	"link": "https://github.com/EPICmynamesBG/PokemonDB",
+	"linkText": "View on GitHub",
+	"linkImage": "/images/SocialMedia/github-1024-black.png",
+	"start": "Nov 15, 2015",
+	"end": "Dec 22, 2015",
+	"event": "n/a",
+	"description": [
+                "PokemonDB is a simple web application made by myself and 2 classmates in a Databases course. The course objectives were fairly simple and allowed us to do about anything, so we chose to do Pokemon (just the original 151). After many creations and edits to our database, we decided it was ready to create a user interface. The end result was a nifty, scalable UI that was editable by users.",
+				"As noted on the site, Pokemon and PokemonDB are not an original idea by us. The images and parts of the theme used in the site are also not original ideas by us. Our code is available online as a way for us to demonstrate our skills as well as for others to learn how the technologies we used work.",
+				"The original PokemonDB was set up on my RaspberryPi 2. We used a mySQL Database, the Slim PHP framework to interact with it, and Angular.js to create a simple yet multi-purpose front-end. All of the CSS for the site was my doing, which is the main reason it is flexible to all devices. I believe all sites should be mobile friendly in this day of age. But as for how this works, much of the CSS uses display flex, with the exception of the Pokedex page which uses a custom inline-block scaling I created.",
+				"While I cannot at this time provide a working demo of the site for users to visit, I encourage those interested to look at the screenshots and maybe even follow the guide I provide on the GitHub repository to set it up on a local machine and play with the site."
+            ],
+	"images": [
+		"/images/PokemonDB/PokemonDB_1.png",
+		"/images/PokemonDB/PokemonDB_2.png",
+		"/images/PokemonDB/PokemonDB_3.png",
+		"/images/PokemonDB/PokemonDB_4.png",
+		"/images/PokemonDB/PokemonDB_5.png",
+		"/images/PokemonDB/PokemonDB_6.png",
+		"/images/PokemonDB/PokemonDB_7.png",
+		"/images/PokemonDB/PokemonDB_8.png",
+		"/images/PokemonDB/PokemonDB_9.png",
+		"/images/PokemonDB/PokemonDB_10.png",
+		"/images/PokemonDB/PokemonDB_11.png",
+		"/images/PokemonDB/PokemonDB_12.png",
+		"/images/PokemonDB/PokemonDB_13.png",
+		"/images/PokemonDB/PokemonDB_14.png",
+		"/images/PokemonDB/PokemonDB_15.png",
+		"/images/PokemonDB/PokemonDB_16.png"
+		
+            ]
+}

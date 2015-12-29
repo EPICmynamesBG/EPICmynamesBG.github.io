@@ -1,4 +1,7 @@
 <div id="content" lang="en">
+   <center>
+   	<h2>Old Projects</h2>
+   </center>
     <div class="project" ng-repeat="project in projects">
         <h2 ng-click="singleProjectClick(project.title)">{{project.title}}</h2>
         <div class="line"></div>
@@ -15,7 +18,7 @@
         </div>
     </div>
     <div class="oldProjectBlock">
-    	<p ng-click="viewOldProjects()">View older projects</p>
+    	<p ng-click="viewNewerProjects()">View newer projects</p>
     </div>
 </div>
 <div class="imagePopup fade" ng-show="showPopup">

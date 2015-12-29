@@ -1,10 +1,19 @@
 [
     {
+        "title": "Development Team Specialist",
+        "company": "the Digital Corps",
+        "location": "Ball State University, Muncie, IN",
+        "start": "January 2015",
+        "end": "Present",
+        "contact": "Brian O'Conner",
+        "contactEmail": "bpoconner.bsu@gmail.com",
+        "description": "As a Specialist at the Digital Corps, I am now considered a skilled member of the group. My duties include moderate to advanced application development as well as assisting others as needed or requested. I am still expected to work well in a team as well as communicate with others on projects that I am actively working on."
+    }, {
         "title": "Development Team Apprentice",
         "company": "the Digital Corps",
         "location": "Ball State University, Muncie, IN",
         "start": "August 2015",
-        "end": "Present",
+        "end": "January 2015",
         "contact": "Brian O'Conner",
         "contactEmail": "bpoconner.bsu@gmail.com",
         "description": "As a second semester developer Apprentice, it is my job to begin applying my skills. While I will still be learning, I will now be focusing on project work that comes into the Digital Corps. As a project team member, I will be assigned development tasks that will need completed in a timely manor and communicate with others on the project team."

@@ -1,13 +1,13 @@
 <div id="singleProjectContent" lang="en">
     <h1>{{project.title}}</h1>
     <div class="singleProject_carousel">
-        <ul rn-carousel rn-carousel-transition="fadeAndSlide" rn-carousel-buffered rn-carousel-auto-slide="3" rn-carousel-controls>
-            <li ng-repeat="image in project.images"><img alt="Loading..." ng-src="{{image}}"/></li>
+        <ul rn-carousel rn-carousel-transition="fadeAndSlide" rn-carousel-buffered rn-carousel-auto-slide="5" rn-carousel-pause-on-hover rn-carousel-controls>
+            <li ng-repeat="image in project.images"><img alt="Loading..." ng-src="{{image}}" ng-click="showImagePopup(image)"/></li>
         </ul>
     </div>
     <a href="{{project.link}}" target="_blank">
         <img class="singleProjLinkImage" ng-src="{{project.linkImage}}" ng-if="project.linkImage"/>
-        <h4 class="singleProjLinkText" ng-show={{project.linkText}}>{{project.linkText}}</h4>
+        <h4 class="singleProjLinkText" ng-if=project.linkText>{{project.linkText}}</h4>
     </a>
     <span>
         <h3>{{project.status}}</h3>
@@ -18,4 +18,12 @@
     <li class="partList" ng-show={{project.parts}} ng-repeat="part in project.parts">
         <a href="{{part.link}}" target="_blank"><h5>{{part.part}}</h5></a>
     </li>
+</div>
+<div class="imagePopup fade" ng-show="showPopup">
+	<div class="relFrame top">
+		<div class="closePopup" ng-click="showPopup=false;">X</div>
+	</div>
+	<div class="relFrame bottom">
+		<img class="popupImage" ng-src="{{popupImage}}" alt="popupImage" ng-if="popupImage"/>
+	</div>
 </div>

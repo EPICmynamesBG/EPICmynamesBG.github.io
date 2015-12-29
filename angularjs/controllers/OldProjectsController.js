@@ -1,4 +1,4 @@
-app.controller("ProjectsController", function ($scope, $location, $json) {
+app.controller("OldProjectsController", function ($scope, $location, $json) {
 
     $scope.showPopup = false;
 	$scope.popupImage = null;
@@ -13,13 +13,13 @@ app.controller("ProjectsController", function ($scope, $location, $json) {
         $location.path("/projects/" + title);
     };
 	
-	$scope.viewOldProjects = function() {
-		$location.path("/old-projects/");
+	$scope.viewNewerProjects = function() {
+		$location.path("/projects");
 	};
 
     $scope.projects = [];
 
-    $json.loadFile("projects.json")
+    $json.loadFile("oldProjects.json")
         .then(function successCallback(response) {
             $scope.projects = response.data;
         }, function errorCallback(response) {

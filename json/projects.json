@@ -1,14 +1,115 @@
     [
-        {
-            "title": "InBetween",
-            "status": "Published on Google Play Store",
-            "link": "https://play.google.com/store/apps/details?id=com.BSU.inbetween",
-            "start": "Sept 2014",
-            "end": "Present",
-            "showEvent": false,
-            "event": "",
-            "description": "In Between is a simple card game that is relatively unfound on app stores. For our group's final project in CS222 (Advanced Programming), we are creating an Android app of this game. Under my direction, we consistently met and achieved goals that brought us closer to having a final product. On 11/22/2014, version 1 of the app was released worldwide on the Google Play store. The current version is 1.1.1.",
-            "images": [
+    	{
+    		"title": "SKButton",
+    		"status": "Completed, Published on GitHub",
+    		"link": "https://github.com/EPICmynamesBG/SKButton",
+    		"start": "Dec 8, 2015",
+    		"end": "Version 1: Dec 10, 2015",
+    		"showEvent": false,
+    		"event": "n/a",
+    		"description": "SKButton is a project/add-on for developers using the iOS SpriteKit. In my experience developing with SpriteKit, I realized that there was no simple Button. Based on this, I decided to make my own implementation of a button that would act exactly like the SpriteKitNode and Label objects, with some similarities and added features like that of a regular UIButton. And thus, my SKButton came into existence. It is a single .Swift file that can simply be copied/imported into any iOS Swift app, and even comes with full documentation.",
+    		"images": [
+				"/images/SKButton/SKButton_1.png",
+				"/images/SKButton/SKButton_2.png",
+				"/images/SKButton/SKButton_3.png",
+				"/images/SKButton/SKButton_4.png",
+				"/images/SKButton/SKButton_5.png",
+				"/images/SKButton/SKButton_6.png",
+				"/images/SKButton/SKButton_7.png"
+            ]
+        }, {
+    		"title": "Asteroid Blaster",
+    		"status": "Completed, Unpublished",
+    		"link": "https://github.com/EPICmynamesBG/Asteroid-Blaster",
+    		"start": "Dec 2015",
+    		"end": "Dec 2015",
+    		"showEvent": false,
+    		"event": "",
+    		"description": "Asteroid Blaster is a simple iOS game create for my course on mobile application development. It was written using Swift 2.0 using SpriteKit. For this app, the course objectives stated that the game must have a 30 second timer, a score tracker, and that the actual gameplay should include tapping to fire an object from the bottom of the screen to a falling object.",
+    		"images": [
+				"/images/AsteroidBlaster/AsteroidBlaster_icon.png",
+                "/images/AsteroidBlaster/AsteroidBlaster_start.png",
+				"/images/AsteroidBlaster/AsteroidBlaster_game1.png",
+				"/images/AsteroidBlaster/AsteroidBlaster_game2.png",
+				"/images/AsteroidBlaster/AsteroidBlaster_pause.png",
+				"/images/AsteroidBlaster/AsteroidBlaster_game3.png",
+				"/images/AsteroidBlaster/AsteroidBlaster_gameover.png"
+            ]
+        }, {
+    		"title": "PokemonDB",
+    		"status": "Completed, Available on GitHub",
+    		"link": "https://github.com/EPICmynamesBG/PokemonDB",
+    		"start": "Nov 15, 2015",
+    		"end": "Dev 22, 2015",
+    		"showEvent": false,
+    		"event": "n/a",
+    		"description": "PokemonDB is a simple web application made by myself and 2 classmates in a Databases course. The course objectives were fairly simple and allowed us to do about anything, so we chose to do Pokemon (just the original 151). After many creations and edits to our database, we decided it was ready to create a user interface. The end result was a nifty, scalable UI that was editable by users.",
+    		"images": [
+				"/images/PokemonDB/PokemonDB_1.png",
+				"/images/PokemonDB/PokemonDB_2.png",
+				"/images/PokemonDB/PokemonDB_3.png",
+				"/images/PokemonDB/PokemonDB_4.png",
+				"/images/PokemonDB/PokemonDB_5.png",
+				"/images/PokemonDB/PokemonDB_6.png",
+				"/images/PokemonDB/PokemonDB_7.png",
+				"/images/PokemonDB/PokemonDB_8.png",
+				"/images/PokemonDB/PokemonDB_9.png",
+				"/images/PokemonDB/PokemonDB_10.png",
+				"/images/PokemonDB/PokemonDB_11.png",
+				"/images/PokemonDB/PokemonDB_12.png",
+				"/images/PokemonDB/PokemonDB_13.png",
+				"/images/PokemonDB/PokemonDB_14.png",
+				"/images/PokemonDB/PokemonDB_15.png",
+				"/images/PokemonDB/PokemonDB_16.png"
+
+            ]
+        }, {
+    		"title": "Simple Student DB",
+    		"status": "Completed, Unpublished",
+    		"link": "https://github.com/EPICmynamesBG/CS320.Assignment4",
+    		"start": "Nov 2, 2015",
+    		"end": "Nov 8, 2015",
+    		"showEvent": false,
+    		"event": "n/a",
+    		"description": "Simple Student DB is an application made for my mobile applications development course. The requirements were relatively simple: create an application that can interact with an on campus database of students. Essentially, the app had to be able to view, edit, create, and delete a student. However, I used this application as a way to further my knowledge and push myself. From this, I created not just a simple app, but an elegant, well-themed app with an added watch application and the ability to do background fetching and generate updates.",
+    		"images": [
+				"/images/SimpleStudentDB/SimpleStudentDB_watch1.png",
+				"/images/SimpleStudentDB/SimpleStudentDB_watch2.png",
+				"/images/SimpleStudentDB/SimpleStudentDB_watch3.png",
+				"/images/SimpleStudentDB/SimpleStudentDB_watch4.png",
+                "/images/SimpleStudentDB/SimpleStudentDB1.png",
+				"/images/SimpleStudentDB/SimpleStudentDB2.png",
+				"/images/SimpleStudentDB/SimpleStudentDB3.png",
+				"/images/SimpleStudentDB/SimpleStudentDB4.png",
+				"/images/SimpleStudentDB/SimpleStudentDB5.png"
+
+            ]
+        }, {
+    		"title": "Charlie Eats Worms",
+    		"status": "Completed",
+    		"link": "http://apso.bsu.edu/2015/charlie_cardinal_web/mutt_mwc_remake/",
+    		"start": "August 2015",
+    		"end": "October 2015",
+    		"showEvent": true,
+    		"event": "Project at the Digital Corps",
+    		"description": "Charlie Eats Worms is a game developed for the custom 70in touchscreen located just outside the Digital Corps at Ball State University. The objectives of this game were simple: create something simple, quick, and Ball State themed. Charlie Eats Worms is a simple game where users tap the flying worms (opponent MAC schools) and Charlie Cardinal eats them. The game gets harder over time, and there is a local highscore system in place so everyone that plays at the big touchscreen can see how their score compares.",
+    		"images": [
+             "/images/CharlieEatsWorms/Charlie_1.png",
+			"/images/CharlieEatsWorms/Charlie_2.png",
+			"/images/CharlieEatsWorms/Charlie_3.png", 
+			"/images/CharlieEatsWorms/Charlie_4.png",
+			"/images/CharlieEatsWorms/Charlie_5.png"
+         ]
+        }, {
+    		"title": "InBetween",
+    		"status": "Published on Google Play Store",
+    		"link": "https://play.google.com/store/apps/details?id=com.BSU.inbetween",
+    		"start": "Sept 2014",
+    		"end": "Present",
+    		"showEvent": false,
+    		"event": "",
+    		"description": "In Between is a simple card game that is relatively unfound on app stores. For our group's final project in CS222 (Advanced Programming), we are creating an Android app of this game. Under my direction, we consistently met and achieved goals that brought us closer to having a final product. On 11/22/2014, version 1 of the app was released worldwide on the Google Play store. The current version is 1.1.1.",
+    		"images": [
              "/images/InBetween/icon.png",
              "/images/InBetween/Default/main.png",
              "/images/InBetween/Default/inGame.png",
@@ -21,125 +122,28 @@
              "/images/InBetween/Default/EN_10in_help.png"
          ]
         }, {
-            "title": "Bombnanza",
-            "status": "Completed",
-            "link": "https://github.com/EPICmynamesBG/Bombnanza",
-            "start": "April 2015",
-            "end": "April 2015",
-            "showEvent": false,
-            "event": "",
-            "description": "Bombnanza is an application created for class purposes that looks at the after effects of the Cold War. This app features a testing range to watch bombs drop to scale, a map overlay to see what a bomb would do to a city today, a knowledgebase with information for each bomb, and a swipable view with four setions of information on the Cold War's after effects.",
-            "images": [
-                "/images/Bombnanza/Bombnanza0.png",
-                "/images/Bombnanza/Bombnanza1.png",
-                "/images/Bombnanza/Bombnanza2.png",
-                "/images/Bombnanza/Bombnanza3.png",
-                "/images/Bombnanza/Bombnanza4.png",
-                "/images/Bombnanza/Bombnanza5.png",
-                "/images/Bombnanza/Bombnanza6.png",
-                "/images/Bombnanza/Bombnanza7.png",
-                "/images/Bombnanza/Bombnanza8.png",
-                "/images/Bombnanza/Bombnanza9.png",
-                "/images/Bombnanza/Bombnanza10.png",
-                "/images/Bombnanza/Bombnanza11.png",
-                "/images/Bombnanza/Bombnanza12.png",
-                "/images/Bombnanza/Bombnanza13.png",
-                "/images/Bombnanza/Bombnanza14.png",
-                "/images/Bombnanza/Bombnanza15.png"
-            ]
-        },
-        {
-            "title": "Hack-o-lantern",
-            "status": "Completed",
-            "link": "http://devpost.com/software/trick-or-tweet",
-            "start": "Oct 16, 2015",
-            "end": "Oct 18, 2015",
-            "showEvent": true,
-            "event": "BoilerMake 2015",
-            "description": "Created during the BoilerMake 2015 hackathon, our group wanted to do something in the spirit of Halloween. Inspired by some ideas we saw online, we decided we wanted to use capacitive touch to make our pumpkin do something. With a Pumpkin, a Raspberry Pi, and a camera module, we set out to make the first Jack-o-lantern that would live tweet a selfie on touch.",
-            "images": [
+    		"title": "Hack-o-lantern",
+    		"status": "Completed",
+    		"link": "http://devpost.com/software/trick-or-tweet",
+    		"start": "Oct 16, 2015",
+    		"end": "Oct 18, 2015",
+    		"showEvent": true,
+    		"event": "BoilerMake 2015",
+    		"description": "Created during the BoilerMake 2015 hackathon, our group wanted to do something in the spirit of Halloween. Inspired by some ideas we saw online, we decided we wanted to use capacitive touch to make our pumpkin do something. With a Pumpkin, a Raspberry Pi, and a camera module, we set out to make the first Jack-o-lantern that would live tweet a selfie on touch.",
+    		"images": [
                 "/images/BoilerMake_2015/PumpkinPromo.jpg",
                 "/images/BoilerMake_2015/pumpkinSelfies.png"
             ]
         }, {
-            "title": "Buzzed Buddy",
-            "status": "Completed",
-            "link": "http://devpost.com/software/buzzed-buddy",
-            "start": "Feb 27, 2015",
-            "end": "Mar 1, 2015",
-            "showEvent": true,
-            "event": "HackIllinois 2015",
-            "description": "Created during HackIllinois 2015, the idea behind this app was to create something simple that would be useful for college students. The app features an extremely simple interface that aids in two things: finding nearby food, and going home. There is also a hidden feature that can be enabled in the settings. For this mobile application, we developed for iOS using the new Swift language. Buzzed Buddy makes use of the built in Apple Maps as well as the UIUC local bus system's API.",
-            "images": [
-                "/images/HackIllinois_2015/buzzed-buddy_icon.png",
-                "/images/HackIllinois_2015/buzzed-buddy_launch.png",
-                "/images/HackIllinois_2015/buzzed-buddy_main1.png",
-                "/images/HackIllinois_2015/buzzed-buddy_settings1.png",
-                "/images/HackIllinois_2015/buzzed-buddy_settings2.png",
-                "/images/HackIllinois_2015/buzzed-buddy_main2.png",
-                "/images/HackIllinois_2015/buzzed-buddy_food.png",
-                "/images/HackIllinois_2015/buzzed-buddy_foodChoice.png",
-                "/images/HackIllinois_2015/buzzed-buddy_foodMap.png",
-                "/images/HackIllinois_2015/buzzed-buddy_home.png",
-                "/images/HackIllinois_2015/buzzed-buddy_info.png"
-            ]
-        }, {
-            "title": "InBetween (iOS)",
-            "status": "In Development",
-            "link": "#",
-            "start": "Dec 2014",
-            "end": "Present",
-            "showEvent": false,
-            "event": "",
-            "description": "Upon completion of InBetween for Android, I felt as though an iOS version should also be released. Thus, I began to study Swift for iOS and have since started creating the remake of InBetween for iOS. The process has been fairly difficult at times, but I am content with the progress I have made so far.",
-            "images": [
-                "/images/InBetween_iOS/icon.png",
-                "/images/InBetween_iOS/main.png",
-                "/images/InBetween_iOS/inGame.png",
-                "/images/InBetween_iOS/paused.png",
-                "/images/InBetween_iOS/help.png",
-                "/images/InBetween_iOS/settings.png",
-                "/images/InBetween_iOS/stats.png"
-            ]
-        },
-        {
-            "title": "McVerilog",
-            "status": "Incomplete, not in Development",
-            "link": "http://devpost.com/software/mcverilog",
-            "start": "Oct 17, 2014",
-            "end": "Oct 19, 2015",
-            "showEvent": true,
-            "event": "BoilerMake 2014",
-            "description": "Created at the Boilermake 2014 Hackathon, our group of 4 created a compiler that could convert Verilog low level machine code into Redstone circuits in Minecraft. The project uses a public project known as MCModify as part of the base. The project is 80% complete at this time and may be revisited in the future to complete and clean. The code is at this time located in a private repository.",
-            "images": [
-                "/images/BoilerMake_2014/McVerilog1.png",
-                "/images/BoilerMake_2014/McVerilog2.png",
-                "/images/BoilerMake_2014/McVerilog3.png"
-            ]
-        }, {
-            "title": "Augmented Reality Scavenger Hunt",
-            "status": "Incomplete, not in Development",
-            "link": "http://challengepost.com/software/augmented-reality-scavenger-hunt",
-            "start": "Apr 11, 2014",
-            "end": "Apr 13, 2014",
-            "showEvent": true,
-            "event": "HackIllinois 2014",
-            "description": "Created at HackIllinois 2014, this unfinished app was our groups first experience at both a hackathon and Android. While the app was and remains unfinished, this app served its' purpose in introducing us to Android app development. the app itself was supposed to be an Augmented Virtual Reality Scavenger Hunt in which there would be a map view show hunt location pins, and the VR part where a virtual compass was overlaid on the screen. The user would have to take a picture at the location to capture that point.",
-            "images": [
-                "/images/HackIllinois_2014/hack_illinois_scavenger_2.png",
-                "/images/HackIllinois_2014/hackIllinois2014_1.png",
-                "/images/HackIllinois_2014/hackIllinois2014_2.png"
-            ]
-        }, {
-            "title": "Plex-Media Server",
-            "status": "Completed",
-            "link": "#",
-            "start": "Jan 2015",
-            "end": "Jan 2015",
-            "showEvent": false,
-            "event": "",
-            "description": "As a personal project, I built my own computer from scratch in order to use it as a Plex Media Server. In this computer build, my goal was to keep costs low while building a server fully capable of streaming 1080p HD to multiple devices with no issues. After assembling a parts list and aqcuiring all of the components, I built the system and set it up. To learn more details about this project, please click on the project banner above.",
-            "images": [
+    		"title": "Plex-Media Server",
+    		"status": "Completed",
+    		"link": "#",
+    		"start": "Jan 2015",
+    		"end": "Jan 2015",
+    		"showEvent": false,
+    		"event": "",
+    		"description": "As a personal project, I built my own computer from scratch in order to use it as a Plex Media Server. In this computer build, my goal was to keep costs low while building a server fully capable of streaming 1080p HD to multiple devices with no issues. After assembling a parts list and aqcuiring all of the components, I built the system and set it up. To learn more details about this project, please click on the project banner above.",
+    		"images": [
                 "/images/Plex-Server/Plex_server_0.jpg",
                 "/images/Plex-Server/Plex_server_1.jpg",
                 "/images/Plex-Server/Plex_server_2.jpg",
@@ -163,36 +167,6 @@
                 "/images/Plex-Server/Plex_server_20.png",
                 "/images/Plex-Server/Plex_server_21.png",
                 "/images/Plex-Server/Plex_server_22.png"
-            ]
-        }, {
-            "title": "Code of Knighthood",
-            "status": "Completed",
-            "link": "#",
-            "start": "Dec 2014",
-            "end": "Dec 2014",
-            "showEvent": false,
-            "event": "",
-            "description": "As a final project for an honors class, I decided to make an Android app. In this app, with the help of a classmate, we are simply analyzing and explaining the Code of Knighthood in a Medieval and Modern context. I also experimented with Android Fragment Activities in this app.",
-            "images": [
-                "/images/CodeOfKnighthood/icon.png",
-            "/images/CodeOfKnighthood/CoK_main.png",
-            "/images/CodeOfKnighthood/CoK_inApp.png"
-            ]
-        }, {
-            "title": "Plants in Space",
-            "status": "Completed",
-            "link": "#",
-            "start": "Nov 2014",
-            "end": "Nov 2014",
-            "showEvent": false,
-            "event": "",
-            "description": "This app was created for a course on Game Design. In this class, we met up with the Indianapolis Children's Museum and discussed the different displays that would be coming up. One of the displays mentioned was an exhibit on the International Space station; thus, the inspiration for this app came from that. After researching some ISS experiments, I came up with this concept of a simple interactive that would guide children through an experiment. This Android app was a simple way to show how that interactive might look.",
-            "images": [
-                "/images/PlantsInSpace/icon.png",
-                "/images/PlantsInSpace/PiS_main.png",
-                "/images/PlantsInSpace/PiS_Q1.png",
-                "/images/PlantsInSpace/PiS_Q2.png",
-                "/images/PlantsInSpace/PiS_result.png"
             ]
         }
  ]

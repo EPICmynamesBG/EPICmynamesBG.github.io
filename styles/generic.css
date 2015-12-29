@@ -107,7 +107,7 @@ body {
 
 #titleBar {
 	/*fallback*/
-	background-color: #4E5E6D;
+	background-color: #425563;
 	width: 100%;
 	/*background-color: #4A4A4A;*/
 	position: relative;
@@ -172,7 +172,7 @@ body {
 	cursor: pointer;
 	margin-left: 0;
 	margin-right: 0;
-	width: 32%;
+	width: 49%;
 	min-width: 180px;
 	display: inline-block;
 }
@@ -217,7 +217,7 @@ body {
 /* -------- FOOTER -------- */
 
 footer {
-	background-color: #4E5E6D;
+	background-color: #425563;
 	height: auto;
 	font-family: cursive;
 	font-style: italic;
@@ -230,6 +230,7 @@ footer {
 
 footer * {
 	vertical-align: middle;
+	color: white;
 }
 
 #connect {
