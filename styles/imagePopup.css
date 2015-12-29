@@ -9,6 +9,7 @@
 	height: 100%;
 	border-radius: 4px;
 	background-color: rgba(33, 33, 33, 0.5);
+	z-index: 2;
 }
 
 .relFrame {
@@ -64,6 +65,7 @@
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
+	z-index: 3;
 }
 
 .fade.ng-hide {
