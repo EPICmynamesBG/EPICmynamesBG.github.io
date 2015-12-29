@@ -13,11 +13,19 @@
         </div>
         <div class="project_carousel">
             <ul rn-carousel rn-carousel-transition="fadeAndSlide" rn-carousel-buffered rn-carousel-pause-on-hover rn-carousel-controls>
-                <li ng-repeat="image in project.images"><img alt="Loading..." ng-src="{{image}}"/></li>
+                <li ng-repeat="image in project.images"><img alt="Loading..." ng-src="{{image}}" ng-click="showImagePopup(image)"/></li>
             </ul>
         </div>
     </div>
     <div class="oldProjectBlock">
     	<p ng-click="viewNewerProjects()">View newer projects</p>
     </div>
+</div>
+<div class="imagePopup fade" ng-show="showPopup">
+	<div class="relFrame top">
+		<div class="closePopup" ng-click="showPopup=false;">X</div>
+	</div>
+	<div class="relFrame bottom">
+		<img class="popupImage" ng-src="{{popupImage}}" alt="popupImage" ng-if="popupImage"/>
+	</div>
 </div>

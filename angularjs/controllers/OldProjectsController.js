@@ -1,6 +1,15 @@
 app.controller("OldProjectsController", function ($scope, $location, $json) {
 
-    $scope.singleProjectClick = function (title) {
+    $scope.showPopup = false;
+	$scope.popupImage = null;
+	
+	$scope.showImagePopup = function(image){
+		$scope.showPopup = true;
+		$scope.popupImage = image;
+		console.log("Show popup");
+	};
+	
+	$scope.singleProjectClick = function (title) {
         $location.path("/projects/" + title);
     };
 	

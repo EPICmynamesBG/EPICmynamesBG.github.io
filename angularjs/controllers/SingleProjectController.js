@@ -1,6 +1,15 @@
 app.controller("SingleProjectController", function ($scope, $route, $json) {
 
     $scope.project = [];
+	
+	$scope.showPopup = false;
+	$scope.popupImage = null;
+	
+	$scope.showImagePopup = function(image){
+		$scope.showPopup = true;
+		$scope.popupImage = image;
+		console.log("Show popup");
+	};
 
     var title = $route.current.params.title;
 

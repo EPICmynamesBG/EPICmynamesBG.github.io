@@ -1,4 +1,4 @@
-var app = angular.module("Main", ['ngRoute', 'angular-carousel']);
+var app = angular.module("Main", ['ngRoute', 'angular-carousel','ngAnimate']);
 
 app.config(function ($routeProvider, $locationProvider) {
     $routeProvider
