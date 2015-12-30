@@ -1,8 +1,8 @@
 <div id="singleProjectContent" lang="en">
-    <h1>{{project.title}}</h1>
+    <h1 class="shine">{{project.title}}</h1>
     <div class="singleProject_carousel">
         <ul rn-carousel rn-carousel-transition="fadeAndSlide" rn-carousel-buffered rn-carousel-auto-slide="5" rn-carousel-pause-on-hover rn-carousel-controls>
-            <li ng-repeat="image in project.images"><img alt="Loading..." ng-src="{{image}}" ng-click="showImagePopup(image)"/></li>
+            <li ng-repeat="image in project.images"><img alt="Loading..." ng-src="{{image}}" ng-click="showImagePopup(image, $index)"/></li>
         </ul>
     </div>
     <a href="{{project.link}}" target="_blank">
@@ -19,11 +19,15 @@
         <a href="{{part.link}}" target="_blank"><h5>{{part.part}}</h5></a>
     </li>
 </div>
-<div class="imagePopup fade" ng-show="showPopup">
+
+<div class="imagePopup fade" ng-show="showPopup" ng-swipe-right="popupNavigation(1);" ng-swipe-left="popupNavigation(-1);">
 	<div class="relFrame top">
 		<div class="closePopup" ng-click="showPopup=false;">X</div>
+		<div class="mobileOnly popupBottomText">Swipe left/right for next</div>
 	</div>
 	<div class="relFrame bottom">
-		<img class="popupImage" ng-src="{{popupImage}}" alt="popupImage" ng-if="popupImage"/>
+		<span class="popupNav leftNav desktopOnly" ng-click="popupNavigation(-1); $event.stopPropogation();"></span>
+		<img class="popupImageCSS" ng-src="{{popupImage}}" alt="popupImage" ng-if="popupImage" ng-click="$event.stopPropagation()"/>
+		<span class="popupNav rightNav desktopOnly" ng-click="$event.stopPropogation(); popupNavigation(1); "></span>
 	</div>
 </div>

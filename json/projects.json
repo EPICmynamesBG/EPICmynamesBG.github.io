@@ -95,9 +95,9 @@
     		"description": "Charlie Eats Worms is a game developed for the custom 70in touchscreen located just outside the Digital Corps at Ball State University. The objectives of this game were simple: create something simple, quick, and Ball State themed. Charlie Eats Worms is a simple game where users tap the flying worms (opponent MAC schools) and Charlie Cardinal eats them. The game gets harder over time, and there is a local highscore system in place so everyone that plays at the big touchscreen can see how their score compares.",
     		"images": [
              "/images/CharlieEatsWorms/Charlie_1.png",
-			"/images/CharlieEatsWorms/Charlie_2.png",
 			"/images/CharlieEatsWorms/Charlie_3.png", 
 			"/images/CharlieEatsWorms/Charlie_4.png",
+			"/images/CharlieEatsWorms/Charlie_2.png",
 			"/images/CharlieEatsWorms/Charlie_5.png"
          ]
         }, {

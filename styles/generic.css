@@ -159,31 +159,32 @@ body {
 	background-color: #BA0C2F;
 	text-align: center;
 	text-transform: uppercase;
+	padding: 0px;
 }
 
 #navBar ul {
 	width: 100%;
-	margin: 0;
-	padding: 0;
+	padding-bottom: -4px;
+	padding: 0px;
 	list-style: none;
+	overflow: hidden;
 }
 
 #navBar ul li {
 	cursor: pointer;
-	margin-left: 0;
-	margin-right: 0;
+	margin: 0px;
 	width: 49%;
 	min-width: 180px;
 	display: inline-block;
 }
 
 #navBar ul li:hover {
-	background-color: rgba(255, 255, 255, 0.25);
+	background-color: rgba(255, 255, 255, 0.2);
 }
 
 #navBar ul li:active,
 #logo:active {
-	background-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(0, 0, 0, 0.32);
 }
 
 @media screen and (max-width:400px) {
@@ -199,10 +200,11 @@ body {
 	color: #ffffff;
 	font-size: 1.25em;
 	display: block;
-	margin: 0;
+	margin: 0px;
 	padding: .5em 1em .5em 1em;
 	text-decoration: none;
 	font-weight: bold;
+	overflow: hidden;
 }
 
 #navBar .first {
@@ -210,7 +212,7 @@ body {
 }
 
 .currentPage {
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.3);
 }
 
 
@@ -330,5 +332,22 @@ footer * {
 		margin: 0 auto;
 		padding: 0;
 		text-align: center;
+	}
+}
+
+.mobileOnly {
+	visibility: hidden;
+}
+
+.desktopOnly {
+	visibility: visible;
+}
+
+@media screen and (max-width: 400px) {
+	.mobileOnly {
+		visibility: visible;
+	}
+	.desktopOnly {
+		visibility: hidden;
 	}
 }

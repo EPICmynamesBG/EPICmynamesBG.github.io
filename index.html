@@ -18,6 +18,7 @@
 	<link rel="stylesheet" type="text/css" href="styles/projects.css" charset="utf-8" />
 	<link rel="stylesheet" type="text/css" href="styles/singleProject.css" charset="utf-8" />
 	<link rel="stylesheet" type="text/css" href="styles/imagePopup.css" charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="styles/animations.css" charset="utf-8" />
 	<!-- Angular Source Scripts -->
 	<script src="libraries/angular.js"></script>
 	<script src="libraries/angular-route.js"></script>
@@ -36,22 +37,23 @@
 	<script type="text/javascript" src="angularjs/controllers/ProjectsController.js"></script>
 	<script type="text/javascript" src="angularjs/controllers/OldProjectsController.js"></script>
 	<script type="text/javascript" src="angularjs/controllers/SingleProjectController.js"></script>
+	<script type="text/javascript" src="scripts/ripple.js"></script>
 	<script type="text/javascript" src="scripts/googleAnalytics.js"></script>
 </head>
 
 <body>
 	<header ng-controller="NavController">
 		<div id="titleBar">
-			<div class="upper_content">
+			<div class="upper_content shine">
 				<br/>
 				<img id="logo" src="images/logo1@3x.png" srcset="images/logo1.png 200w, images/logo1@2x.png 400w" ng-click="homeClick()" />
 				<img id="headshot" src="images/headshot_crop@3x.jpg" srcset="images/headshot_crop.jpg 200w, images/headshot_crop@2x.jpg 400w" />
 			</div>
 			<div id="navBar">
 				<ul class="navigation">
-					<li><a class="navBar_item first" title="Information" ng-click="infoClick()" ng-class="'Information' == current ? 'currentPage': ''">Information</a>
+					<li><a class="rippleEffect navBar_item first" title="Information" ng-click="infoClick()" ng-class="'Information' == current ? 'currentPage': ''">Information</a>
 					</li>
-					<li><a class="navBar_item last" title="Projects" ng-click="projectClick()" ng-class="'Projects' == current ? 'currentPage': ''">Projects</a>
+					<li><a class="rippleEffect navBar_item last" title="Projects" ng-click="projectClick()" ng-class="'Projects' == current ? 'currentPage': ''">Projects</a>
 					</li>
 				</ul>
 			</div>
