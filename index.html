@@ -24,6 +24,8 @@
 	<script src="libraries/angular-route.js"></script>
 	<script src="libraries/angular-touch.js"></script>
 	<script src="libraries/angular-animate.js"></script>
+	<! -- JQuery Source Scripts -->
+	<script src="libraries/jquery-2.1.4.min.js"></script>
 	<!-- Angular Carousel -->
 	<!-- Angular Carousel was not created by me, but is openly availble on GitHub. All credits go to the creator.-->
 	<link rel="stylesheet" type="text/css" href="styles/angular-carousel.css" charset="utf-8" />
@@ -38,6 +40,7 @@
 	<script type="text/javascript" src="angularjs/controllers/OldProjectsController.js"></script>
 	<script type="text/javascript" src="angularjs/controllers/SingleProjectController.js"></script>
 	<script type="text/javascript" src="scripts/ripple.js"></script>
+	<script type="text/javascript" src="scripts/stickyNav.js"></script>
 	<script type="text/javascript" src="scripts/googleAnalytics.js"></script>
 </head>
 
@@ -50,12 +53,10 @@
 				<img id="headshot" src="images/headshot_crop@3x.jpg" srcset="images/headshot_crop.jpg 200w, images/headshot_crop@2x.jpg 400w" />
 			</div>
 			<div id="navBar">
-				<ul class="navigation">
-					<li><a class="rippleEffect navBar_item first" title="Information" ng-click="infoClick()" ng-class="'Information' == current ? 'currentPage': ''">Information</a>
-					</li>
-					<li><a class="rippleEffect navBar_item last" title="Projects" ng-click="projectClick()" ng-class="'Projects' == current ? 'currentPage': ''">Projects</a>
-					</li>
-				</ul>
+				<div class="navigation">
+					<div class="rippleEffect navBar_item first" title="Information" ng-click="infoClick()" ng-class="'Information' == current ? 'currentPage': ''">Information</div>
+					<div class="rippleEffect navBar_item last" title="Projects" ng-click="projectClick()" ng-class="'Projects' == current ? 'currentPage': ''">Projects</div>
+				</div>
 			</div>
 		</div>
 	</header>
@@ -64,16 +65,23 @@
 	</ng-view>
 </body>
 <footer>
+	<div class="footFlexItem">
 	<p id="resume"><a href="files/BrandonGroff.pdf">Download My Resume</a>
 	</p>
-	<span id="connect">
+	</div>
+	<div class="footFlexItem">
+		<span id="connect">
             <a href="https://www.linkedin.com/pub/brandon-groff/93/58/6a2/en" target="_blank"><img src="images/SocialMedia/linkedIn.png"/></a>
             <a href="https://github.com/EPICmynamesBG" target="_blank"><img src="images/SocialMedia/github-1024-black.png"/></a>
             <a href="http://devpost.com/EPICmynamesbg" target="_blank"><img src="images/SocialMedia/devpost_logo.svg"/></a>
             <a href="https://www.facebook.com/brandon.groff.58" target="_blank"><img src="images/SocialMedia/facebook-icon.png"/></a>
             <a href="https://twitter.com/EPICmynamesbg" target="_blank"><img src="images/SocialMedia/Twitter_logo.png"/></a>
         </span>
-	<p id="copyright">Content and Design Copyright Brandon Groff 2015 &#169</p>
+	</div>
+	<div class="footFlexItem">
+		<p id="copyright">Content and Design Copyright Brandon Groff 2015 &#169;</p>
+	</div>
+	
 </footer>
 
 </html>
