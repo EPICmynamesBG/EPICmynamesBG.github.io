@@ -166,11 +166,13 @@ body {
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 4;
+	z-index: 1;
 }
 
 .navigation {
 	width: 100%;
+	margin: 0px;
+	padding: 0px;
 	display: inline-flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -184,7 +186,7 @@ body {
 	flex-basis: 25%;
 	flex-grow: 1;
 	flex-shrink: 1;
-	min-width: 200px;
+/*	min-width: 201px;*/
 	align-self: auto;
 	cursor: pointer;
 	color: #ffffff;
@@ -203,17 +205,6 @@ body {
 	background-color: rgba(0, 0, 0, 0.32);
 }
 
-@media screen and (max-width:400px) {
-/*
-	#navBar ul li {
-		display: block;
-		width: 100%;
-		margin: 0;
-		padding: 0;
-	}
-*/
-}
-
 .currentPage {
 	background-color: rgba(0, 0, 0, 0.3);
 }
@@ -222,6 +213,15 @@ body {
 /* -------- FOOTER -------- */
 
 footer {
+	display: block;
+	position: relative;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.flexWrap {
+	position: relative;
 	background-color: #425563;
 	height: auto;
 	width: 100%;
@@ -229,7 +229,8 @@ footer {
 	font-style: italic;
 	position: relative;
 	display: inline-flex;
-	margin: 0;
+	margin: 0px;
+	padding: 0px;
 	font-size: .75em;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -245,12 +246,10 @@ footer {
 	flex-basis: 33%;
 	flex-grow: 1;
 	flex-shrink: 1;
-	min-width: 134px;
 }
 
 .flexFootItem > *{
 	margin: auto;
-	text-align: center;
 	width: 100%;
 }
 
@@ -274,12 +273,21 @@ footer {
 }
 
 #resume {
-	font-weight: 700;
+	font-weight: 900;
+	text-align: left;
+	text-indent: none;
+	margin-left: 5px;
 }
 
-@media screen and (max-width:515px) {
-	#connect img {
-		min-width: 40px;
+#copyright {
+	text-align: right;
+	text-indent: none;
+	margin-right: 5px;
+}
+
+@media screen and (max-width:400px) {
+	.flexFootItem {
+		min-width: 390px;
 	}
 }
 
