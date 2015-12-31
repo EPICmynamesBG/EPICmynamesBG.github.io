@@ -4,11 +4,27 @@ app.controller("SingleProjectController", function ($scope, $route, $json) {
 	
 	$scope.showPopup = false;
 	$scope.popupImage = null;
+	var currentImg = null;
 	
-	$scope.showImagePopup = function(image){
+	$scope.showImagePopup = function(image, imgIndex){
 		$scope.showPopup = true;
 		$scope.popupImage = image;
-		console.log("Show popup");
+		currentImg = imgIndex;
+	};
+	
+	$scope.popupNavigation = function (nav) {
+		if (currentImg != null) {
+			var next = currentImg + nav;
+			if (next < 0){ // below valid range, go to last
+				next = $scope.project.images.length-1;
+			} else if (next >= $scope.project.images.length){ // exceeds valid range
+				next = 0;
+			} else {
+				//next is valid
+			}
+			currentImg = next;
+			$scope.popupImage = $scope.project.images[currentImg];
+		};
 	};
 
     var title = $route.current.params.title;

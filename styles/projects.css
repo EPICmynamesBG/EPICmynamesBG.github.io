@@ -1,7 +1,22 @@
+.interactText {
+	text-align: center;
+	margin: 0px auto;
+	font-style: italic;
+	font-size: 12px;
+	font-weight: 300;
+	box-sizing: content-box;
+}
+
 .project {
     width:98%;
     align-content: center;
     min-width: inherit;
+}
+
+@media screen and (max-width:400px){
+    .project {
+        min-height: 720px;
+    }
 }
 
 .project_content, .project_carousel {
@@ -13,9 +28,10 @@
     .project_content, .project_carousel {
         display: block;
         width: 98%;
+		margin: inherit auto;
     }
     
-    .project h2, .project_content h3, .project_content h5, .project_content h6{
+    .projectTitle, .project_content h3, .project_content h5, .project_content h6{
         text-align: center;
     }
 }
@@ -46,7 +62,7 @@
 
 @media screen and (max-width:800px){
     .project_carousel {
-        margin-left: 0;
+        margin-left: 1%;
         margin-bottom: 1%;
     }
 }
@@ -73,6 +89,12 @@ ul[rn-carousel] {
     background-color: darkgrey;
 }
 
+@media screen and (max-width:400px){
+	.rn-carousel-control {
+		visibility: hidden;
+	}
+}
+
 .project_carousel li {
     text-align: center;
     vertical-align: bottom;
@@ -90,9 +112,10 @@ ul[rn-carousel] {
     max-width: 90%;
     max-height: 100%;
     vertical-align: bottom;
+	cursor: pointer;
 }
 
-.project h2 {
+.projectTitle {
     cursor: pointer;
     font-weight: 900;
     letter-spacing: 0.0625em;
@@ -100,6 +123,14 @@ ul[rn-carousel] {
     text-decoration: none;
     color: black;
     text-shadow: 1px 2px 1px #BA0C2F;
+	transition: 0.5s ease;
+}
+
+.projectTitle:hover {
+	color: #BA0C2F;
+	text-shadow: 2px 4px 2px black;
+	letter-spacing: 0.4em;
+	font-size: 2.0em;
 }
 
 .oldProjectBlock {

@@ -9,16 +9,6 @@
     max-width: 300px;
     max-height: 220px;
     margin-left: 10%;
-    transition-delay: 0.5s;
-    transition-duration: 2s;
-    -webkit-transition-delay: 0.5s;
-    -webkit-transition-duration: 2s;
-    -moz-transition-delay:0.5s;
-    -moz-transition-duration: 2s;
-    -ms-transition-delay: 0.5s;
-    -ms-transition-duration: 2s;
-    -o-transition-delay: 0.5s;
-    -o-transition-duration: 2s;
 }
 
 @media screen and (max-width:900px){
@@ -27,19 +17,6 @@
         margin-left: auto;
         margin-right: auto;
     }
-}
-
-.content h3, .experience h2 , .intro h1, .history h3, .recent_activity h5{
-    transition-delay: 0.5s;
-    transition-duration: 2s;
-    -webkit-transition-delay: 0.5s;
-    -webkit-transition-duration: 2s;
-    -moz-transition-delay:0.5s;
-    -moz-transition-duration: 2s;
-    -ms-transition-delay: 0.5s;
-    -ms-transition-duration: 2s;
-    -o-transition-delay: 0.5s;
-    -o-transition-duration: 2s;
 }
 
 @media screen and (max-width:700px){
@@ -54,7 +31,9 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: #BDBEC2;
+/*    background-color: #BDBEC2;*/
+	background-image: radial-gradient(#E1C3A5,#8B3A31);
+	box-shadow: 0 0 3px 3px #8B3A31;
     border-radius: 50%;
     padding: 3%;
 }
@@ -71,16 +50,6 @@
     -moz-columns:3;
     -ms-columns:3;
     -o-columns:3;
-    transition-delay: 0.5s;
-    transition-duration: 2s;
-    -webkit-transition-delay: 0.5s;
-    -webkit-transition-duration: 2s;
-    -moz-transition-delay:0.5s;
-    -moz-transition-duration: 2s;
-    -ms-transition-delay: 0.5s;
-    -ms-transition-duration: 2s;
-    -o-transition-delay: 0.5s;
-    -o-transition-duration: 2s;
 }
 
 .content * ul li {
@@ -95,16 +64,6 @@
         -moz-columns:2;
         -ms-columns:2;
         -o-columns:2;
-        transition-delay: 0.5s;
-    transition-duration: 2s;
-    -webkit-transition-delay: 0.5s;
-    -webkit-transition-duration: 2s;
-    -moz-transition-delay:0.5s;
-    -moz-transition-duration: 2s;
-    -ms-transition-delay: 0.5s;
-    -ms-transition-duration: 2s;
-    -o-transition-delay: 0.5s;
-    -o-transition-duration: 2s;
     }
 }
 
@@ -115,19 +74,6 @@
 .experience {
     margin-left: auto;
     margin-right: auto;
-}
-
-.experience *{
-    transition-delay: 0.5s;
-    transition-duration: 2s;
-    -webkit-transition-delay: 0.5s;
-    -webkit-transition-duration: 2s;
-    -moz-transition-delay:0.5s;
-    -moz-transition-duration: 2s;
-    -ms-transition-delay: 0.5s;
-    -ms-transition-duration: 2s;
-    -o-transition-delay: 0.5s;
-    -o-transition-duration: 2s;
 }
 
 .experience .job {
@@ -157,31 +103,11 @@
 
 .job h4 {
     display: inline-block;
-    transition-delay: 0.5s;
-    transition-duration: 2s;
-    -webkit-transition-delay: 0.5s;
-    -webkit-transition-duration: 2s;
-    -moz-transition-delay:0.5s;
-    -moz-transition-duration: 2s;
-    -ms-transition-delay: 0.5s;
-    -ms-transition-duration: 2s;
-    -o-transition-delay: 0.5s;
-    -o-transition-duration: 2s;
 }
 
 .job div h5, .job div h6 {
     display: inline-block;
     width: 40%;
-    transition-delay: 0.5s;
-    transition-duration: 2s;
-    -webkit-transition-delay: 0.5s;
-    -webkit-transition-duration: 2s;
-    -moz-transition-delay:0.5s;
-    -moz-transition-duration: 2s;
-    -ms-transition-delay: 0.5s;
-    -ms-transition-duration: 2s;
-    -o-transition-delay: 0.5s;
-    -o-transition-duration: 2s;
 }
 
 @media screen and (max-width:700px){
@@ -199,16 +125,6 @@
 
 .job div p:first-child {
     width: 100%;
-    transition-delay: 0.5s;
-    transition-duration: 2s;
-    -webkit-transition-delay: 0.5s;
-    -webkit-transition-duration: 2s;
-    -moz-transition-delay:0.5s;
-    -moz-transition-duration: 2s;
-    -ms-transition-delay: 0.5s;
-    -ms-transition-duration: 2s;
-    -o-transition-delay: 0.5s;
-    -o-transition-duration: 2s;
 }
 
 @media screen and (max-width:700px){
