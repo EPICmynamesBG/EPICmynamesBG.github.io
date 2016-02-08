@@ -9,7 +9,7 @@
     <div id="trainerArea">
         <div class="trainerContainer" ng-repeat="trainer in trainers | orderBy: sortValue:reverse" ng-click="viewTrainer(trainer.name)">
             <div class="trainerImgDiv">
-                <img ng-src="../PokemonDB/frontend/images/trainers/VS{{trainer.image}}.png" alt="{trainer.name}" />
+                <img ng-src="./frontend/images/trainers/VS{{trainer.image}}.png" alt="{trainer.name}" />
             </div>
             <div class="trainerInfoDiv">
                 <h2>{{trainer.name}}</h2>
@@ -17,7 +17,7 @@
         </div>
         <div class="trainerContainer" ng-click="createTrainerMode()">
             <div class="trainerImgDiv">
-                <img ng-src="../PokemonDB/frontend/images/trainers/Pokeball.png" alt="Pokeball" />
+                <img ng-src="./frontend/images/trainers/Pokeball.png" alt="Pokeball" />
             </div>
             <div class="trainerInfoDiv">
                 <h2>Create</h2>
@@ -45,7 +45,7 @@
             <div class="badgeSelector child">
                 <div class="trainerBadge" ng-repeat="badge in badges" ng-click="selectBadge(badge.id)" ng-class="badgeIsSelected(badge.id) ? 'badgeSelected' : 'badgeNotSelected'">
                     <center>
-                        <img ng-src="/PokemonDB/frontend/images/badges/{{badge.image}}badge.png" alt="{{badge.name}}" />
+                        <img ng-src="./frontend/images/badges/{{badge.image}}badge.png" alt="{{badge.name}}" />
                     </center>
                     <h2>{{badge.name}}</h2>
                 </div>
@@ -54,7 +54,7 @@
                 <h2><strong>Owned Pokemon</strong></h2></center>
             <div class="pokemonSelectArea child">
                 <div class="pokeSelectBlock" ng-repeat="i in addPokemonSize track by $index">
-                    <center><img ng-src="/PokemonDB/frontend/images/pokemon/{{selectedPokemon[$index].pokemonId}}.png" alt="" /></center>
+                    <center><img ng-src="./frontend/images/pokemon/{{selectedPokemon[$index].pokemonId}}.png" alt="" /></center>
                     <div class="pokemonSelectorCase">
                         <select class="pokemonSelector" ng-options="pokemon.name for pokemon in pokedex track by pokemon.id" ng-model="pkmn.$index.selectedOption" ng-change="selectPokemon($index, pkmn.$index.selectedOption.id)">
                         </select>

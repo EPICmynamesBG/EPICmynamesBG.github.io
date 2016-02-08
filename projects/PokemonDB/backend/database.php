@@ -3,7 +3,7 @@ class Database {
 
     private static $singleton = null;
     private static $remoteConfig = array(
-        "host"=>"http://ec2-54-152-79-10.compute-1.amazonaws.com",
+        "host"=>"ec2-54-152-79-10.compute-1.amazonaws.com",
         "user"=>"PokemonDB",
         "pass"=>"JY2HanXBQ7DGLYfz",
         "db"=>"PokemonDB",
