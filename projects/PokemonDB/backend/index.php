@@ -1,12 +1,12 @@
 <?php
-require 'vendor/autoload.php';
-require 'database.php';
-require 'sql.php';
-require 'model/Pokemon.php';
-require 'model/Trainer.php';
-require 'model/Gym.php';
-require 'model/Type.php';
-require 'model/Badge.php';
+require './vendor/autoload.php';
+require './database.php';
+require './sql.php';
+require './model/Pokemon.php';
+require './model/Trainer.php';
+require './model/Gym.php';
+require './model/Type.php';
+require './model/Badge.php';
 
 ini_set("display_errors", 'On');
 error_reporting(E_ALL);
