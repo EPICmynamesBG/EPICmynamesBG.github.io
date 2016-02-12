@@ -1,6 +1,6 @@
 app.factory("API", function ($http) {
 
-    var baseURL = "http://mynamesbg.me/projects/PokemonDB/backend";
+    var baseURL = "http://ec2-54-152-79-10.compute-1.amazonaws.com/PokemonDB/backend/index.php";
 //    var baseURL = "http://localhost:8888/projects/PokemonDB/backend";
     var factory = {};
 
