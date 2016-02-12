@@ -35,12 +35,17 @@ ul {
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
+    position: relative;
 }
 
 @media screen and (max-width:500px) {
 	* div {
 		width: 99%;
 	}
+
+    p {
+        margin-left: 5px;
+    }
 }
 
 h1 {
