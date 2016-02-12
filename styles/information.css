@@ -40,10 +40,11 @@
 
 .columns {
     margin-left:0;
+    position: relative;
 }
 
 .columns ul {
-    width: 100%;
+    width: auto;
     vertical-align: top;
     columns: 3;
     -webkit-columns:3;
@@ -53,7 +54,7 @@
 }
 
 .content * ul li {
-    width: 100%;
+    width: auto;
     margin-bottom: 5px;
 }
 

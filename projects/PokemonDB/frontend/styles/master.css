@@ -363,9 +363,24 @@ footer {
     width: 93%;
 }
 
-footer span {
+footer div {
     color: #FFF;
     display: block;
     margin: 2px auto;
     text-align: center;
+}
+
+footer span {
+    display: inline-block;
+    width: 49%;
+    padding: 0;
+    margin: 10px 2px 5px 2px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    footer span {
+        display: block;
+        width: 100%;
+    }
 }
