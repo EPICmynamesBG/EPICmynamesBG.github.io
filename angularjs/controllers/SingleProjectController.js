@@ -9,8 +9,16 @@ app.controller("SingleProjectController", function ($scope, $route, $json) {
 	$scope.showImagePopup = function(image, imgIndex){
 		$scope.showPopup = true;
 		$scope.popupImage = image;
+		var popup = document.getElementById("popup");
+		popup.focus();
 		currentImg = imgIndex;
 	};
+	
+	$scope.closePopup = function(){
+		$scope.showPopup=false;
+		var popup = document.getElementById("popup");
+		popup.blur();
+	}
 	
 	$scope.popupNavigation = function (nav) {
 		if (currentImg != null) {
@@ -26,6 +34,18 @@ app.controller("SingleProjectController", function ($scope, $route, $json) {
 			$scope.popupImage = $scope.project.images[currentImg];
 		};
 	};
+	
+	$scope.key = function ($event) {
+		if ($event.keyCode == 39) {
+			$scope.popupNavigation(1);
+		}
+		else if ($event.keyCode == 37){
+			$scope.popupNavigation(-1);
+		}
+		else if ($event.keyCode == 27){
+			$scope.closePopup();
+		}
+	}
 
     var title = $route.current.params.title;
 
