@@ -1,5 +1,23 @@
     [
     	{
+    		"title": "WiFi-USB",
+    		"status": "Version 1 Completed, Published on GitHub",
+    		"link": "https://github.com/EPICmynamesBG/SKButton",
+    		"start": "May 2016",
+    		"end": "Version 1: June 2016",
+    		"showEvent": false,
+    		"event": "n/a",
+    		"description": "A wirelessly controllable USB power port",
+    		"images": [
+				"/images/WiFi-USB/IMG_2189.JPG",
+                "/images/WiFi-USB/IMG_2190.JPG",
+                "/images/WiFi-USB/IMG_2193.JPG",
+                "/images/WiFi-USB/IMG_2194.JPG",
+                "/images/WiFi-USB/IMG_2195.png",
+                "/images/WiFi-USB/IMG_2196.png"
+            ]
+        },
+        {
     		"title": "SKButton",
     		"status": "Completed, Published on GitHub",
     		"link": "https://github.com/EPICmynamesBG/SKButton",

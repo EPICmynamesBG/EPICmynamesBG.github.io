@@ -1,0 +1,28 @@
+{
+    "title": "WiFi-USB",
+    "status": "Published on GitHub",
+    "linkText": "View on GitHub",
+    "linkImage": "/images/SocialMedia/github-1024-black.png",
+    "link": "https://github.com/EPICmynamesBG/WiFi-USB",
+    "start": "May 2016",
+    "end": "Version 1: June 2016",
+    "event": "n/a",
+    "description": [
+            "WiFi-USB is an open-source hardware-software combination project in which the obejective is to wirelessly be able to turn on/off a USB powered object. The idea for this application came one day as I was frequently plugging in and unplugging my USB powered LED salt lamp. The lack of power switch on the cord irritated me as finding the USB adapter while it was in the wall was never an easy task. Eventually I plugged the lamp into my Raspberry Pi 2 and thought, &quot;Wait, can I write a little program to control the lamp with my Pi?&quot; Due to some hardware limitations the answer was no, but I started loking up add-on boards that may enable the ability. Eventually, when bringing it up to my own friend (known as ajcord on GitHub), he told me it would be so easy to make with an ESP8266. Being not that familiar with hardware, I said, ok? What's that? After a breif explanation, he decided to just make me up a quick schematic for that the whole board to do this would look like.",
+            "A few days later, as promised, I was sent the schematic. He explained everything to me, and I still barely understood the hardware aspect. Of course he couldn't be 100% sure it would work, but I trusted him. He got me a parts list and everything, so all I did was order the parts and tools, then wait. Once everything came in the mail, we set up a date of availability, and on a Saturday, I flexed my soldering skills to assemble the board.",
+            "If only the hardware part was that simple. No. With my friend's help, we tested the board many different ways with and electronic voltage meter. Everything seemed to work fine, and eventually I got the board's first firmware running on it, essentially a Hello World. But something was wrong; the board was going into develop mode all the time. After many hours of debugging, we finally foud that the issue was the little button that was supposed to toggle the button. It was not wired as we thought; technically, it should have bee rotated 90&deg;, but of course the board deign didn't allow for that. So, for v1 of the hardware board, we came up with a little fix that involved cutting a trace and breaking the ground contact from certain points. The important part is we got it to work right! And of course, the board scheme was updated to accomodate if other prints were to ever be made.",
+            "At this point, we've only finished the hardware portion. Now we get into the firmware, where I have to make the board connect to a wifi network and act as a simple server that can recieve HTTP requests. Again, thanks to my friend's guidance, I was able to get started on the right path. You'd have never guessed I didn't know C++ from looking at the code, but I really didn't! I picked it up quick though, and frequently did code reviews to make sure I was following good practices as every language has its style. In a few days time, I had the board loaded with firmware the would allow me to send 3 basic requests: toggle, status, and reboot. All of these would reply in JSON format as well.",
+            "Moving through the firmware faster than expected, I finally got to start working on the part I would love most: iOS. Swift has to be one of my favorite languages, and I knew this single screen app would give me a lot of opportunity to test new things. Within hours, I had the app functioning and controlling the WiFi-USB power. But why stop there? From that point, I spent many hours playing with the UI, getting the animations just right, creating my own toast notifications, and even adding a color shifting background as a reference to the color changing salt lamp that started it all.",
+            "With the iOS app finished up, I decided it should only make sense to make a web site to control the WiFi-USB module as well. So, I decided to try to replicate the iOS app experience in web. Surprisingly, nearly everything was possible, including the background animation and button glow animations. However, CSS3 animations simply aren't as smooth as iOS/ native animations, so they do look a tad choppy at points. But in the end, I did get the web interface to look and function eactly like the iOS app, and I was really satisfied with that.",
+            "Looking forward, there is a lot of room for this project to grow. There are numerous cases that are essentially unhandled right now. What is there are multiple WiFi-USB devices on the same network? What if one device turns it off, shouldn't my device update accordingly? To answer, the second will be the easiest to solve as I will simply need to implement WebSockets withing the firmware and end user applications. The first however could prove more difficult as the wifi LAN name is written in the firmware, and making that variable could prove a challenge. But I've never been one to turn down a challenge, so we'll see how I solve that in the future!",
+            "In the end, the simple concept of wirelessly controlling a light has led me to my first IoT device. I had a great time working on this project, I am pleased with the final outcome, and I look forward to what is left to do with this."
+        ],
+    "images": [
+        "/images/WiFi-USB/IMG_2189.JPG",
+        "/images/WiFi-USB/IMG_2190.JPG",
+        "/images/WiFi-USB/IMG_2193.JPG",
+        "/images/WiFi-USB/IMG_2194.JPG",
+        "/images/WiFi-USB/IMG_2195.png",
+        "/images/WiFi-USB/IMG_2196.png"
+    ]
+}
