@@ -15,8 +15,7 @@
                 "/images/GoDex/GoDex3.png",
                 "/images/GoDex/GoDex0.png"
             ]
-        },
-        {
+        }, {
     		"title": "WiFi-USB",
     		"status": "Version 1 Completed, Published on GitHub",
     		"link": "https://github.com/EPICmynamesBG/SKButton",
@@ -33,8 +32,22 @@
                 "/images/WiFi-USB/IMG_2195.png",
                 "/images/WiFi-USB/IMG_2196.png"
             ]
-        },
-        {
+        }, {
+    		"title": "Virtual Commencement Admin",
+    		"status": "Published Online",
+    		"link": "",
+    		"start": "January 2016",
+    		"end": "February 2016",
+    		"showEvent": false,
+    		"event": "n/a",
+    		"description": "Made during my work at the Digital Corps, Virtual Commencement Admin is an administrative panel made for Ball State's Virtual Commencement.",
+    		"images": [
+				"/images/VirtualCommencement/VirtualCommencement0.png",
+                "/images/VirtualCommencement/VirtualCommencement1.png",
+                "/images/VirtualCommencement/VirtualCommencement2.png",
+                "/images/VirtualCommencement/VirtualCommencement3.png"
+            ]
+        }, {
     		"title": "SKButton",
     		"status": "Completed, Published on GitHub",
     		"link": "https://github.com/EPICmynamesBG/SKButton",
