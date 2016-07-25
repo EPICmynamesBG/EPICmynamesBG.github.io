@@ -1,5 +1,53 @@
     [
     	{
+    		"title": "GoDex",
+    		"status": "Published on GitHub",
+    		"link": "https://github.com/EPICmynamesBG/GoDex",
+    		"start": "July 10, 2016",
+    		"end": "July 15, 2016",
+    		"showEvent": false,
+    		"event": "n/a",
+    		"description": "A companion to Pokémon GO that allows players to see where certain Pokemon can be found",
+    		"images": [
+                "/images/GoDex/icon.png",
+				"/images/GoDex/GoDex1.png",
+                "/images/GoDex/GoDex2.png",
+                "/images/GoDex/GoDex3.png",
+                "/images/GoDex/GoDex0.png"
+            ]
+        }, {
+    		"title": "WiFi-USB",
+    		"status": "Version 1 Completed, Published on GitHub",
+    		"link": "https://github.com/EPICmynamesBG/SKButton",
+    		"start": "May 2016",
+    		"end": "Version 1: June 2016",
+    		"showEvent": false,
+    		"event": "n/a",
+    		"description": "A wirelessly controllable USB power port",
+    		"images": [
+				"/images/WiFi-USB/IMG_2189.JPG",
+                "/images/WiFi-USB/IMG_2190.JPG",
+                "/images/WiFi-USB/IMG_2193.JPG",
+                "/images/WiFi-USB/IMG_2194.JPG",
+                "/images/WiFi-USB/IMG_2195.png",
+                "/images/WiFi-USB/IMG_2196.png"
+            ]
+        }, {
+    		"title": "Virtual Commencement Admin",
+    		"status": "Published Online",
+    		"link": "",
+    		"start": "January 2016",
+    		"end": "February 2016",
+    		"showEvent": false,
+    		"event": "n/a",
+    		"description": "Made during my work at the Digital Corps, Virtual Commencement Admin is an administrative panel made for Ball State's Virtual Commencement.",
+    		"images": [
+				"/images/VirtualCommencement/VirtualCommencement0.png",
+                "/images/VirtualCommencement/VirtualCommencement1.png",
+                "/images/VirtualCommencement/VirtualCommencement2.png",
+                "/images/VirtualCommencement/VirtualCommencement3.png"
+            ]
+        }, {
     		"title": "SKButton",
     		"status": "Completed, Published on GitHub",
     		"link": "https://github.com/EPICmynamesBG/SKButton",
@@ -64,27 +112,6 @@
 
             ]
         }, {
-    		"title": "Simple Student DB",
-    		"status": "Completed, Unpublished",
-    		"link": "https://github.com/EPICmynamesBG/CS320.Assignment4",
-    		"start": "Nov 2, 2015",
-    		"end": "Nov 8, 2015",
-    		"showEvent": false,
-    		"event": "n/a",
-    		"description": "Simple Student DB is an application made for my mobile applications development course. The requirements were relatively simple: create an application that can interact with an on campus database of students. Essentially, the app had to be able to view, edit, create, and delete a student. However, I used this application as a way to further my knowledge and push myself. From this, I created not just a simple app, but an elegant, well-themed app with an added watch application and the ability to do background fetching and generate updates.",
-    		"images": [
-				"/images/SimpleStudentDB/SimpleStudentDB_watch1.png",
-				"/images/SimpleStudentDB/SimpleStudentDB_watch2.png",
-				"/images/SimpleStudentDB/SimpleStudentDB_watch3.png",
-				"/images/SimpleStudentDB/SimpleStudentDB_watch4.png",
-                "/images/SimpleStudentDB/SimpleStudentDB1.png",
-				"/images/SimpleStudentDB/SimpleStudentDB2.png",
-				"/images/SimpleStudentDB/SimpleStudentDB3.png",
-				"/images/SimpleStudentDB/SimpleStudentDB4.png",
-				"/images/SimpleStudentDB/SimpleStudentDB5.png"
-
-            ]
-        }, {
     		"title": "Charlie Eats Worms",
     		"status": "Completed",
     		"link": "http://apso.bsu.edu/2015/charlie_cardinal_web/mutt_mwc_remake/",
@@ -121,52 +148,5 @@
              "/images/InBetween/Default/EN_10in_gameOver.png",
              "/images/InBetween/Default/EN_10in_help.png"
          ]
-        }, {
-    		"title": "Hack-o-lantern",
-    		"status": "Completed",
-    		"link": "http://devpost.com/software/trick-or-tweet",
-    		"start": "Oct 16, 2015",
-    		"end": "Oct 18, 2015",
-    		"showEvent": true,
-    		"event": "BoilerMake 2015",
-    		"description": "Created during the BoilerMake 2015 hackathon, our group wanted to do something in the spirit of Halloween. Inspired by some ideas we saw online, we decided we wanted to use capacitive touch to make our pumpkin do something. With a Pumpkin, a Raspberry Pi, and a camera module, we set out to make the first Jack-o-lantern that would live tweet a selfie on touch.",
-    		"images": [
-                "/images/BoilerMake_2015/PumpkinPromo.jpg",
-                "/images/BoilerMake_2015/pumpkinSelfies.png"
-            ]
-        }, {
-    		"title": "Plex-Media Server",
-    		"status": "Completed",
-    		"link": "#",
-    		"start": "Jan 2015",
-    		"end": "Jan 2015",
-    		"showEvent": false,
-    		"event": "",
-    		"description": "As a personal project, I built my own computer from scratch in order to use it as a Plex Media Server. In this computer build, my goal was to keep costs low while building a server fully capable of streaming 1080p HD to multiple devices with no issues. After assembling a parts list and aqcuiring all of the components, I built the system and set it up. To learn more details about this project, please click on the project banner above.",
-    		"images": [
-                "/images/Plex-Server/Plex_server_0.jpg",
-                "/images/Plex-Server/Plex_server_1.jpg",
-                "/images/Plex-Server/Plex_server_2.jpg",
-                "/images/Plex-Server/Plex_server_3.jpg",
-                "/images/Plex-Server/Plex_server_4.jpg",
-                "/images/Plex-Server/Plex_server_5.jpg",
-                "/images/Plex-Server/Plex_server_6.png",
-                "/images/Plex-Server/Plex_server_7.JPG",
-                "/images/Plex-Server/Plex_server_8.JPG",
-                "/images/Plex-Server/Plex_server_9.JPG",
-                "/images/Plex-Server/Plex_server_10.JPG",
-                "/images/Plex-Server/Plex_server_11.JPG",
-                "/images/Plex-Server/Plex_server_12.png",
-                "/images/Plex-Server/Plex_server_13.png",
-                "/images/Plex-Server/Plex_server_14.png",
-                "/images/Plex-Server/Plex_server_15.png",
-                "/images/Plex-Server/Plex_server_16.png",
-                "/images/Plex-Server/Plex_server_17.png",
-                "/images/Plex-Server/Plex_server_18.png",
-                "/images/Plex-Server/Plex_server_19.png",
-                "/images/Plex-Server/Plex_server_20.png",
-                "/images/Plex-Server/Plex_server_21.png",
-                "/images/Plex-Server/Plex_server_22.png"
-            ]
         }
  ]

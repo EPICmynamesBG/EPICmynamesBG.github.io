@@ -1,0 +1,58 @@
+{
+    "title": "GoDex",
+    "status": "Published on GitHub",
+    "linkText": "View on GitHub",
+    "linkImage": "/images/SocialMedia/github-1024-black.png",
+    "link": "https://github.com/EPICmynamesBG/GoDex",
+    "start": "July 10, 2016",
+    "end": "July 15, 2016",
+    "event": "n/a",
+    "description": [
+            "GoDex is/was meant to be a companion application to Pokémon GO. It's primary purpose was to be a community built, maintained, and used application in which users could submit a Pokémon sighting from their current location. Of course, most users want to use the app to see where certain Pokémon can commonly be found, so besides just contributing, there is a map view where users can lookup a Pokémon to see where the nearest sightings are in comparison to their current location.",
+            "This app started as an idea I had after I downloaded Pokémon GO and found myself curious as to where certain Pokémon could be found. I knew the app was already huge after just a few days, and that this kind of app could be huge. However, I also was certain that I would not be the only one with this idea, so a speed build was essential. Basically, our app had to be more stable than the curent Pokémon GO application (which at the time, crashed and froze frequently). With this in mind, I called out to the summer program I was in (XTern) for help. Within a hours, I had assembled a team.",
+            "The next day, I had the team meet and we discussed the app, it's goals, how to prevent scope creep, and who would be doing what. At this time, we had a DevOps person, 1 designer, 3 people on Android, 2 on Backend, and 1 on the static promotional web front end. I was the iOS 'team'. Upon dismissal, I sat down and discussed what needed done ASAP from our designer, backend, and DevOps. I had a general UI thought up and layed it out, explainig the reason for each componenet. I left the designer to work out the small details and app icon, and she went to town with it.",
+            "Our backend was of course the most important part of the project as it would hold and process all the data for the apps. So we got right to work figuring out what tech stack we wanted to use, how our database should look, and a minimum viable for the apps to start using it. After all that was figured out, we parted ways, and our backend developer, Josh Gayso, also went to town. And boy did he, the backend was basically ready the next day.",
+            "Lastly, I sat down with the DevOps guy, Harrison Lingren, and gave him access to my AWS account where he would setup two EC2 instances, one to host the front-end site, and the other for the backend. We also bought a domain and I left him to do the work of connecting it to our servers, as well as setting up SSH abilities and VPC networking. He did a great job with all that!",
+            "So of course, every night I am plowing away at the iOS app. Within 2 days (of minimal sleep), I had the app connecting to our API/backend and ready for testing. However, in this time span, I also realized we needed to be promoting ourselves for the launch. I also realized that if I wanted to make this app as good as possible, I couldn't keep getting distracted by the project manager details, so I recruited another member to be our social and managerial person. She helped us set up and organize a Trello board to manage our process, and took the reigns on our Reddit and Twitter.",
+            "Eventually, the iOS app was finished. In those few days though, one app similar to our idea had hit the app store. It was in the top 9, but had terrible reviews because it wasn't prepared for all of the spammers and dishonest people in the world, so Mewtwos were apparently everywhere. Nonetheless, it solidified our idea that people were looking for something like this that wasn't a website.",
+            "Late in the week, a number of team members dropped off. Android fell from 3 to 1, and the app was far behind the iOS app. The decision came that because the Android submission process would be much faster than iOS, we would submit the iOS app first, and give Guna (our Android developer) some extra time.",
+            "Alas, everything was almost ready. The iOS app was ready for submission, the site and backend were all up and running, and with the help of some more friends, we even had a legal page. The last part was to pay the Apple Developer fee and submit that app. However, this is the point where everything fell apart. We were too slow.",
+            "On the day before we were prepared the submit the app, someone had reverse engineered Pokémon GO and figured out the game's API. The day of submission, there were already projects on GitHub getting live game data. On this same day, another app hit the app store that was our exact idea, except also well implemented, and with one feature we had not thought of: community approval/disapproval. Like the Waze app, sightings noted could be upvoted or invalidated. My team lost hope, and I myself was a little discouraged.",
+            "We took a vote, and in the end, we decided not to submit our app. I still considered submitting the app on my own, but have not for a few reasons. First, the app is not original. There are numerous websites and apps now that do what this app was made to do. Second, anything to do with Pokémon immediately geets shifty with The Pokémon Company Terms of Use, so I'm unsure that the app would get approved. Third, while having an app on the store is great, there also many costs associated, including the $100/year Apple Developer fee, yearly domain name costs, and monthly server maintenance costs. At this point in life, I'm in no position to take on these expenses, otherwise these would not be a valid reason.",
+            "In the end, this app had a great run. We all gained loads of experience. Personally, this was a great leadership experience as I led the team in this endeavor; similarly, I also got to put my UX and iOS skills to the test. I think I passed the test... But regardless, even though I am disappointed this app did not launch, I am proud of the work everyone put in, and equally satisfied with the final product. If you've read this far, I hope you enjoyed the story, and will check out some of the team members that I list below as they are all equally talented individuals."
+        ],
+    "images": [
+        "/images/GoDex/icon.png",
+        "/images/GoDex/GoDex1.png",
+        "/images/GoDex/GoDex2.png",
+        "/images/GoDex/GoDex3.png",
+        "/images/GoDex/GoDex0.png",
+        "/images/GoDex/GoDex-Trello.png"
+    ],
+    "parts": [
+        {
+            "part": "Josh Gayso - Backend Developer",
+            "link": "https://github.com/JJGayso"
+                },
+        {
+            "part": "Harrison Lingren - DevOps",
+            "link": "http://harrison.lingren.co"
+                },
+        {
+            "part": "Aaron Kreuger - Front-End Web Devleoper",
+            "link": "http://www.akrqt.com/"
+                },
+        {
+            "part": "Guna Kondapaneni - Android Developer",
+            "link": "https://github.com/FireSoul1"
+                },
+        {
+            "part": "Amy Street - Designer",
+            "link": "http://www.amymstreet.com/"
+                },
+        {
+            "part": "Luke Hochgesang - Legal",
+            "link": "https://www.linkedin.com/in/lukehochgesang"
+                }
+            ]
+}

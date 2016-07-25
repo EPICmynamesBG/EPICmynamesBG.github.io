@@ -1,0 +1,25 @@
+{
+    "title": "Virtual Commencement Admin",
+    "status": "Published Online",
+    "linkText": "",
+    "linkImage": "",
+    "link": "",
+    "start": "January 2016",
+    "end": "February 2016",
+    "event": "n/a",
+    "description": [
+            "Virtual Commencement Admin is an administrative panel made for Ball State's Virtual Commencement. To elaborate, Virtual Commencement allows students that study abroad/remote to be regocnized during the actual onsite commencement ceremony if they are unable to physically be there. The actual event is accompanied by a web cast, so students can watch themselves be recognized from their computer. The purpose of the admin panel is so that selected heads in each college have the abillity to help remote students create/edit the info they've submitted if there are any issues.",
+            "This project was made as a part of my work at the Digital Corps. Unlike most projects at the Corps, this project was almost completely an individual project as most students were already busy on many other projects. Thus, the design and development of this project was all on me.",
+            "I started of my making a rough paper sketch up of the panel that simply showed how it would look and function. The panel didn't need to do much, but it had a few key tasks, and users needed to be able to intuitively do this. Once I had the design set, I went to work. For this project, because it was building off of a previous form, I used a combination of PHP, HTML, CSS, and jQuery.",
+            "Quickly, the UI began to come together and looked as I wanted it. Once that was mostly set, I went to work writing PHP and javascript to do the heavy lifting. Part of this project meant having access to BSU student data as well as being able to authenticate admins, so I did have to create a database as well as integrate with the BSU login system. I thought the login system integration would be difficult, but thankfully I was wrong.",
+            "In 2 or so weeks, I was essentially done with the web application and had to demo it to my overrseers. At one point, the boss of the Corps asked who came up with the design. Hesitently, I said I had (my previous design attempts had not always gone the best). He responded that it looked very good and intuitive, which made me ecstatic - my first successful UX design.",
+            "It wasn't long that I also demoed it to the people that would be using. Even the least tech savvy among them accepted it easily and understood what everything should do. The add button was here; to edit, just edit and save; to export the list, just hit the dropdown and select 'Export to CSV'. They loved it, which made me love it.",
+            "Later on, when all my projects finished up, I came back to the Virtual Commencement web app and decided to make it mobile friendly. There was really no purpose, but I was determined to, and so I did. Doing this included adding some css @media queries, as well as some more jQuery to enable the sliding left bar, and how to handle taps differently. But it was a great experience, and I learned a lot more about UX and mobile CSS."
+        ],
+    "images": [
+        "/images/VirtualCommencement/VirtualCommencement0.png",
+        "/images/VirtualCommencement/VirtualCommencement1.png",
+        "/images/VirtualCommencement/VirtualCommencement2.png",
+        "/images/VirtualCommencement/VirtualCommencement3.png"
+    ]
+}
