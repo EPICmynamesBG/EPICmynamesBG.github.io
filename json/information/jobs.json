@@ -7,25 +7,25 @@
         "end": "Present",
         "contact": "Matt Smith",
         "contactEmail": "Matt.Smith@inin.com",
-        "description": "As an intern in PSO Application Development at Interactive Intelligence, my tasks were very different from most full-time employees. As the company is beginning a shift from an older platform to a newer platform named PureCloud, as an intern, my main tasks consisted of learning the PureCloud API, and attempting to use it in many ways to determine what its' limitations are. Beyond working on just research and pushing our own API, I also helped work on an add-on web application that would extend the functionality of our main PureCloud product."
+        "description": "As an intern in PSO Application Development at Interactive Intelligence, my tasks were initially different from most full-time employees. As the company was beginning a shift from an older platform to a newer platform named PureCloud, as an intern, my main tasks consisted of learning the PureCloud API, and attempting to use it in many ways to determine what its limitations were. This included making an iOS application and a web application to test its various chat technologies. Beyond working on just research and pushing our own API, I also helped lead development on an add-on web application that would extend the functionality of PureCloud's Analytics API."
     }, {
         "title": "Development Team Specialist",
         "company": "the Digital Corps",
         "location": "Ball State University, Muncie, IN",
         "start": "January 2015",
         "end": "May 2016",
-        "contact": "Brian O'Conner",
+        "contact": "Bryon O'Conner",
         "contactEmail": "bpoconner.bsu@gmail.com",
-        "description": "As a Specialist at the Digital Corps, I am now considered a skilled member of the group. My duties include moderate to advanced application development as well as assisting others as needed or requested. I am still expected to work well in a team as well as communicate with others on projects that I am actively working on."
+        "description": "As a Specialist at the Digital Corps, my duties included moderate to advanced application development as well as assisting others as needed or requested. Being a specialist, I frequently was called upon to take the lead in developing applications, and even lead development on one of the largest projects the Corps has experienced."
     }, {
         "title": "Development Team Apprentice",
         "company": "the Digital Corps",
         "location": "Ball State University, Muncie, IN",
         "start": "August 2015",
         "end": "January 2015",
-        "contact": "Brian O'Conner",
+        "contact": "Bryon O'Conner",
         "contactEmail": "bpoconner.bsu@gmail.com",
-        "description": "As a second semester developer Apprentice, it is my job to begin applying my skills. While I will still be learning, I will now be focusing on project work that comes into the Digital Corps. As a project team member, I will be assigned development tasks that will need completed in a timely manor and communicate with others on the project team."
+        "description": "As a second semester developer Apprentice, it was my job to begin applying my previously learned skills. Having passed my training, I was now expected to be a part of project teams. As a project team member, I wworked with other developers, designers, and even video editors to create professional grade products in a timely and organized manor."
     }, {
         "title": "Information Technology Intern",
         "company": "Midmark",
@@ -34,16 +34,16 @@
         "end": "August 2015",
         "contact": "Nicole Robbins",
         "contactEmail": "nrobbins@midmark.com",
-        "description": "For my second summer back at Midmark, my duties were similar to those of the prior summer, but with a few additions. As a returning intern, on top of all the tasks I was assigned last year, I lead and trained the first year interns. I also was assigned as the Tier 2 technician to the Office Upgrade project. My role in the project was creating the Office package that would be deployed through SCCM 2012 and troubleshooting issues during champion testing. Because I had to leave for school before the project went live for the company, I also documented everything about the package/project in order to pass it along."
+        "description": "For my second summer at Midmark, my duties were similar to those of the prior summer, but with a few additions. As a returning intern, on top of all the tasks I was assigned last year, I lead and trained the first year interns. I also was assigned as the Tier 2 technician to the Office Upgrade project. My role in the project was creating the Office package that would be deployed through SCCM 2012 and troubleshooting issues during champion testing. Because I had to leave for school before the project went live for the company, I also documented everything about the package/project in order to pass it along."
     }, {
         "title": "Development Team Apprentice",
         "company": "the Digital Corps",
         "location": "Ball State University, Muncie, IN",
         "start": "Jan 2015",
         "end": "May 2015",
-        "contact": "Brian O'Conner",
+        "contact": "Bryon O'Conner",
         "contactEmail": "bpoconner.bsu@gmail.com",
-        "description": "As a Digital Corp Apprentice on the Development Team, I am currently being trained on many skills, including UNIX terminal, iOS, Android, Front-End Web, and Back-End Web development."
+        "description": "As a Digital Corp Apprentice on the Development Team, it was my job to be trained on many skills, including UNIX terminal, iOS, Android, Front-End Web, and Back-End Web development. Because I finished my training early, I was also put on some low priority projects, including updating an iPad kiosk application."
     }, {
         "title": "Information Technology Intern",
         "company": "Midmark",

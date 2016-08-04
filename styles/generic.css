@@ -262,7 +262,7 @@ footer {
 
 #connect {
 	display: inline-block;
-	margin: 1px auto;
+	margin: 1px 20p;
 	width: auto;
 	text-align: center;
 }
@@ -275,7 +275,7 @@ footer {
 	max-width: 55px;
 	display: inline-block;
 	vertical-align: middle;
-	margin: 0px auto;
+	margin: 0px 2%;
 }
 
 #resume {
