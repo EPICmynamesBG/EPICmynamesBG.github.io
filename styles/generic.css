@@ -16,8 +16,8 @@ p {
 	font-size: 1em;
 	max-width: 500px;
 	margin-left: 5%;
-	text-indent: 2em;
 	font-weight: 300;
+    line-height: 1.7em;
 }
 
 a {

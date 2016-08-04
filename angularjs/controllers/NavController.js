@@ -25,6 +25,11 @@ app.controller("NavController", function ($scope, $location, $route) {
         $location.path("/");
 		updateCurrent();
     };
+    
+    $scope.resumeClick = function() {
+        window.location = "./files/BrandonGroff.pdf";
+        updateCurrent();
+    }
 	
 	updateCurrent();
 });

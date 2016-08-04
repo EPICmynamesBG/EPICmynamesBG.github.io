@@ -118,6 +118,7 @@ ul[rn-carousel] {
 .projectTitle {
     cursor: pointer;
     font-weight: 900;
+    font-size: 2.0em;
     letter-spacing: 0.0625em;
     font-size-adjust: auto;
     text-decoration: none;
@@ -126,10 +127,15 @@ ul[rn-carousel] {
 	transition: 0.5s ease;
 }
 
+.projectTitle > a {
+    letter-spacing: 0.05em;
+    font-size: 0.5em;
+    line-height: 2em;
+}
+
 .projectTitle:hover {
 	color: #BA0C2F;
 	text-shadow: 2px 4px 2px black;
-	letter-spacing: 0.4em;
 	font-size: 2.0em;
 }
 
