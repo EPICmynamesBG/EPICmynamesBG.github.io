@@ -5,7 +5,7 @@ app.config(function ($routeProvider, $locationProvider) {
         .when('/', {
             redirectTo: '/projects'
         })
-        .when('/information', {
+        .when('/about', {
             controller: "InformationController",
             templateUrl: 'html/information.html'
         })

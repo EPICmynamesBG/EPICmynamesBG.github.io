@@ -4,15 +4,15 @@ app.controller("NavController", function ($scope, $location, $route) {
 	
 	var updateCurrent = function(){
 		var route = $location.$$path;
-		if (route == "/information"){
-			$scope.current = "Information";
+		if (route == "/about"){
+			$scope.current = "About";
 		} else{
 			$scope.current = "Projects"
 		} 
 	};
 	
     $scope.infoClick = function () {
-        $location.path("/information");
+        $location.path("/about");
 		updateCurrent();
     };
 
