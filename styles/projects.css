@@ -83,6 +83,7 @@ ul[rn-carousel] {
     -webkit-transform: translate(0, 250%);
     background-color: #ccc;
     padding: 1%;
+    border-radius: 2px;
 }
 
 .project_carousel .rn-carousel-control:active {
