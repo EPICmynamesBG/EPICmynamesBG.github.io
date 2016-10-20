@@ -44,6 +44,7 @@ ul {
 
     p {
         margin-left: 5px;
+        padding: 0 8px;
     }
 }
 
@@ -171,6 +172,21 @@ body {
 	top: 0;
 	left: 0;
 	z-index: 2;
+}
+
+#navBar-spacer {
+  display: none;
+  height: 45px;
+}
+
+@media screen and (max-width: 480px) {
+  #navBar-spacer {
+    height: 90px;
+  }
+}
+
+#navBar-spacer.active {
+    display: block;
 }
 
 .navigation {
