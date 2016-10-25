@@ -1,0 +1,8 @@
+
+# Created by https://www.gitignore.io/api/sass
+
+### Sass ###
+.sass-cache/
+*.css.map
+
+## Usually would ignore node_modules, but because github static hosting, need to keep ##
