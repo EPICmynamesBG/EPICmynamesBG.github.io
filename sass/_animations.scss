@@ -1,0 +1,66 @@
+.fade-in {
+  opacity: 0;
+  animation: fade-in 1.5s ease-in 1s forwards;
+}
+
+@keyframes fade-in {
+  to {
+    opacity: 1.0;
+  }
+}
+
+.pulse {
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  -webkit-animation-name: hvr-pulse;
+  animation-name: hvr-pulse;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  box-shadow: 0 0 1px transparent;
+  transition: 0.5s;
+}
+
+.hover-pulse {
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  transition: 0.5s;
+  &:hover,
+  &:active,
+  &:focus {
+    -webkit-animation-name: hvr-pulse;
+    animation-name: hvr-pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }
+}
+
+@keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+.image-gray {
+  filter: grayscale(100%);
+  transition-duration: 0.4s;
+  &:hover,
+  &:focus,
+  &:active {
+    filter: none;
+  }
+}

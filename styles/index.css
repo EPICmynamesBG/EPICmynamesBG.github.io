@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,700");
+.fade-in {
+  opacity: 0;
+  animation: fade-in 1.5s ease-in 1s forwards; }
+
+@keyframes fade-in {
+  to {
+    opacity: 1.0; } }
+.pulse {
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  -webkit-animation-name: hvr-pulse;
+  animation-name: hvr-pulse;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  box-shadow: 0 0 1px transparent;
+  transition: 0.5s; }
+
+.hover-pulse {
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  transition: 0.5s; }
+  .hover-pulse:hover, .hover-pulse:active, .hover-pulse:focus {
+    -webkit-animation-name: hvr-pulse;
+    animation-name: hvr-pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite; }
+
+@keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9); } }
+.image-gray {
+  filter: grayscale(100%);
+  transition-duration: 0.4s; }
+  .image-gray:hover, .image-gray:focus, .image-gray:active {
+    filter: none; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif; }
+  *:focus {
+    outline: none; }
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+main {
+  flex: 1 0 auto; }
+
+img {
+  max-height: 100%;
+  max-width: 100%; }
+
+p {
+  max-width: 500px; }
+
+.waves-effect.waves-blue .waves-ripple {
+  /* The alpha value allows the text and background color
+     of the button to still show through. */
+  background-color: rgba(33, 150, 243, 0.65); }
+
+.well[ui-view] {
+  height: 65px; }
+
+.ui-view-container {
+  position: relative; }
+
+[ui-view].ng-enter,
+[ui-view].ng-leave {
+  position: absolute;
+  left: 0;
+  right: 0;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out; }
+
+[ui-view].ng-enter {
+  opacity: 0;
+  -webkit-transform: scale3d(0.5, 0.5, 0.5);
+  -moz-transform: scale3d(0.5, 0.5, 0.5);
+  transform: scale3d(0.5, 0.5, 0.5); }
+
+[ui-view].ng-enter-active {
+  opacity: 1;
+  -webkit-transform: scale3d(1, 1, 1);
+  -moz-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1); }
+
+[ui-view].ng-leave {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+[ui-view].ng-leave-active {
+  opacity: 0;
+  -webkit-transform: translate3d(100px, 0, 0);
+  -moz-transform: translate3d(100px, 0, 0);
+  transform: translate3d(100px, 0, 0); }
+
+.show-on-small-and-down {
+  display: none; }
+
+@media screen and (max-width: 600px) {
+  .show-on-small-and-down {
+    display: block; } }
+navigation nav ul.hide-on-small-and-down > li:first-child {
+  margin-left: 10px; }
+navigation nav a.button-collapse {
+  margin-left: 10px;
+  cursor: pointer; }
+navigation nav a.brand-logo {
+  position: relative;
+  height: 100%;
+  display: inline-block;
+  padding: 10px !important;
+  margin-right: 0px; }
+  navigation nav a.brand-logo > img {
+    height: 100%; }
+navigation nav p.name {
+  font-size: 1.8rem;
+  margin-right: 10px;
+  font-weight: 100; }
+navigation nav .side-nav li {
+  width: 100%;
+  float: none;
+  display: block; }
+  navigation nav .side-nav li a {
+    font-size: 1.2rem; }
+navigation nav .side-nav .side-nav-topper .brand-logo {
+  margin-top: 5px;
+  height: 70px;
+  position: relative;
+  display: block; }
+  navigation nav .side-nav .side-nav-topper .brand-logo img {
+    height: 100%;
+    display: block;
+    margin: 2px auto; }
+navigation nav .side-nav .side-nav-topper .name {
+  font-size: 1.8rem;
+  margin-right: 10px;
+  font-weight: 100;
+  color: #333333;
+  text-align: center; }
+navigation nav .side-nav .side-nav-footer {
+  margin-top: 15px; }
+  navigation nav .side-nav .side-nav-footer span.social {
+    position: relative;
+    height: 48px;
+    width: 30%;
+    max-width: 48px;
+    display: inline-block;
+    margin: 2px; }
+    navigation nav .side-nav .side-nav-footer span.social a {
+      padding: 0; }
+      navigation nav .side-nav .side-nav-footer span.social a img {
+        max-height: 100%;
+        max-width: 100%; }
+
+#home {
+  width: 100%;
+  height: 100%;
+  text-align: center; }
+  #home div {
+    display: block;
+    margin: 15px auto;
+    position: relative; }
+  #home .headshot-wrapper {
+    height: 200px;
+    width: 200px; }
+    #home .headshot-wrapper img {
+      border-radius: 2px; }
+  #home .logo-wrapper {
+    height: 140px;
+    width: 140px; }
+  #home .slogan p {
+    margin: 0px auto; }
+
+/*# sourceMappingURL=index.css.map */

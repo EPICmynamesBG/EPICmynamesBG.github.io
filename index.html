@@ -1,47 +1,144 @@
 <!DOCTYPE html>
-<html ng-app="Main" lang="en">
+<html lang="en">
 
 <head>
-	<title>Brandon Groff | {{$state.current.name}}</title>
-	<link rel=icon href="images/Generic-Folder-Blue-icon.png" />
-	<!-- Meta Tags -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta http-equiv="Content-Language" lang="en" />
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
-	<meta name="description" content="Personal portfolio and resume of Brandon Groff, CS major at Ball State" />
-	<meta name="keywords" content="Brandon Groff, mynamesbg, portfolio, Ball State, CS, Computer Science, Versailles, OH" />
-	
-	<!-- Source Imports -->
-	<link rel="stylesheet" href="./node_modules/materialize-css/dist/css/materialize.css" />
-	<script src="./node_modules/jquery/dist/jquery.min.js" ></script>
-  <script src="./node_modules/materialize-css/dist/js/materialize.min.js" ></script>
-  <script src="./node_modules/angular/angular.js" ></script>
-	<script src="./node_modules/angular-ui-router/release/angular-ui-router.min.js" ></script>
-	
-	<!-- Styling -->
-	<link rel="stylesheet" href="./styles/index.css" />
-	
-	<!-- Scripts -->
-	<script src="./scripts/app.js" ></script>
-	
-	<script src="./scripts/controllers/NavController.js" ></script>
-	
-	<script src="./scripts/directives/navigation.js" ></script>
-	
-<!--	<script type="text/javascript" src="scripts/Other/googleAnalytics.js"></script>-->
+  <title>Brandon Groff</title>
+  <link rel=icon href="./assets/images/logo_32.png" />
+  <!-- Meta Tags -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Content-Language" lang="en" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+  <meta name="description" content="Personal portfolio and resume of Brandon Groff, CS major at Ball State" />
+  <meta name="keywords" content="Brandon Groff, mynamesbg, portfolio, Ball State, CS, Computer Science, Versailles, OH" />
+
+  <!-- Source Imports -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="./node_modules/materialize-css/dist/css/materialize.css" />
+
+  <!-- Styling -->
+  <link rel="stylesheet" href="./styles/index.css" />
+
+
 </head>
 
-<body>
-	<header ng-controller="NavController">
-		
-	</header>
-	<main>
-	  <div ui-view></div>
-	</main>
-	<footer>
-	  
-	</footer>
+<body class="blue-grey lighten-5">
+  <!-- BEGIN: App-Loading Screen. -->
+  <div class="m-app-loading" ng-animate-children>
+    <!--
+            HACKY CODE WARNING: I'm putting Style block inside directive so that it
+            will be removed from the DOM when we remove the directive container.
+        -->
+    <link rel="stylesheet" href="./styles/loading.css" />
+    <!-- BEGIN: Actual animated container. -->
+    <div class="animated-container">
+      <div class="logo-container">
+        <svg id="logo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 93.97 137.33">
+          <defs>
+            <style>
+              .cls-1,
+              .cls-2,
+              .cls-3 {
+                fill: none;
+                stroke-linecap: round;
+                stroke-linejoin: round;
+                stroke-width: 3px;
+              }
+              
+              .cls-1 {
+                stroke: #38a4dd;
+              }
+              
+              .cls-2 {
+                stroke: #00579b;
+              }
+              
+              .cls-3 {
+                stroke: url(#linear-gradient);
+              }
+            </style>
+            <linearGradient id="linear-gradient" x1="2904.18" y1="717.46" x2="2975.87" y2="717.46" gradientTransform="matrix(1.01, -0.01, -0.01, 1.01, -2918.6, -602.27)" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#00579b" />
+              <stop offset="1" stop-color="#38a4dd" />
+            </linearGradient>
+          </defs>
+          <title>logo</title>
+          <g>
+            <line class="cls-1" x1="71.21" y1="65.53" x2="91.67" y2="86" />
+            <line class="cls-1" x1="51.38" y1="115.37" x2="71.84" y2="135.83" />
+            <line class="cls-1" x1="51.38" y1="85.7" x2="51.38" y2="115.37" />
+            <line class="cls-1" x1="72" y1="135.83" x2="92.47" y2="115.37" />
+            <line class="cls-1" x1="63.49" y1="115.37" x2="92.42" y2="115.37" />
+            <line class="cls-2" x1="17.72" y1="118.51" x2="17.72" y2="21.36" />
+            <line class="cls-2" x1="17.72" y1="70.28" x2="52.07" y2="35.94" />
+            <line class="cls-2" x1="17.99" y1="50.52" x2="51.77" y2="84.3" />
+            <line class="cls-2" x1="17.7" y1="1.5" x2="52.04" y2="35.85" />
+            <line class="cls-3" x1="1.5" y1="135.12" x2="71.11" y2="65.51" />
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <!-- END: App-Loading Screen. -->
+  <header ng-controller="NavController">
+    <navigation></navigation>
+  </header>
+  <main>
+    <div ui-view></div>
+  </main>
+
+  <footer class="page-footer blue-grey darken-4">
+    <div class="container" ng-if="$state.current.name != 'Home'">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Footer Content</h5>
+          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2016 Copyright Brandon Groff
+        <a class="grey-text text-lighten-4 right" href="mailto:mynamesbg@gmail.com">Contact Me</a>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- Sources -->
+
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./node_modules/materialize-css/dist/js/materialize.min.js"></script>
+  <script src="./node_modules/angular/angular.js"></script>
+  <script src="./node_modules/angular-animate/angular-animate.min.js"></script>
+  <script src="./node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+  <!-- Scripts -->
+  <script src="./scripts/app.js"></script>
+
+  <script src="./scripts/controllers/HomeController.js"></script>
+  <script src="./scripts/controllers/AboutController.js"></script>
+  <script src="./scripts/controllers/ExperienceController.js"></script>
+  <script src="./scripts/controllers/NavController.js"></script>
+  <script src="./scripts/controllers/ProjectsController.js"></script>
+  <script src="./scripts/controllers/ProjectsAllController.js"></script>
+  <script src="./scripts/controllers/ProjectsDetailsController.js"></script>
+
+  <script src="./scripts/directives/navigation.js"></script>
+  <script src="./scripts/directives/mAppLoading.js"></script>
+
+  <!--	<script type="text/javascript" src="scripts/Other/googleAnalytics.js"></script>-->
 </body>
+
 </html>
