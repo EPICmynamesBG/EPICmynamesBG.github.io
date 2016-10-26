@@ -20,6 +20,7 @@ app.run(function ($rootScope, $state) {
 
 app.config(function ($stateProvider, $urlRouterProvider) {
 
+  console.log('CONFIG');
   $urlRouterProvider.otherwise("/");
 
   $stateProvider
