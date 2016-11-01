@@ -1,0 +1,23 @@
+#about {
+  .card {
+    .card-image {
+//      max-height: 90px;
+      img {
+//        display: block;
+//        margin: auto auto;
+      }
+    }
+  }
+  .card.horizontal {
+    .card-image {
+      max-height: 100%;
+      max-width: 200px;
+    }
+  }
+  
+  .about {
+    .card-title {
+      
+    }
+  }
+}

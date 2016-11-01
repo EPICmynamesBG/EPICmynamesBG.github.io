@@ -63,7 +63,8 @@ body {
   flex-direction: column; }
 
 main {
-  flex: 1 0 auto; }
+  flex: 1 0 auto;
+  padding: 20px; }
 
 img {
   max-height: 100%;
@@ -225,5 +226,9 @@ footer.page-footer {
     width: 140px; }
   #home .slogan p {
     margin: 0px auto; }
+
+#about .card.horizontal .card-image {
+  max-height: 100%;
+  max-width: 200px; }
 
 /*# sourceMappingURL=index.css.map */

@@ -37,10 +37,10 @@ div.logo-container {
   top: 50%;
   right: 50%;
   transform: translate3d(50%, -50%, 0);
-  animation: shiftX 1.1s ease-in 2.9s forwards,
-    shiftY 1.1s ease-out 2.9s forwards,
-    grow 0.4s ease-in-out 2.4s forwards,
-    shrink 1.2s ease-in 2.8s forwards;
+  animation: shiftX 1.1s ease-in 2.2s forwards,
+    shiftY 1.1s ease-out 2.2s forwards,
+    grow 0.4s ease-in-out 1.8s forwards,
+    shrink 1.2s ease-in 2.1s forwards;
 /*
   -webkit-filter: drop-shadow(0px 0px 2px rgba(255, 255, 255,0.9));
   filter: drop-shadow(0px 0px 2px rgba(255, 255, 255,0.9));
@@ -55,27 +55,30 @@ div.logo-container svg#logo {
 div.logo-container svg#logo .cls-2.b {
   stroke-dasharray: 400;
   stroke-dashoffset: 400;
-  animation: dash 1.5s linear forwards;
+  animation: dash 1.6s linear forwards;
   animation-delay: 0.3s;
 }
 
 div.logo-container svg#logo .cls-2.cross {
   stroke-dasharray: 400;
   stroke-dashoffset: 400;
-  animation: dash 1.5s linear forwards;
-  animation-delay: 0.6s;
+  animation: dash 1.6s linear forwards;
+  animation-delay: 0.7s;
 }
 
 div.logo-container svg#logo .cls-2.g {
   stroke-dasharray: 400;
   stroke-dashoffset: 400;
-  animation: dash 1.5s linear forwards;
-  animation-delay: 0.9s;
+  animation: dash 1.6s linear forwards;
+  animation-delay: 1.1s;
 }
 
 div.logo-container svg#logo .cls-1 {
+/*
   animation: back-grow 0.8s ease-in both;
   animation-delay: 1s;
+*/
+  opacity: 0;
 }
 
 @keyframes dash {
@@ -103,6 +106,7 @@ div.logo-container svg#logo .cls-1 {
   }
 }
 
+/*
 @keyframes back-grow {
   from {
     opacity: 0;
@@ -115,6 +119,7 @@ div.logo-container svg#logo .cls-1 {
     width: 18rem;
   }
 }
+*/
 
 @keyframes shrink {
   from {
