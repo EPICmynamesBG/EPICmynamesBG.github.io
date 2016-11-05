@@ -75,7 +75,7 @@ p {
 
 .waves-effect.waves-blue .waves-ripple {
   /* The alpha value allows the text and background color
-     of the button to still show through. */
+   of the button to still show through. */
   background-color: rgba(33, 150, 243, 0.65); }
 
 .well[ui-view] {
@@ -121,11 +121,28 @@ p {
 .show-on-small-and-down {
   display: none; }
 
+.social {
+  position: relative;
+  height: 48px;
+  width: 30%;
+  max-width: 48px;
+  display: inline-block;
+  margin: 2px; }
+  .social a {
+    padding: 0;
+    height: 100%;
+    display: block; }
+    .social a img {
+      max-height: 100%;
+      max-width: 100%; }
+
 @media screen and (max-width: 600px) {
   .show-on-small-and-down {
     display: block; } }
 navigation nav ul.hide-on-small-and-down > li:first-child {
   margin-left: 10px; }
+navigation nav ul a {
+  font-size: 1.2rem; }
 navigation nav a.button-collapse {
   margin-left: 10px;
   cursor: pointer; }
@@ -133,14 +150,22 @@ navigation nav a.brand-logo {
   position: relative;
   height: 100%;
   display: inline-block;
-  padding: 10px !important;
+  padding: 5px !important;
   margin-right: 0px; }
   navigation nav a.brand-logo > img {
     height: 100%; }
-navigation nav p.name {
-  font-size: 1.8rem;
-  margin-right: 10px;
-  font-weight: 100; }
+navigation nav div.name {
+  height: 100%;
+  position: relative;
+  cursor: pointer;
+  margin-right: 10px; }
+  navigation nav div.name .upper,
+  navigation nav div.name .lower {
+    height: 50%;
+    line-height: 100%;
+    padding-top: 7.5%;
+    font-size: 1.8rem;
+    font-weight: 100; }
 navigation nav .side-nav li {
   width: 100%;
   float: none;
@@ -195,18 +220,6 @@ footer.page-footer {
     height: auto; } }
     footer.page-footer > div.container.ng-leave {
       animation: enter 0.3s ease-in-out reverse both; }
-  footer.page-footer .social {
-    position: relative;
-    height: 48px;
-    width: 30%;
-    max-width: 48px;
-    display: inline-block;
-    margin: 2px; }
-    footer.page-footer .social a {
-      padding: 0; }
-      footer.page-footer .social a img {
-        max-height: 100%;
-        max-width: 100%; }
 
 #home {
   width: 100%;

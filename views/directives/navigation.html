@@ -1,7 +1,7 @@
 <nav class="light-blue">
   <div class="nav-wrapper">
-    <a class="brand-logo right" ui-sref="Home" ui-sref-active="active"><img class="logo" src="./assets/images/logo_v2.svg" /></a>
-    <p class="name right" ng-class="true ? 'fade-in':''">Brandon Groff</p>
+    <a class="brand-logo right" ui-sref="Home"><img class="logo" src="./assets/images/logo_v2.svg" /></a>
+    <div class="name right" ng-class="true ? 'fade-in':''" ui-sref="Home"><div class="upper">Brandon</div><div class="lower">Groff</div></div>
     <a data-activates="mobile-demo" class="button-collapse show-on-small-and-down"><i class="material-icons">menu</i></a>
     <ul class="left hide-on-small-and-down">
       <li class="waves-effect waves-light" ui-sref-active="active"><a ui-sref="About">About</a></li>
@@ -14,7 +14,7 @@
         <div class="brand-logo">
           <img class="logo" src="./assets/images/logo_v2.svg" />
         </div>
-        <p class="name">Brandon Groff</p>
+        <div class="name"><div class="upper">Brandon</div><div class="lower">Groff</div></div>
       </div>
       <li class="waves-effect waves-blue" ui-sref-active="active"><a ui-sref="About">About</a></li>
       <li class="waves-effect waves-blue" ui-sref-active="active"><a ui-sref="Experience">Experience</a></li>
