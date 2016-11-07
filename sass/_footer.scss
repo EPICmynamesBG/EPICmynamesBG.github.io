@@ -5,6 +5,7 @@ $footer-height: 160px;
 }
 
 footer.page-footer {
+  background-color: $primary-nav;
   & > div.container {
     overflow: hidden;
     transition-duration: 0.3s;

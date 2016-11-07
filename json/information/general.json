@@ -1,0 +1,11 @@
+{
+  "about": "As a student in the Honors College at Ball State University, I am actively pursuing a bachelor's degree in Computer Science and a minor in Computer Technology. I am expected to graduate in 2017. Going into my senior year, I have taken a much bigger focus on UX - User Experience. While my skill set is very diverse, I have a passion designing and creating interfaces that are both elegent and intuitive. I've realized that a good UI isn't created in an hour, but takes scalable amounts of time for planning, mockups, etc. before the actual programming even begins. Of course, my primary focus is programming, so I love making these designs a reality and achieving even the smallest animations noted.",
+  "history": "Hailing from the small town of Versailles, OH, I am a proud graduate of the Versailles High School Class of 2013. Throughout high school, my focuses were grades, music, and sports. While graduating high school with ~3.9 GPA, I also was a varsity golfer and bowler; as if that wasn't enough, I was a dance captain in our show choir and I played a lead role in the musical every year. Coming to college, I decided to study Computer Science because I always loved math and was intrigued by the calculator programming that a friend had taught me. At the time, I never thought that learning something so small would drive me to the place I am now.",
+  "recent": "",
+  "school": {
+    "major": "Computer Science",
+    "minor": "Computer Technology",
+    "university": "Ball State University",
+    "gpa": 3.7
+  }
+}

@@ -1,3 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,700');
+@import "../node_modules/materialize-css/sass/components/color";
 
-$nav-gray: #333333;
+
+/* Professional Theme */
+$primary-nav: color('blue-grey', 'darken-4');
+$nav-name: #333333;
+$sidebar-wave: rgba(color('blue-grey', 'darken-4'), 0.65);
+
+
+
+/* Light Blue Theme */
+//$primary-nav: color('light-blue', 'base');
+//$nav-name: #333333;
+//$sidebar-wave: rgba(33, 150, 243, 0.65);

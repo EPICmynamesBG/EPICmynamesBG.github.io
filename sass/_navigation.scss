@@ -1,5 +1,6 @@
 navigation {
     nav {
+      background-color: $primary-nav;
         ul.hide-on-small-and-down > li:first-child {
             margin-left: 10px;
         }
@@ -63,7 +64,7 @@ navigation {
                     font-size: 1.8rem;
                     margin-right: 10px;
                     font-weight: 100;
-                    color: $nav-gray;
+                    color: $nav-name;
                     text-align: center;
                 }
             }
