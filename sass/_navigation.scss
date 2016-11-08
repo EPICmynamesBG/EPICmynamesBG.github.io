@@ -1,91 +1,102 @@
 navigation {
-    nav {
-      background-color: $primary-nav;
-        ul.hide-on-small-and-down > li:first-child {
-            margin-left: 10px;
-        }
-        ul {
-            a {
-                font-size: 1.2rem;
-            }
-        }
-        a.button-collapse {
-            margin-left: 10px;
-            cursor: pointer;
-        }
-        a.brand-logo {
-            position: relative;
-            height: 100%;
-            display: inline-block;
-            padding: 5px !important;
-            margin-right: 0px;
-            > img {
-                height: 100%;
-            }
-        }
-        div.name {
-            height: 100%;
-            position: relative;
-            cursor: pointer;
-            .upper,
-            .lower {
-                height: 50%;
-                line-height: 100%;
-                padding-top: 7.5%;
-                font-size: 1.8rem;
-                font-weight: 100;
-            }
-            margin-right: 10px;
-        }
-        .side-nav {
-            //      position: relative;
-            li {
-                width: 100%;
-                float: none;
-                display: block;
-                a {
-                    font-size: 1.2rem;
-                }
-            }
-            .side-nav-topper {
-                .brand-logo {
-                    cursor: pointer;
-                    margin-top: 5px;
-                    height: 70px;
-                    position: relative;
-                    display: block;
-                    img {
-                        height: 100%;
-                        display: block;
-                        margin: 2px auto;
-                    }
-                }
-                .name {
-                    font-size: 1.8rem;
-                    margin-right: 10px;
-                    font-weight: 100;
-                    color: $nav-name;
-                    text-align: center;
-                }
-            }
-            .side-nav-footer {
-                margin-top: 15px;
-                span.social {
-                    position: relative;
-                    height: 48px;
-                    width: 30%;
-                    max-width: 48px;
-                    display: inline-block;
-                    margin: 2px;
-                    a {
-                        padding: 0;
-                        img {
-                            max-height: 100%;
-                            max-width: 100%;
-                        }
-                    }
-                }
-            }
-        }
+  nav {
+    background-color: $primary-nav;
+    ul.hide-on-small-and-down > li {
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+      &.active {
+        background-color: rgba(255, 255, 255, 0.12);
+      }
+      &:first-child {
+        margin-left: 10px;
+      }
     }
+    ul {
+      a {
+        font-size: 1.2rem;
+      }
+    }
+    a.button-collapse {
+      margin-left: 10px;
+      cursor: pointer;
+    }
+    a.brand-logo {
+      position: relative;
+      height: 100%;
+      display: inline-block;
+      padding: 5px !important;
+      margin-right: 0px;
+      > img {
+        height: 100%;
+      }
+    }
+    div.name {
+      height: 100%;
+      position: relative;
+      cursor: pointer;
+      .upper,
+      .lower {
+        height: 50%;
+        line-height: 100%;
+        padding-top: 7.5%;
+        font-size: 1.8rem;
+        font-weight: 100;
+      }
+      margin-right: 10px;
+    }
+    .side-nav {
+      //      position: relative;
+      li {
+        width: 100%;
+        float: none;
+        display: block;
+        a {
+          font-size: 1.2rem;
+        }
+        &.active {
+          background-color: rgba(0, 0, 0, 0.12);
+        }
+      }
+      .side-nav-topper {
+        .brand-logo {
+          cursor: pointer;
+          margin-top: 5px;
+          height: 70px;
+          position: relative;
+          display: block;
+          img {
+            height: 100%;
+            display: block;
+            margin: 2px auto;
+          }
+        }
+        .name {
+          font-size: 1.8rem;
+          margin-right: 10px;
+          font-weight: 100;
+          color: $nav-name;
+          text-align: center;
+        }
+      }
+      .side-nav-footer {
+        margin-top: 15px;
+        span.social {
+          position: relative;
+          height: 48px;
+          width: 30%;
+          max-width: 48px;
+          display: inline-block;
+          margin: 2px;
+          a {
+            padding: 0;
+            img {
+              max-height: 100%;
+              max-width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
 }

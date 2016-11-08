@@ -4,11 +4,11 @@
       <h2 class="header">About</h2>
       <div class="card horizontal">
         <div class="card-image">
-          <img src="./assets/images/bsu-logo.png">
+          <img src="./assets/images/bsu-logo.png" />
         </div>
         <div class="card-stacked">
           <div class="card-content">
-            <p>As a student in the Honors College at Ball State University, I am actively pursuing a bachelor's degree in Computer Science and a minor in Computer Technology. I am expected to graduate in 2017. Going into my senior year, I have taken a much bigger focus on UX - User Experience. While my skill set is very diverse, I have a passion designing and creating interfaces that are both elegent and intuitive. I've realized that a good UI isn't created in an hour, but takes scalable amounts of time for planning, mockups, etc. before the actual programming even begins. Of course, my primary focus is programming, so I love making these designs a reality and achieving even the smallest animations noted.</p>
+            <p>{{generalInfo.about}}</p>
           </div>
         </div>
       </div>
@@ -20,12 +20,33 @@
       <div class="card horizontal">
         <div class="card-stacked">
           <div class="card-content">
-            <p>As a student in the Honors College at Ball State University, I am actively pursuing a bachelor's degree in Computer Science and a minor in Computer Technology. I am expected to graduate in 2017. Going into my senior year, I have taken a much bigger focus on UX - User Experience. While my skill set is very diverse, I have a passion designing and creating interfaces that are both elegent and intuitive. I've realized that a good UI isn't created in an hour, but takes scalable amounts of time for planning, mockups, etc. before the actual programming even begins. Of course, my primary focus is programming, so I love making these designs a reality and achieving even the smallest animations noted.</p>
+            <p>{{generalInfo.history}}</p>
           </div>
         </div>
         <div class="card-image">
-          <img src="./assets/images/tiger.jpg">
+          <img src="./assets/images/tiger.jpg" />
         </div>
+      </div>
+    </div>
+  </div>
+  <div class="school">
+    <div class="col s12 m7">
+      <h2 class="header">Education</h2>
+      <div class="card">
+        <div class="card-image">
+          <img src="./assets/images/bsu-logo.png">
+          <span class="card-title">Education</span>
+        </div>
+        <div class="card-content">
+          <h3><i class="material-icons mdi mdi-code-tags"></i>Major: {{generalInfo.education.major}}</h3>
+          <h4><i class="material-icons mdi mdi-amazon-clouddrive"></i>Minor: {{generalInfo.education.minor}}</h4>
+          <h3><i class="material-icons mdi mdi-school"></i>GPA: {{generalInfo.education.gpa}}</h3>
+        </div>
+        <!--
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+-->
       </div>
     </div>
   </div>

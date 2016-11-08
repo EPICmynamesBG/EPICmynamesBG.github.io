@@ -4,12 +4,14 @@
 
 /* Professional Theme */
 $primary-nav: color('blue-grey', 'darken-4');
+$nav-item-active: color('blue-grey', 'lighten-1');
 $nav-name: #333333;
-$sidebar-wave: rgba(color('blue-grey', 'darken-4'), 0.65);
+$sidebar-wave: rgba(color('blue-grey', 'darken-1'), 0.65);
 
 
 
 /* Light Blue Theme */
 //$primary-nav: color('light-blue', 'base');
+//$nav-item-active: color('light-blue', 'lighten-1');
 //$nav-name: #333333;
 //$sidebar-wave: rgba(33, 150, 243, 0.65);

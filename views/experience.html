@@ -1,0 +1,30 @@
+<div id="experience">
+  <div class="col s12 m7">
+    <h2 class="header">Experience</h2>
+    <ul class="collapsible popout" data-collapsible="accordion">
+      <li ng-repeat="job in workHistory">
+        <div class="collapsible-header"><i class="material-icons mdi" ng-class="job.icon"></i>{{job.title}}<span class="company">{{job.company}}</span></div>
+        <div class="collapsible-body">
+          <div class="row">
+            <div class="col m6 s6">
+              <p>{{job.start}} - {{job.end}}</p>
+            </div>
+            <div class="col m6 s6">
+              <p>Contact: <a href="mailto:{{job.contactEmail}}?Subject=Questions%20About%20Brandon%20Groff">{{job.contact}}</a></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12 m12">
+              <p class="location">{{job.location}}</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12 m12">
+              <p class="description">{{job.description}}</p>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>

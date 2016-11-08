@@ -3,7 +3,7 @@ app.service("$json", function ($http) {
   var location = "json/"
 
   this.loadFile = function (filename) {
-    return $http.get(location + filename);
+    return $http.get(location + filename + ".json");
   }
 
   this.errorResponse = function (error) {

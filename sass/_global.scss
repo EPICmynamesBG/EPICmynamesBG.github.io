@@ -1,37 +1,37 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Josefin Sans', sans-serif;
-    &:focus {
-        outline: none;
-    }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+  &:focus {
+    outline: none;
+  }
 }
 
 body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 main {
-    flex: 1 0 auto;
-    padding: 20px;
+  flex: 1 0 auto;
+  padding: 20px;
 }
 
 img {
-    max-height: 100%;
-    max-width: 100%;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 p {
-    max-width: 500px;
+  max-width: 550px;
 }
 
 .waves-effect.waves-blue .waves-ripple {
-    /* The alpha value allows the text and background color
+  /* The alpha value allows the text and background color
      of the button to still show through. */
-    background-color: rgba(33, 150, 243, 0.65);
+  background-color: rgba(33, 150, 243, 0.65);
 }
 
 .waves-effect.waves-sidebar .waves-ripple {
@@ -39,76 +39,79 @@ p {
 }
 
 .well[ui-view] {
-    height: 65px;
+  height: 65px;
 }
 
 .ui-view-container {
-    position: relative;
+  position: relative;
 }
 
 [ui-view].ng-enter,
 [ui-view].ng-leave {
-    position: absolute;
-    left: 0;
-    right: 0;
-    -webkit-transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
+  position: absolute;
+  left: 0;
+  right: 0;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 [ui-view].ng-enter {
-    opacity: 0;
-    -webkit-transform: scale3d(0.5, 0.5, 0.5);
-    -moz-transform: scale3d(0.5, 0.5, 0.5);
-    transform: scale3d(0.5, 0.5, 0.5);
+  opacity: 0;
+  -webkit-transform: scale3d(0.5, 0.5, 0.5);
+  -moz-transform: scale3d(0.5, 0.5, 0.5);
+  transform: scale3d(0.5, 0.5, 0.5);
 }
 
 [ui-view].ng-enter-active {
-    opacity: 1;
-    -webkit-transform: scale3d(1, 1, 1);
-    -moz-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
+  opacity: 1;
+  -webkit-transform: scale3d(1, 1, 1);
+  -moz-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
 }
 
 [ui-view].ng-leave {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 [ui-view].ng-leave-active {
-    opacity: 0;
-    -webkit-transform: translate3d(100px, 0, 0);
-    -moz-transform: translate3d(100px, 0, 0);
-    transform: translate3d(100px, 0, 0);
+  opacity: 0;
+  -webkit-transform: translate3d(100px, 0, 0);
+  -moz-transform: translate3d(100px, 0, 0);
+  transform: translate3d(100px, 0, 0);
 }
 
 .show-on-small-and-down {
-    display: none;
+  display: none;
 }
 
 .social {
-    position: relative;
-    height: 48px;
-    width: 30%;
-    max-width: 48px;
-    display: inline-block;
-    margin: 2px;
-    a {
-        padding: 0;
-        height: 100%;
-        display: block;
-        img {
-            max-height: 100%;
-            max-width: 100%;
-        }
+  position: relative;
+  height: 48px;
+  width: 30%;
+  max-width: 48px;
+  display: inline-block;
+  margin: 2px;
+  a {
+    padding: 0;
+    height: 100%;
+    display: block;
+    img {
+      max-height: 100%;
+      max-width: 100%;
     }
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .show-on-small-and-down {
-        display: block;
-    }
+  .show-on-small-and-down {
+    display: block;
+  }
+  main {
+    padding: 10px;
+  }
 }

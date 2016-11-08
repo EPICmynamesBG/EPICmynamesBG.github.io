@@ -3,7 +3,7 @@ var app = angular.module('app', ['ui.router', 'ngAnimate']);
 setTimeout(
   function asyncBootstrap() {
     angular.bootstrap(document, ["app"]);
-  }, (3.2 * 1000)
+  }, (3.3 * 1000)
 );
 
 app.run(function ($rootScope, $state) {
@@ -20,7 +20,6 @@ app.run(function ($rootScope, $state) {
 
 app.config(function ($stateProvider, $urlRouterProvider) {
 
-  console.log('CONFIG');
   $urlRouterProvider.otherwise("/");
 
   $stateProvider

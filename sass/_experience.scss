@@ -1,0 +1,37 @@
+#experience {
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+  
+  h2.header {
+    text-align: center;
+  }
+  
+  ul.collapsible {
+    //    max-width: 800px;
+    .collapsible-header {
+      .company {
+        float:right;
+      }
+      @media screen and (max-width: 550px) {
+        .company {
+          float: none;
+          display: block;
+          text-align: right;
+          line-height: 1.5rem;
+        }
+      }
+    }
+    
+    .collapsible-body {
+      .row {
+        &:first-child {
+          margin-top: 20px;
+        }
+        p {
+          padding: 0.6rem 2rem;
+        }
+      }
+    }
+  }
+}
