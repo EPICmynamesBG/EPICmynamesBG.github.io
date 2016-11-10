@@ -1,6 +1,7 @@
 <div id="experience">
   <div class="col s12 m7">
     <h2 class="header">Experience</h2>
+    <!--
     <ul class="collapsible popout" data-collapsible="accordion">
       <li ng-repeat="job in workHistory">
         <div class="collapsible-header"><i class="material-icons mdi" ng-class="job.icon"></i>{{job.title}}<span class="company">{{job.company}}</span></div>
@@ -26,5 +27,37 @@
         </div>
       </li>
     </ul>
+-->
+
+    <div class="row" ng-repeat="job in workHistory">
+      <div class="col s12 m12">
+        <div class="card center card-more-animated background-pulse-hover-activator">
+          <!--
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="images/office.jpg">
+          </div>
+-->
+          <div class="card-content">
+            <h3 class="card-title grey-text text-darken-4">{{job.title}}
+            <a class="activator right waves-effect waves-circle waves-gray btn-floating secondary-content btn-small invisible background-pulse-wrapper">
+              <i class="material-icons small background-pulse">more_vert</i>
+            </a>
+            </h3>
+            <h4 class="card-title sub-title">{{job.company}}</h4>
+            <p class="center">{{job.location}}</p>
+            <p class="center">{{job.start}} - {{job.end}}</p>
+          </div>
+          <div class="card-reveal">
+            <h3 class="card-title grey-text text-darken-4">{{job.title}}
+            <a class=" right waves-effect waves-circle waves-gray btn-floating secondary-content btn-small invisible">
+              <i class="material-icons right">close</i>
+            </a>
+            </h3>
+            <h4>{{job.company}}</h4>
+            <p class="center">{{job.description}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>

@@ -34,6 +34,13 @@ p {
   background-color: rgba(33, 150, 243, 0.65);
 }
 
+.waves-effect.waves-grey .waves-ripple,
+.waves-effect.waves-gray .waves-ripple{
+  /* The alpha value allows the text and background color
+     of the button to still show through. */
+  background-color: rgba($grey-ripple, 0.65);
+}
+
 .waves-effect.waves-sidebar .waves-ripple {
   background-color: $sidebar-wave;
 }
@@ -104,6 +111,47 @@ p {
       max-height: 100%;
       max-width: 100%;
     }
+  }
+}
+
+.card.center {
+  margin: 0.5rem auto 1rem auto;
+}
+
+.card .sub-title {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card .card-content p.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn.btn-small,
+.btn-floating.btn-small {
+  height: 2rem;
+  width: 2rem;
+  line-height: 2rem;
+  
+  > i {
+    line-height: 2rem;
+  }
+}
+
+.btn.invisible,
+.btn-floating.invisible {
+  box-shadow: none !important;
+  background-color: transparent !important;
+  > i {
+    color: black;
   }
 }
 
