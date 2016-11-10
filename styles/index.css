@@ -1808,29 +1808,49 @@ p {
       max-height: 100%;
       max-width: 100%; }
 
-.card.center {
-  margin: 0.5rem auto 1rem auto; }
+.card {
+  padding: 2rem 1rem; }
+  .card.center {
+    margin: 0.5rem auto 1rem auto; }
+  .card .sub-title {
+    font-size: 18px;
+    font-weight: 300; }
+  .card p {
+    font-size: 1.25rem;
+    line-height: 1.6rem; }
+    .card p.center {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto; }
+  .card .card-content {
+    padding: 20px; }
+  .card .card-reveal {
+    left: 0;
+    padding: 20px; }
 
-.card .sub-title {
-  font-size: 18px;
-  font-weight: 300; }
-
+@media screen and (max-width: 768px) {
+  .card.horizontal {
+    display: block; }
+    .card.horizontal .card-image,
+    .card.horizontal .card-stacked {
+      display: block;
+      width: 100%; }
+      .card.horizontal .card-image .card-content p,
+      .card.horizontal .card-stacked .card-content p {
+        margin: auto auto; }
+    .card.horizontal .card-image {
+      margin: 1rem auto !important; } }
 .center {
   text-align: center;
   margin-left: auto;
   margin-right: auto; }
 
-.card .card-content p.center {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto; }
-
-.btn.btn-small,
+.card .btn.btn-small,
 .btn-floating.btn-small {
   height: 2rem;
   width: 2rem;
   line-height: 2rem; }
-  .btn.btn-small > i,
+  .card .btn.btn-small > i,
   .btn-floating.btn-small > i {
     line-height: 2rem; }
 
@@ -1873,14 +1893,9 @@ navigation nav {
     height: 100%;
     position: relative;
     cursor: pointer;
-    margin-right: 10px; }
-    navigation nav div.name .upper,
-    navigation nav div.name .lower {
-      height: 50%;
-      line-height: 100%;
-      padding-top: 7.5%;
-      font-size: 1.8rem;
-      font-weight: 100; }
+    font-size: 2rem;
+    font-weight: 100;
+    margin-right: 15px; }
   navigation nav .side-nav li {
     width: 100%;
     float: none;
@@ -1959,27 +1974,25 @@ footer.page-footer {
     margin: 0px auto; }
 
 #about {
-  max-width: 800px;
+  max-width: 850px;
   display: block;
   margin: 0 auto; }
   #about h2.header {
     text-align: center; }
-  #about .card {
-    padding: 2rem 1rem; }
-    #about .card .card-image {
-      text-align: center;
-      position: relative;
-      min-width: 200px;
-      min-height: 200px;
-      padding: 10px 5px;
-      margin: 1rem; }
-      #about .card .card-image > img {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        max-height: 200px;
-        max-width: 100%; }
+  #about .card .card-image {
+    text-align: center;
+    position: relative;
+    min-width: 200px;
+    min-height: 200px;
+    padding: 10px 5px;
+    margin: 1rem; }
+    #about .card .card-image > img {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      max-height: 200px;
+      max-width: 100%; }
   #about .card.horizontal .card-image {
     max-height: 100%;
     max-width: 200px; }
@@ -1998,10 +2011,24 @@ footer.page-footer {
       margin-right: 5px; }
 
 #experience {
-  max-width: 800px;
+  max-width: 850px;
   display: block;
   margin: 0 auto; }
   #experience h2.header {
     text-align: center; }
+  #experience .card-more-animated {
+    transform: scale(0.9);
+    transition: 0.4s ease-in-out; }
+    #experience .card-more-animated:hover, #experience .card-more-animated:active, #experience .card-more-animated:focus {
+      transform: scale(1); }
+  #experience .card {
+    font-smoothing: antialiased;
+    padding: 1rem 2rem 0.5rem 2rem; }
+    #experience .card .card-reveal .card-title {
+      cursor: default; }
+    #experience .card .activator-wrapper {
+      position: absolute;
+      top: 1.5rem;
+      right: 1.5rem; }
 
 /*# sourceMappingURL=index.css.map */

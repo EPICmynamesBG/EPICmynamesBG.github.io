@@ -38,21 +38,28 @@
           </div>
 -->
           <div class="card-content">
-            <h3 class="card-title grey-text text-darken-4">{{job.title}}
-            <a class="activator right waves-effect waves-circle waves-gray btn-floating secondary-content btn-small invisible background-pulse-wrapper">
+            <span class="activator-wrapper">
+               <a class="activator waves-effect waves-circle waves-gray btn-floating secondary-content btn-small invisible background-pulse-wrapper">
               <i class="material-icons small background-pulse">more_vert</i>
             </a>
+             </span>
+            <h3 class="card-title grey-text text-darken-4">{{job.title}}
             </h3>
             <h4 class="card-title sub-title">{{job.company}}</h4>
             <p class="center">{{job.location}}</p>
             <p class="center">{{job.start}} - {{job.end}}</p>
           </div>
+          <div class="card-action">
+            <a href="mailto:{{job.contactEmail}}?Subject=Inquiries%20about%20Brandon%20Groff">Contact {{job.contact}}</a>
+          </div>
           <div class="card-reveal">
-            <h3 class="card-title grey-text text-darken-4">{{job.title}}
-            <a class=" right waves-effect waves-circle waves-gray btn-floating secondary-content btn-small invisible">
-              <i class="material-icons right">close</i>
+            <span class="activator-wrapper">
+               <a class="waves-effect waves-circle waves-gray btn-floating secondary-content btn-small invisible close">
+              <i class="material-icons">close</i>
             </a>
-            </h3>
+            </a>
+             </span>
+            <h3 class="card-title grey-text text-darken-4">{{job.title}}</h3>
             <h4>{{job.company}}</h4>
             <p class="center">{{job.description}}</p>
           </div>

@@ -1,5 +1,5 @@
 #about {
-  max-width: 800px;
+  max-width: $content-width;
   display: block;
   margin: 0 auto;
   
@@ -9,7 +9,6 @@
   
   .card {
 //    max-width: 800px;
-      padding: 2rem 1rem;
     .card-image {
       text-align: center;
       position: relative;

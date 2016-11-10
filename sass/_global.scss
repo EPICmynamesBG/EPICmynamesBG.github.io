@@ -35,7 +35,7 @@ p {
 }
 
 .waves-effect.waves-grey .waves-ripple,
-.waves-effect.waves-gray .waves-ripple{
+.waves-effect.waves-gray .waves-ripple {
   /* The alpha value allows the text and background color
      of the button to still show through. */
   background-color: rgba($grey-ripple, 0.65);
@@ -114,13 +114,48 @@ p {
   }
 }
 
-.card.center {
-  margin: 0.5rem auto 1rem auto;
+.card {
+  padding: 2rem 1rem;
+  &.center {
+    margin: 0.5rem auto 1rem auto;
+  }
+  .sub-title {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  p {
+    font-size: 1.25rem;
+    line-height: 1.6rem;
+    &.center {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .card-content {
+    padding: 20px;
+  }
+  .card-reveal {
+    left: 0;
+    padding: 20px;
+  }
 }
 
-.card .sub-title {
-  font-size: 18px;
-  font-weight: 300;
+@media screen and (max-width: 768px) {
+  .card.horizontal {
+    display: block;
+    .card-image,
+    .card-stacked {
+      display: block;
+      width: 100%;
+      .card-content p {
+        margin: auto auto;
+      }
+    }
+    .card-image {
+      margin: 1rem auto !important;
+    }
+  }
 }
 
 .center {
@@ -129,18 +164,11 @@ p {
   margin-right: auto;
 }
 
-.card .card-content p.center {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.btn.btn-small,
+.card .btn.btn-small,
 .btn-floating.btn-small {
   height: 2rem;
   width: 2rem;
   line-height: 2rem;
-  
   > i {
     line-height: 2rem;
   }
