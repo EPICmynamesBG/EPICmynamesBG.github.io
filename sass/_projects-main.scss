@@ -1,0 +1,36 @@
+.sub-nav {
+  .col {
+    padding: 0 0;
+  }
+  .tabs.scrollable {
+//    display: block;
+    .indicator {
+      background-color: $sub-nav-indicator;
+    }
+    .tab {
+//      display: inline-block;
+//      width: auto;
+//      flex-basis: auto;
+      a {
+        color: $sub-nav-text;
+        padding: 0 10px;
+        &.active {
+          border-bottom: 2px solid $sub-nav-indicator;
+        }
+        &:hover {
+          color: $sub-nav-text-hover;
+        }
+      }
+    }
+  }
+}
+
+#proj-body {
+  padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  #proj-body {
+    padding: 10px;
+  }
+}

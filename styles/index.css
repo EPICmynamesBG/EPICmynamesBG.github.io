@@ -1,4 +1,29 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,700");
+@font-face {
+  font-family: 'Roboto';
+  src: url("../node_modules/materialize-css/dist/fonts/roboto/Roboto-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal; }
+@font-face {
+  font-family: 'Roboto';
+  src: url("../node_modules/materialize-css/dist/fonts/roboto/Roboto-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: 'Roboto';
+  src: url("../node_modules/materialize-css/dist/fonts/roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: 'Roboto';
+  src: url("../node_modules/materialize-css/dist/fonts/roboto/Roboto-Medium.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: 'Roboto';
+  src: url("../node_modules/materialize-css/dist/fonts/roboto/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
 .materialize-red {
   background-color: #e51c23 !important; }
 
@@ -1716,7 +1741,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Josefin Sans', sans-serif; }
+  font-family: 'Josefin Sans', 'Roboto', sans-serif; }
   *:focus {
     outline: none; }
 
@@ -1726,8 +1751,9 @@ body {
   flex-direction: column; }
 
 main {
-  flex: 1 0 auto;
-  padding: 20px; }
+  flex: 1 0 auto; }
+  main.padded {
+    padding: 20px; }
 
 img {
   max-height: 100%;
@@ -1866,7 +1892,7 @@ p {
   .show-on-small-and-down {
     display: block; }
 
-  main {
+  main.padded {
     padding: 10px; } }
 navigation nav {
   background-color: #263238; }
@@ -2030,5 +2056,24 @@ footer.page-footer {
       position: absolute;
       top: 1.5rem;
       right: 1.5rem; }
+
+.sub-nav .col {
+  padding: 0 0; }
+.sub-nav .tabs.scrollable .indicator {
+  background-color: #455a64; }
+.sub-nav .tabs.scrollable .tab a {
+  color: #607d8b;
+  padding: 0 10px; }
+  .sub-nav .tabs.scrollable .tab a.active {
+    border-bottom: 2px solid #455a64; }
+  .sub-nav .tabs.scrollable .tab a:hover {
+    color: #78909c; }
+
+#proj-body {
+  padding: 20px; }
+
+@media screen and (max-width: 600px) {
+  #proj-body {
+    padding: 10px; } }
 
 /*# sourceMappingURL=index.css.map */

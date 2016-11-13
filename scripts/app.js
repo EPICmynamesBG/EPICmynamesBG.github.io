@@ -13,6 +13,16 @@ app.run(function ($rootScope, $state) {
   $(".button-collapse").sideNav({
     closeOnClick: true
   });
+
+  $rootScope.$on('$stateChangeStart', function (evt, to, params) {
+    console.log(to);
+    if (to.redirectTo) {
+      evt.preventDefault();
+      $state.go(to.redirectTo, params, {
+        location: 'replace'
+      });
+    }
+  });
 });
 
 
@@ -45,9 +55,11 @@ app.config(function ($stateProvider, $urlRouterProvider) {
       url: "/projects",
       templateUrl: "views/projects.html",
       controller: 'ProjectsController',
+      redirectTo: 'Projects.All',
       data: {}
     })
     .state('Projects.All', {
+      parent: 'Projects',
       project: '/all',
       url: "/all",
       templateUrl: "views/projects/all.html",
@@ -57,7 +69,7 @@ app.config(function ($stateProvider, $urlRouterProvider) {
     .state('Projects.Detail', {
       parent: 'Projects',
       url: "/:projectName",
-      templateUrl: "views/projects/detail.html",
+      templateUrl: "views/projects/details.html",
       controller: 'ProjectsDetailsController',
       data: {}
     });

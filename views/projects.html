@@ -1,4 +1,13 @@
-<div class="sub-nav">
-  
+<div class="sub-nav z-depth-1">
+  <div class="row">
+    <div class="col s12">
+      <ul class="tabs scrollable">
+        <li class="tab"><a ui-sref="Projects.All" ui-sref-active="active">All</a></li>
+        <li class="tab" ng-repeat="project in projectList"><a ui-sref="Projects.Detail({projectName: project.title})" ui-sref-active="active">{{project.title}}</a></li>
+      </ul>
+    </div>
+  </div>
 </div>
-<div ui-view></div>
+<div id="proj-body">
+  <div ui-view></div>
+</div>

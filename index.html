@@ -72,14 +72,14 @@
   <header ng-controller="NavController">
     <navigation></navigation>
   </header>
-  <main>
+  <main ng-class="$state.current.parent != 'Projects' ? 'padded':''">
     <div ui-view></div>
   </main>
 
   <footer class="page-footer">
     <div class="container" ng-if="$state.current.name != 'Home'">
       <div class="row">
-        <div class="col l6 s12">
+        <div class="col m6 s12">
           <h5 class="white-text">Brandon Groff</h5>
           <p class="grey-text text-lighten-4">I'm a multi-platform developer with a knack for User-Experience and a kick of design skills. My passions include mobile and web based application development and designing for small-screen experiences.</p>
         </div>
