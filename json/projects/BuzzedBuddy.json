@@ -3,7 +3,7 @@
     "status": "Completed",
     "link": "http://devpost.com/software/buzzed-buddy",
     "linkText": "View on ChallengePost",
-    "linkImage": "/images/SocialMedia/ChallengePost_icon.png",
+    "linkImage": "/assets/images/Social/ChallengePost_icon.png",
     "start": "Feb 27, 2015",
     "end": "Mar 1, 2015",
     "event": "HackIllinois 2015",
@@ -18,16 +18,16 @@
                 "This crash course app development taught us all a lot about iOS and Swift development. After coming back and working on my other iOS apps, I frequently find myself looking a code snippets from the project because there were just so many good, clean implementations of saving settings, network calls, etc. This app was also a great experience for me to really nail iOS Auto-Layout, and creating Storyboards is now easier than ever."
             ],
     "images": [
-                "/images/HackIllinois_2015/buzzed-buddy_icon.png",
-                "/images/HackIllinois_2015/buzzed-buddy_launch.png",
-                "/images/HackIllinois_2015/buzzed-buddy_main1.png",
-                "/images/HackIllinois_2015/buzzed-buddy_settings1.png",
-                "/images/HackIllinois_2015/buzzed-buddy_settings2.png",
-                "/images/HackIllinois_2015/buzzed-buddy_main2.png",
-                "/images/HackIllinois_2015/buzzed-buddy_food.png",
-                "/images/HackIllinois_2015/buzzed-buddy_foodChoice.png",
-                "/images/HackIllinois_2015/buzzed-buddy_foodMap.png",
-                "/images/HackIllinois_2015/buzzed-buddy_home.png",
-                "/images/HackIllinois_2015/buzzed-buddy_info.png"
+                "/HackIllinois_2015/buzzed-buddy_icon.png",
+                "/HackIllinois_2015/buzzed-buddy_launch.png",
+                "/HackIllinois_2015/buzzed-buddy_main1.png",
+                "/HackIllinois_2015/buzzed-buddy_settings1.png",
+                "/HackIllinois_2015/buzzed-buddy_settings2.png",
+                "/HackIllinois_2015/buzzed-buddy_main2.png",
+                "/HackIllinois_2015/buzzed-buddy_food.png",
+                "/HackIllinois_2015/buzzed-buddy_foodChoice.png",
+                "/HackIllinois_2015/buzzed-buddy_foodMap.png",
+                "/HackIllinois_2015/buzzed-buddy_home.png",
+                "/HackIllinois_2015/buzzed-buddy_info.png"
             ]
 }

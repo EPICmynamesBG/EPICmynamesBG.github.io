@@ -15,7 +15,6 @@ app.run(function ($rootScope, $state) {
   });
 
   $rootScope.$on('$stateChangeStart', function (evt, to, params) {
-    console.log(to);
     if (to.redirectTo) {
       evt.preventDefault();
       $state.go(to.redirectTo, params, {
@@ -28,7 +27,12 @@ app.run(function ($rootScope, $state) {
 
 /* --- Routing --- */
 
-app.config(function ($stateProvider, $urlRouterProvider) {
+app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
+  
+  $locationProvider.html5Mode({
+    enabled: true,
+    requireBase: true
+  });
 
   $urlRouterProvider.otherwise("/");
 

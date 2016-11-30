@@ -2,7 +2,7 @@
     "title": "GoDex",
     "status": "Published on GitHub",
     "linkText": "View on GitHub",
-    "linkImage": "/images/SocialMedia/github-1024-black.png",
+    "linkImage": "/assets/images/Social/github-1024-black.png",
     "link": "https://github.com/EPICmynamesBG/GoDex",
     "start": "July 10, 2016",
     "end": "July 15, 2016",
@@ -22,12 +22,12 @@
             "In the end, this app had a great run. We all gained loads of experience. Personally, this was a great leadership experience as I led the team in this endeavor; similarly, I also got to put my UX and iOS skills to the test. I think I passed the test... But regardless, even though I am disappointed this app did not launch, I am proud of the work everyone put in, and equally satisfied with the final product. If you've read this far, I hope you enjoyed the story, and will check out some of the team members that I list below as they are all equally talented individuals."
         ],
     "images": [
-        "/images/GoDex/icon.png",
-        "/images/GoDex/GoDex1.png",
-        "/images/GoDex/GoDex2.png",
-        "/images/GoDex/GoDex3.png",
-        "/images/GoDex/GoDex0.png",
-        "/images/GoDex/GoDex-Trello.png"
+        "/GoDex/icon.png",
+        "/GoDex/GoDex1.png",
+        "/GoDex/GoDex2.png",
+        "/GoDex/GoDex3.png",
+        "/GoDex/GoDex0.png",
+        "/GoDex/GoDex-Trello.png"
     ],
     "parts": [
         {

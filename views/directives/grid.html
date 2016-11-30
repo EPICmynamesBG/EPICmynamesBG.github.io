@@ -1,0 +1,15 @@
+<div class="grid grid-wrapper">
+  <div class="grid-header">
+    <h2>Projects</h2>
+    <span class="grid-style-bar right">
+      <button type="button" class="btn waves-effect waves-light" ng-click="setStyle('tiles')" title="Tile View" ><i class="material-icons">view_module</i></button>
+      <button type="button" class="btn waves-effect waves-light" ng-click="setStyle('list')" title="List View"><i class="material-icons">view_list</i></button>
+    </span>
+  </div>
+  <div class="grid-body tile-body" ng-if="gridStyle == 'tiles'">
+    <grid-tile ng-repeat="tile in data" project="tile"></grid-tile>
+  </div>
+  <div class="grid-body list-body" ng-if="gridStyle == 'list'">
+    <grid-list ng-repeat="list in data" project="list"></grid-list>
+  </div>
+</div>

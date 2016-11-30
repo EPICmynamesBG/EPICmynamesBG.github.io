@@ -3,7 +3,7 @@
 	"status": "Completed, Unpublished",
 	"link": "https://github.com/EPICmynamesBG/CS320.Assignment4",
 	"linkText": "View on GitHub",
-	"linkImage": "/images/SocialMedia/github-1024-black.png",
+	"linkImage": "/assets/images/Social/github-1024-black.png",
 	"start": "Nov 2, 2015",
 	"end": "Nov 8, 2015",
 	"event": "n/a",
@@ -14,15 +14,15 @@
 				"In the end, the background fetching worked well in testing, but not as well on live device functinoality. Nonetheless, I consider the knowledge learned from the app a success. On the other hand, the watch app works quite well, and although it is simple, I am proud of it for the fact that it simply works."
             ],
 	"images": [
-				"/images/SimpleStudentDB/SimpleStudentDB_watch1.png",
-				"/images/SimpleStudentDB/SimpleStudentDB_watch2.png",
-				"/images/SimpleStudentDB/SimpleStudentDB_watch3.png",
-				"/images/SimpleStudentDB/SimpleStudentDB_watch4.png",
-				"/images/SimpleStudentDB/SimpleStudentDB1.png",
-				"/images/SimpleStudentDB/SimpleStudentDB2.png",
-				"/images/SimpleStudentDB/SimpleStudentDB3.png",
-				"/images/SimpleStudentDB/SimpleStudentDB4.png",
-				"/images/SimpleStudentDB/SimpleStudentDB5.png"
+				"/SimpleStudentDB/SimpleStudentDB_watch1.png",
+				"/SimpleStudentDB/SimpleStudentDB_watch2.png",
+				"/SimpleStudentDB/SimpleStudentDB_watch3.png",
+				"/SimpleStudentDB/SimpleStudentDB_watch4.png",
+				"/SimpleStudentDB/SimpleStudentDB1.png",
+				"/SimpleStudentDB/SimpleStudentDB2.png",
+				"/SimpleStudentDB/SimpleStudentDB3.png",
+				"/SimpleStudentDB/SimpleStudentDB4.png",
+				"/SimpleStudentDB/SimpleStudentDB5.png"
 				
             ]
 }

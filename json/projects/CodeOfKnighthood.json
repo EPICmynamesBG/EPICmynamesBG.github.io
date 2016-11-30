@@ -3,7 +3,7 @@
     "status": "Completed, Unpublished",
     "link": "https://github.com/EPICmynamesBG/Code-Of-Knighthood",
     "linkText": "View on GitHub",
-    "linkImage": "/images/SocialMedia/github-1024-black.png",
+    "linkImage": "/assets/images/Social/github-1024-black.png",
     "start": "Dec 2014",
     "end": "Dec 2014",
     "event": "n/a",
@@ -15,8 +15,8 @@
                 "This app was a nice and simple follow up to InBetween, and while I didn't learn near as much from it, I did learn that it is possible to speedily create mobile applications whenever you aren't trying to learn everything."
             ],
     "images": [
-                "/images/CodeOfKnighthood/icon.png",
-            "/images/CodeOfKnighthood/CoK_main.png",
-            "/images/CodeOfKnighthood/CoK_inApp.png"
+                "/CodeOfKnighthood/icon.png",
+            "/CodeOfKnighthood/CoK_main.png",
+            "/CodeOfKnighthood/CoK_inApp.png"
             ]
 }

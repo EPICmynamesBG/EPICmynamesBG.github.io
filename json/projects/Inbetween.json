@@ -17,15 +17,15 @@
             "Following this project, I created two other unpublished Android apps for other classes. For these, I started with a UI first design, and the app creation went so much smoother. The code is also public, so go check them out on the projects page!"
         ],
     "images": [
-        "/images/InBetween/icon.png",
-        "/images/InBetween/Default/main.png",
-        "/images/InBetween/Default/inGame.png",
-        "/images/InBetween/Default/EN_settings.png",
-        "/images/InBetween/Default/EN_help.png",
-        "/images/InBetween/Default/10in_main.png",
-        "/images/InBetween/Default/EN_10_settings.png",
-        "/images/InBetween/Default/EN_10in_inGame.png",
-        "/images/InBetween/Default/EN_10in_gameOver.png",
-        "/images/InBetween/Default/EN_10in_help.png"
+        "/InBetween/icon.png",
+        "/InBetween/Default/main.png",
+        "/InBetween/Default/inGame.png",
+        "/InBetween/Default/EN_settings.png",
+        "/InBetween/Default/EN_help.png",
+        "/InBetween/Default/10in_main.png",
+        "/InBetween/Default/EN_10_settings.png",
+        "/InBetween/Default/EN_10in_inGame.png",
+        "/InBetween/Default/EN_10in_gameOver.png",
+        "/InBetween/Default/EN_10in_help.png"
     ]
 }

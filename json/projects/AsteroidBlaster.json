@@ -3,7 +3,7 @@
 	"status": "Completed, Unpublished",
 	"link": "https://github.com/EPICmynamesBG/Asteroid-Blaster",
 	"linkText": "View on GitHub",
-	"linkImage": "/images/SocialMedia/github-1024-black.png",
+	"linkImage": "/assets/images/Social/github-1024-black.png",
 	"start": "Nov 29, 2015",
 	"end": "Dec 10, 2015",
 	"event": "n/a",
@@ -15,12 +15,12 @@
 		"All of the code for this app is available on GitHub. I love helping people learn, so I encourage everyone interested in using SpriteKit to look at my project as an example for when trying to do anything like buttons, collision handling, and animations in SpriteKit."
             ],
 	"images": [
-				"/images/AsteroidBlaster/AsteroidBlaster_icon.png",
-                "/images/AsteroidBlaster/AsteroidBlaster_start.png",
-				"/images/AsteroidBlaster/AsteroidBlaster_game1.png",
-				"/images/AsteroidBlaster/AsteroidBlaster_game2.png",
-				"/images/AsteroidBlaster/AsteroidBlaster_pause.png",
-				"/images/AsteroidBlaster/AsteroidBlaster_game3.png",
-				"/images/AsteroidBlaster/AsteroidBlaster_gameover.png"
+				"/AsteroidBlaster/AsteroidBlaster_icon.png",
+                "/AsteroidBlaster/AsteroidBlaster_start.png",
+				"/AsteroidBlaster/AsteroidBlaster_game1.png",
+				"/AsteroidBlaster/AsteroidBlaster_game2.png",
+				"/AsteroidBlaster/AsteroidBlaster_pause.png",
+				"/AsteroidBlaster/AsteroidBlaster_game3.png",
+				"/AsteroidBlaster/AsteroidBlaster_gameover.png"
             ]
 }

@@ -3,7 +3,7 @@
 	"status": "Completed, Available on GitHub",
 	"link": "https://github.com/EPICmynamesBG/PokemonDB",
 	"linkText": "View on GitHub",
-	"linkImage": "/images/SocialMedia/github-1024-black.png",
+	"linkImage": "/assets/images/Social/github-1024-black.png",
 	"start": "Nov 15, 2015",
 	"end": "Dec 22, 2015",
 	"event": "n/a",
@@ -14,22 +14,22 @@
 				"Check out the live site demo via the link above to see more and interact with the app. At the bottom of the interactive site is a link to the GitHub repository for anyone interested. Enjoy!"
             ],
 	"images": [
-		"/images/PokemonDB/PokemonDB_1.png",
-		"/images/PokemonDB/PokemonDB_2.png",
-		"/images/PokemonDB/PokemonDB_3.png",
-		"/images/PokemonDB/PokemonDB_4.png",
-		"/images/PokemonDB/PokemonDB_5.png",
-		"/images/PokemonDB/PokemonDB_6.png",
-		"/images/PokemonDB/PokemonDB_7.png",
-		"/images/PokemonDB/PokemonDB_8.png",
-		"/images/PokemonDB/PokemonDB_9.png",
-		"/images/PokemonDB/PokemonDB_10.png",
-		"/images/PokemonDB/PokemonDB_11.png",
-		"/images/PokemonDB/PokemonDB_12.png",
-		"/images/PokemonDB/PokemonDB_13.png",
-		"/images/PokemonDB/PokemonDB_14.png",
-		"/images/PokemonDB/PokemonDB_15.png",
-		"/images/PokemonDB/PokemonDB_16.png"
+		"/PokemonDB/PokemonDB_1.png",
+		"/PokemonDB/PokemonDB_2.png",
+		"/PokemonDB/PokemonDB_3.png",
+		"/PokemonDB/PokemonDB_4.png",
+		"/PokemonDB/PokemonDB_5.png",
+		"/PokemonDB/PokemonDB_6.png",
+		"/PokemonDB/PokemonDB_7.png",
+		"/PokemonDB/PokemonDB_8.png",
+		"/PokemonDB/PokemonDB_9.png",
+		"/PokemonDB/PokemonDB_10.png",
+		"/PokemonDB/PokemonDB_11.png",
+		"/PokemonDB/PokemonDB_12.png",
+		"/PokemonDB/PokemonDB_13.png",
+		"/PokemonDB/PokemonDB_14.png",
+		"/PokemonDB/PokemonDB_15.png",
+		"/PokemonDB/PokemonDB_16.png"
 
             ]
 }

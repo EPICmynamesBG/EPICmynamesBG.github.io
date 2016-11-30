@@ -13,10 +13,10 @@
 				"A web playable version of Charlie Eats Worms is linked above. The game is a little slower paced than the full touch screen version, but it is nonetheless the same game and enjoyable."
             ],
 	"images": [
-		"/images/CharlieEatsWorms/Charlie_1.png",
-		"/images/CharlieEatsWorms/Charlie_3.png", 
-		"/images/CharlieEatsWorms/Charlie_4.png",
-		"/images/CharlieEatsWorms/Charlie_2.png",
-		"/images/CharlieEatsWorms/Charlie_5.png"
+		"/CharlieEatsWorms/Charlie_1.png",
+		"/CharlieEatsWorms/Charlie_3.png", 
+		"/CharlieEatsWorms/Charlie_4.png",
+		"/CharlieEatsWorms/Charlie_2.png",
+		"/CharlieEatsWorms/Charlie_5.png"
             ]
 }
