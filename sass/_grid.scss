@@ -1,5 +1,4 @@
 $grid-tile-height: 300px;
-
 .grid {
   .grid-header {
     display: block;
@@ -27,6 +26,7 @@ $grid-tile-height: 300px;
       border-radius: 3px;
       overflow: hidden;
       margin: 5px;
+      cursor: pointer;
       figure {
         position: relative;
         height: $grid-tile-height;
@@ -46,6 +46,7 @@ $grid-tile-height: 300px;
           top: 50%;
           transform: translate(-50%, -50%);
           z-index: 1;
+          border-radius: 3px;
           &.active {
             visibility: visible;
             opacity: 1;
@@ -87,5 +88,8 @@ $grid-tile-height: 300px;
         }
       }
     }
+  }
+  .list-body {
+    .grid-list {}
   }
 }

@@ -9,7 +9,7 @@
   <div class="grid-body tile-body" ng-if="gridStyle == 'tiles'">
     <grid-tile ng-repeat="tile in data" project="tile"></grid-tile>
   </div>
-  <div class="grid-body list-body" ng-if="gridStyle == 'list'">
+  <ul class="list-body collection" ng-if="gridStyle == 'list'">
     <grid-list ng-repeat="list in data" project="list"></grid-list>
-  </div>
+  </ul>
 </div>

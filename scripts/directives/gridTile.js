@@ -1,4 +1,4 @@
-app.directive('gridTile', function ($interval) {
+app.directive('gridTile', function () {
   return {
     restrict: 'E',
     replace: true,
@@ -7,19 +7,7 @@ app.directive('gridTile', function ($interval) {
     },
     templateUrl: './views/directives/grid-tile.html',
     link: function(scope, element, attrs){
-      scope.carouselIndex = 0;
-      var carouselTime = 4500;
-      
-      this.carousel = $interval(function(){
-        scope.carouselIndex += 1;
-        if (scope.project.images.length == scope.carouselIndex){
-          scope.carouselIndex = 0;
-        }
-        console.log(scope.carouselIndex);
-      }, carouselTime);
-      
       
     }
-//    controller: 'NavController'
   }
 });

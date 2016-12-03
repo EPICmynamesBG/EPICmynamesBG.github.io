@@ -1,6 +1,6 @@
 <div class="grid-tile">
-  <figure>
-    <img class="carousel-image" ng-repeat="image in project.images track by $index" ng-src="/assets/projects/{{image}}" alt="{{project.title}} carousel image" ng-class="carouselIndex == $index ? 'active':'hidden'" />
+  <figure ui-sref="Projects.Detail({projectName: project.title})">
+    <img class="grid-image" ng-src="/assets/projects/{{project.images[0]}}" alt="{{project.title}} image"/>
     <figcaption><span>{{project.title}}</span></figcaption>
   </figure>
 </div>
