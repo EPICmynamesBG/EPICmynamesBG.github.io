@@ -65,7 +65,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
     .state('Projects.All', {
       parent: 'Projects',
       project: '/all',
-      url: "/all",
+      url: "/all?style",
       templateUrl: "views/projects/all.html",
       controller: 'ProjectsAllController',
       data: {}

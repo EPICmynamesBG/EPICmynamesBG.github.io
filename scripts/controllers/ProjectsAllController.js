@@ -1,4 +1,17 @@
-app.controller('ProjectsAllController', function ($scope, $json) {
+app.controller('ProjectsAllController', function ($scope, $json, $stateParams, $state) {
+
+  if (!$stateParams.style || $stateParams.style == "") {
+    $stateParams.style = 'tiles';
+
+    $state.go('Projects.All', {
+      style: $stateParams.style
+    }, {
+      notify: false,
+      location: "replace"
+    });
+
+  };
+  $scope.gridStyle = $stateParams.style;
 
   $json.loadFile('projects')
     .success(function (data) {
@@ -7,4 +20,18 @@ app.controller('ProjectsAllController', function ($scope, $json) {
     .error(function (error) {
       console.log(error);
     });
+
+
+  $scope.$watch('gridStyle', function (newVal, oldVal) {
+    if (newVal != oldVal) {
+      $state.go('Projects.All', {
+        style: newVal
+      }, {
+        notify: false,
+        location: "replace"
+      });
+    }
+  });
+
+
 });

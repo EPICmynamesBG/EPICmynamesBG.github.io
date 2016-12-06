@@ -8,6 +8,7 @@
         "showEvent": false,
         "event": "n/a",
         "description": "A companion to Pokémon GO that allows players to see where certain Pokemon can be found",
+        "material-icon": "mdi-apple-ios",
         "images": [
                 "/GoDex/icon.png",
 				"/GoDex/GoDex1.png",
@@ -24,6 +25,7 @@
         "showEvent": false,
         "event": "n/a",
         "description": "A wirelessly controllable USB power port",
+        "material-icon": "mdi-language-csharp",
         "images": [
 				"/WiFi-USB/IMG_2189.JPG",
                 "/WiFi-USB/IMG_2190.JPG",
@@ -41,6 +43,7 @@
         "showEvent": false,
         "event": "n/a",
         "description": "Made during my work at the Digital Corps, Virtual Commencement Admin is an administrative panel made for Ball State's Virtual Commencement.",
+        "material-icon": "mdi-language-html5",
         "images": [
 				"/VirtualCommencement/VirtualCommencement0.png",
                 "/VirtualCommencement/VirtualCommencement1.png",
@@ -56,6 +59,7 @@
         "showEvent": false,
         "event": "n/a",
         "description": "SKButton is a project/add-on for developers using the iOS SpriteKit. In my experience developing with SpriteKit, I realized that there was no simple Button. Based on this, I decided to make my own implementation of a button that would act exactly like the SpriteKitNode and Label objects, with some similarities and added features like that of a regular UIButton. And thus, my SKButton came into existence. It is a single .Swift file that can simply be copied/imported into any iOS Swift app, and even comes with full documentation.",
+        "material-icon": "mdi-apple-ios",
         "images": [
 				"/SKButton/SKButton_1.png",
 				"/SKButton/SKButton_2.png",
@@ -74,6 +78,7 @@
         "showEvent": false,
         "event": "",
         "description": "Asteroid Blaster is a simple iOS game create for my course on mobile application development. It was written using Swift 2.0 using SpriteKit. For this app, the course objectives stated that the game must have a 30 second timer, a score tracker, and that the actual gameplay should include tapping to fire an object from the bottom of the screen to a falling object.",
+        "material-icon": "mdi-language-html5",
         "images": [
 				"/AsteroidBlaster/AsteroidBlaster_icon.png",
                 "/AsteroidBlaster/AsteroidBlaster_start.png",
@@ -92,6 +97,7 @@
         "showEvent": false,
         "event": "n/a",
         "description": "PokemonDB is a simple web application made by myself and 2 classmates in a Databases course. The course objectives were fairly simple and allowed us to do about anything, so we chose to do Pokemon (just the original 151). After many creations and edits to our database, we decided it was ready to create a user interface. The end result was a nifty, scalable UI that was editable by users.",
+        "material-icon": "mdi-language-html5",
         "images": [
 				"/PokemonDB/PokemonDB_1.png",
 				"/PokemonDB/PokemonDB_2.png",
@@ -120,6 +126,7 @@
         "showEvent": true,
         "event": "Project at the Digital Corps",
         "description": "Charlie Eats Worms is a game developed for the custom 70in touchscreen located just outside the Digital Corps at Ball State University. The objectives of this game were simple: create something simple, quick, and Ball State themed. Charlie Eats Worms is a simple game where users tap the flying worms (opponent MAC schools) and Charlie Cardinal eats them. The game gets harder over time, and there is a local highscore system in place so everyone that plays at the big touchscreen can see how their score compares.",
+        "material-icon": "mdi-language-javascript",
         "images": [
              "/CharlieEatsWorms/Charlie_1.png",
 			"/CharlieEatsWorms/Charlie_3.png",
@@ -136,6 +143,7 @@
         "showEvent": false,
         "event": "",
         "description": "In Between is a simple card game that is relatively unfound on app stores. For our group's final project in CS222 (Advanced Programming), we are creating an Android app of this game. Under my direction, we consistently met and achieved goals that brought us closer to having a final product. On 11/22/2014, version 1 of the app was released worldwide on the Google Play store. The current version is 1.1.1.",
+        "material-icon": "mdi-android",
         "images": [
              "/InBetween/icon.png",
              "/InBetween/Default/main.png",
