@@ -8,3 +8,5 @@
 ## Usually would ignore node_modules, but because github static hosting, need to keep ##
 
 sass/*.css
+
+!node_modules/
