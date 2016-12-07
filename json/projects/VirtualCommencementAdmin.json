@@ -17,9 +17,9 @@
             "Later on, when all my projects finished up, I came back to the Virtual Commencement web app and decided to make it mobile friendly. There was really no purpose, but I was determined to, and so I did. Doing this included adding some css @media queries, as well as some more jQuery to enable the sliding left bar, and how to handle taps differently. But it was a great experience, and I learned a lot more about UX and mobile CSS."
         ],
     "images": [
-        "/images/VirtualCommencement/VirtualCommencement0.png",
-        "/images/VirtualCommencement/VirtualCommencement1.png",
-        "/images/VirtualCommencement/VirtualCommencement2.png",
-        "/images/VirtualCommencement/VirtualCommencement3.png"
+        "/VirtualCommencement/VirtualCommencement0.png",
+        "/VirtualCommencement/VirtualCommencement1.png",
+        "/VirtualCommencement/VirtualCommencement2.png",
+        "/VirtualCommencement/VirtualCommencement3.png"
     ]
 }

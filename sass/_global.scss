@@ -1,0 +1,223 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  &:focus {
+    outline: none;
+  }
+  &::selection {
+    color: white;
+    background-color: $primary-nav;
+  }
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+  &.padded {
+    padding: 20px;
+  }
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+p {
+  max-width: 550px;
+  color: rgba(0, 0, 0, 0.71);
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  &.flow-text {
+    max-width: 750px;
+  }
+}
+
+.waves-effect.waves-blue .waves-ripple {
+  /* The alpha value allows the text and background color
+     of the button to still show through. */
+  background-color: rgba(33, 150, 243, 0.65);
+}
+
+.waves-effect.waves-grey .waves-ripple,
+.waves-effect.waves-gray .waves-ripple {
+  /* The alpha value allows the text and background color
+     of the button to still show through. */
+  background-color: rgba($grey-ripple, 0.65);
+}
+
+.waves-effect.waves-sidebar .waves-ripple {
+  background-color: $sidebar-wave;
+}
+
+.well[ui-view] {
+  height: 65px;
+}
+
+.ui-view-container {
+  position: relative;
+}
+
+[ui-view].ng-enter,
+[ui-view].ng-leave {
+  position: absolute;
+  left: 0;
+  right: 0;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+[ui-view].ng-enter {
+  opacity: 0;
+  -webkit-transform: scale3d(0.5, 0.5, 0.5);
+  -moz-transform: scale3d(0.5, 0.5, 0.5);
+  transform: scale3d(0.5, 0.5, 0.5);
+}
+
+[ui-view].ng-enter-active {
+  opacity: 1;
+  -webkit-transform: scale3d(1, 1, 1);
+  -moz-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+}
+
+[ui-view].ng-leave {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+[ui-view].ng-leave-active {
+  opacity: 0;
+  -webkit-transform: translate3d(100px, 0, 0);
+  -moz-transform: translate3d(100px, 0, 0);
+  transform: translate3d(100px, 0, 0);
+}
+
+.show-on-small-and-down {
+  display: none;
+}
+
+.social {
+  position: relative;
+  height: 48px;
+  width: 30%;
+  max-width: 48px;
+  display: inline-block;
+  margin: 2px;
+  a {
+    padding: 0;
+    height: 100%;
+    display: block;
+    img {
+      max-height: 100%;
+      max-width: 100%;
+    }
+  }
+}
+
+.card {
+  padding: 2rem 1rem;
+  &.center {
+    margin: 0.5rem auto 1rem auto;
+  }
+  .sub-title {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  p {
+    font-size: 1.25rem;
+    line-height: 1.6rem;
+    &.center {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .card-content {
+    padding: 20px;
+  }
+  .card-reveal {
+    left: 0;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card.horizontal {
+    display: block;
+    .card-image,
+    .card-stacked {
+      display: block;
+      width: 100%;
+      .card-content p {
+        margin: auto auto;
+      }
+    }
+    .card-image {
+      margin: 1rem auto !important;
+    }
+  }
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card .btn.btn-small,
+.btn-floating.btn-small {
+  height: 2rem;
+  width: 2rem;
+  line-height: 2rem;
+  > i {
+    line-height: 2rem;
+  }
+}
+
+.btn.invisible,
+.btn-floating.invisible {
+  box-shadow: none !important;
+  background-color: transparent !important;
+  > i {
+    color: black;
+  }
+}
+
+#goToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: $nav-item-active;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(40px);
+  transition: all 0.2s;
+  &.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .show-on-small-and-down {
+    display: block;
+  }
+  main.padded {
+    padding: 10px;
+  }
+}

@@ -3,7 +3,7 @@
     "status": "Incomplete, not in Development",
     "link": "http://challengepost.com/software/augmented-reality-scavenger-hunt",
     "linkText": "View on ChallengePost",
-    "linkImage": "/images/SocialMedia/ChallengePost_icon.png",
+    "linkImage": "",
     "start": "Apr 11, 2014",
     "end": "Apr 13, 2014",
     "event": "HackIllinois 2014",
@@ -13,8 +13,8 @@
                 "This hacakthon proved to be a great eye opener in multiple ways. First, we learned to come prepared. We didn't have a repository or anything set up before getting there, and with many issues holding us up, we ended up only being able to develop on one computer. Second, we learned that Android is NOT something to try and learn as a crash course in 36 hours. It's just not a good idea as it causes a lot of stress and confusion. Lastly, we learned that hackathons are really awesome, and we couldn't wait to go to the next one and hopefully come up with something a little better than this app."
             ],
     "images": [
-                "/images/HackIllinois_2014/hack_illinois_scavenger_2.png",
-                "/images/HackIllinois_2014/hackIllinois2014_1.png",
-                "/images/HackIllinois_2014/hackIllinois2014_2.png"
+                "/HackIllinois_2014/hack_illinois_scavenger_2.png",
+                "/HackIllinois_2014/hackIllinois2014_1.png",
+                "/HackIllinois_2014/hackIllinois2014_2.png"
             ]
 }

@@ -3,7 +3,7 @@
     "status": "In Development",
     "link": "https://github.com/EPICmynamesBG/InBetween_iOS",
     "linkText": "View on GitHub",
-    "linkImage": "/images/SocialMedia/github-1024-black.png",
+    "linkImage": "/asseets/images/Social/Github_icon.svg",
     "start": "Dec 2014",
     "end": "Present",
     "event": "n/a",
@@ -16,12 +16,12 @@
                 "At this time, the biggest thing I've learned from this app is saving user settings from the settings pane. I thought this would be massively difficult, but it turned out to be super easy, and it's a great feeling of accomplishment knowing that it didn't take and arm and a leg to get those working.",
             ],
     "images": [
-                "/images/InBetween_iOS/icon.png",
-                "/images/InBetween_iOS/main.png",
-                "/images/InBetween_iOS/inGame.png",
-                "/images/InBetween_iOS/paused.png",
-                "/images/InBetween_iOS/help.png",
-                "/images/InBetween_iOS/settings.png",
-                "/images/InBetween_iOS/stats.png"
+                "/InBetween_iOS/icon.png",
+                "/InBetween_iOS/main.png",
+                "/InBetween_iOS/inGame.png",
+                "/InBetween_iOS/paused.png",
+                "/InBetween_iOS/help.png",
+                "/InBetween_iOS/settings.png",
+                "/InBetween_iOS/stats.png"
             ]
 }

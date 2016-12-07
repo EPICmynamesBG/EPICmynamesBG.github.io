@@ -1,91 +1,134 @@
 <!DOCTYPE html>
-<html ng-app="Main">
+<html lang="en" ng-app="app">
 
-<head lang="en">
-	<title>Brandon's Portfolio</title>
-	<link rel=icon href="images/Generic-Folder-Blue-icon.png" />
-	<!-- Meta Tags -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta http-equiv="Content-Language" lang="en" />
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
-	<meta name="description" content="Personal portfolio and resume of Brandon Groff, CS major at Ball State" />
-	<meta name="keywords" content="Brandon Groff, mynamesbg, portfolio, Ball State, CS, Computer Science, Versailles, OH" />
-	<!-- Stylesheets -->
-	<link rel="stylesheet" type="text/css" href="styles/generic.css" charset="utf-8" />
-	<link rel="stylesheet" type="text/css" href="styles/information.css" charset="utf-8" />
-	<link rel="stylesheet" type="text/css" href="styles/projects.css" charset="utf-8" />
-	<link rel="stylesheet" type="text/css" href="styles/singleProject.css" charset="utf-8" />
-	<link rel="stylesheet" type="text/css" href="styles/imagePopup.css" charset="utf-8" />
-	<link rel="stylesheet" type="text/css" href="styles/animations.css" charset="utf-8" />
-	<!-- Angular Source Scripts -->
-	<script src="libraries/angular.js"></script>
-	<script src="libraries/angular-route.js"></script>
-	<script src="libraries/angular-touch.js"></script>
-	<script src="libraries/angular-animate.js"></script>
-	<! -- JQuery Source Scripts -->
-	<script src="libraries/jquery-2.1.4.min.js"></script>
-	<!-- Angular Carousel -->
-	<!-- Angular Carousel was not created by me, but is openly availble on GitHub. All credits go to the creator.-->
-	<link rel="stylesheet" type="text/css" href="styles/angular-carousel.css" charset="utf-8" />
-	<script src="angularjs/angular-carousel.js"></script>
-	<script src="angularjs/angular-carousel.min.js"></script>
-	<!-- Angular Scripts -->
-	<script type="text/javascript" src="angularjs/app.js"></script>
-	<script type="text/javascript" src="angularjs/services/JSON.js"></script>
-	<script type="text/javascript" src="angularjs/controllers/InfoController.js"></script>
-	<script type="text/javascript" src="angularjs/controllers/NavController.js"></script>
-	<script type="text/javascript" src="angularjs/controllers/ProjectsController.js"></script>
-	<script type="text/javascript" src="angularjs/controllers/OldProjectsController.js"></script>
-	<script type="text/javascript" src="angularjs/controllers/SingleProjectController.js"></script>
-	<script type="text/javascript" src="scripts/ripple.js"></script>
-	<script type="text/javascript" src="scripts/stickyNav.js"></script>
-	<script type="text/javascript" src="scripts/googleAnalytics.js"></script>
+<head>
+  <base href="/" />
+
+  <title>Brandon Groff</title>
+  <link rel=icon href="./assets/images/logo_v2_32.png" />
+  <!-- Meta Tags -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Content-Language" lang="en" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+  <meta name="description" content="Personal portfolio and resume of Brandon Groff, CS major at Ball State" />
+  <meta name="keywords" content="Brandon Groff, mynamesbg, portfolio, Ball State, CS, Computer Science, Versailles, OH" />
+
+  <!-- Source Imports -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" media="all" type="text/css" href="./node_modules/mdi/css/materialdesignicons.min.css" />
+  <link rel="stylesheet" href="./node_modules/materialize-css/dist/css/materialize.min.css" />
+
+  <!-- Styling -->
+  <link rel="stylesheet" href="./dist/index.min.css" />
+
+
 </head>
 
-<body>
-	<header ng-controller="NavController">
-		<div id="titleBar">
-			<div class="upper_content shine">
-				<br/>
-				<img id="logo" src="images/logo1@3x.png" srcset="images/logo1.png 200w, images/logo1@2x.png 400w" ng-click="homeClick()" />
-				<img id="headshot" src="images/headshot_crop@3x.jpg" srcset="images/headshot_crop.jpg 200w, images/headshot_crop@2x.jpg 400w" />
-			</div>
-			<div id="navBar">
-				<div class="navigation">
-					<div class="rippleEffect navBar_item first" title="Information" ng-click="infoClick()" ng-class="'About' == current ? 'currentPage': ''">About Me</div>
-					<div class="rippleEffect navBar_item last" title="Projects" ng-click="projectClick()" ng-class="'Projects' == current ? 'currentPage': ''">Projects</div>
-					<div class="rippleEffect navBar_item last" title="Resume" ng-click="resumeClick()" ng-class="'Resume' == current ? 'currentPage': ''">My Resume</div>
-				</div>
-			</div>
-			<div id="navBar-spacer"></div>
-		</div>
-	</header>
-	<ng-view>
+<body class="blue-grey lighten-5">
+  <!-- BEGIN: App-Loading Screen. -->
+  <div class="m-app-loading" ng-animate-children>
+    <!--
+            HACKY CODE WARNING: I'm putting Style block inside directive so that it
+            will be removed from the DOM when we remove the directive container.
+        -->
+    <link rel="stylesheet" href="./dist/loading.min.css" />
+    <!-- BEGIN: Actual animated container. -->
+    <div class="animated-container">
+      <div class="logo-container">
+        <svg id="logo" data-name="Layer 7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 207.06 298.33">
+          <defs>
+            <style>
+              .cls-1 {
+                fill: #14499e;
+              }
+              
+              .cls-2 {
+                fill: none;
+                stroke: #38a4dd;
+                stroke-linecap: round;
+                stroke-linejoin: round;
+                stroke-width: 5px;
+              }
+            </style>
+          </defs>
+          <title>Brand</title>
+          <path class="cls-1 g" d="M4401.08,538.3l-46.91,46.92a2,2,0,0,1-1.43.59h-9.43l0,0-48.3-48.3a2,2,0,0,1-.59-1.43V464a2,2,0,0,1,.59-1.43L4339.59,418a2,2,0,0,1,1.42-.59h11a2,2,0,0,1,1.43.59l47.68,47.68a2,2,0,0,1,.59,1.43v69.75A2,2,0,0,1,4401.08,538.3Z" transform="translate(-4194.62 -287.48)" />
+          <path class="cls-1 b" d="M4275.78,418.29l43-42.94a2,2,0,0,0,.59-1.42v-8a2,2,0,0,0-.59-1.42l-76.48-76.48a2,2,0,0,0-1.42-.59h-13.68a2,2,0,0,0-2,2v245.6a2,2,0,0,1-.59,1.42l-29.34,29.34a2,2,0,0,0-.59,1.42V581a2,2,0,0,0,2,2h13.79a2,2,0,0,0,1.42-.59L4323,471.25a2,2,0,0,0,0-2.84l-47.27-47.28A2,2,0,0,1,4275.78,418.29Z" transform="translate(-4194.62 -287.48)" />
+          <line class="cls-2 g" x1="152.61" y1="142.53" x2="194.74" y2="184.66" />
+          <line class="cls-2 g" x1="111.79" y1="245.13" x2="153.91" y2="287.26" />
+          <line class="cls-2 g" x1="111.79" y1="184.04" x2="111.79" y2="245.13" />
+          <line class="cls-2 g" x1="154.24" y1="287.26" x2="196.37" y2="245.13" />
+          <line class="cls-2 g" x1="136.71" y1="245.13" x2="196.29" y2="245.13" />
+          <line class="cls-2 b" x1="42.49" y1="251.59" x2="42.49" y2="51.59" />
+          <line class="cls-2 b" x1="42.49" y1="152.3" x2="113.2" y2="81.59" />
+          <line class="cls-2 b" x1="43.04" y1="111.61" x2="112.58" y2="181.15" />
+          <line class="cls-2 b" x1="42.43" y1="10.69" x2="113.14" y2="81.4" />
+          <line class="cls-2 cross" x1="9.09" y1="285.8" x2="152.4" y2="142.48" />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <!-- END: App-Loading Screen. -->
+  <header ng-controller="NavController">
+    <navigation></navigation>
+  </header>
+  <main ng-class="$state.current.parent != 'Projects' ? 'padded':''">
+    <div ui-view></div>
+  </main>
+  
+  <back-to-top></back-to-top>
+  
+  <footer class="page-footer">
+    <div class="container" ng-if="$state.current.name != 'Home'">
+      <div class="row">
+        <div class="col m6 s12">
+          <h5 class="white-text">Brandon Groff</h5>
+          <p class="grey-text text-lighten-4">I'm a multi-platform developer with a knack for User-Experience and a kick of design skills. My passions include mobile and web based application development and designing for small-screen experiences.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li class="social">
+              <a href="https://www.facebook.com/brandon.groff.58" target="_blank"><img src="./assets/images/Social/Facebook_icon.svg" class="hover-pulse" /></a>
+            </li>
+            <li class="social">
+              <a href="https://twitter.com/EPICmynamesbg" target="_blank"><img class="hover-pulse" src="./assets/images/Social/Twitter_icon.svg" /></a>
+            </li>
+            <li class="social">
+              <a href="https://www.linkedin.com/pub/brandon-groff/93/58/6a2/en" target="_blank"><img src="./assets/images/Social/Linkedin_icon.svg" class="hover-pulse" /></a>
+            </li>
+            <li class="social">
+              <a href="https://www.github.com/EPICmynamesbg" target="_blank"><img class="hover-pulse" src="./assets/images/Social/Github_icon.svg" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2016 Copyright Brandon Groff
+        <a class="grey-text text-lighten-4 right" href="mailto:mynamesbg@gmail.com">Contact Me</a>
+      </div>
+    </div>
+  </footer>
 
-	</ng-view>
+
+
+  <!-- Sources -->
+
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <!--  <script src="./node_modules/materialize-css/dist/js/materialize.min.js"></script>-->
+  <script src="./scripts-other/materialize-custom.js"></script>
+  <script src="./node_modules/angular/angular.min.js"></script>
+  <script src="./node_modules/angular-animate/angular-animate.min.js"></script>
+  <script src="./node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+  <!-- Scripts -->
+  <script src="./dist/app.min.js"></script>
+
+  <script type="text/javascript" src="scripts-other/googleAnalytics.js"></script>
 </body>
-<footer>
-	<div class="flexWrap">
-<!--
-		<div class="footFlexItem">
-			<a id="resume" href="files/BrandonGroff.pdf">Download My Resume</a>
-		</div>
--->
-		<div class="footFlexItem">
-			<span id="connect">
-            <a href="https://www.linkedin.com/pub/brandon-groff/93/58/6a2/en" target="_blank"><img src="images/SocialMedia/linkedIn.png"/></a>
-            <a href="https://github.com/EPICmynamesBG" target="_blank"><img src="images/SocialMedia/github-1024-black.png"/></a>
-            <a href="http://devpost.com/EPICmynamesbg" target="_blank"><img src="images/SocialMedia/devpost_logo.svg"/></a>
-            <a href="https://www.facebook.com/brandon.groff.58" target="_blank"><img src="images/SocialMedia/facebook-icon.png"/></a>
-            <a href="https://twitter.com/EPICmynamesbg" target="_blank"><img src="images/SocialMedia/Twitter_logo.png"/></a>
-        </span>
-		</div>
-		<div class="footFlexItem">
-			<p id="copyright">Content and Design Copyright Brandon Groff 2016 &#169;</p>
-		</div>
-	</div>
-</footer>
 
 </html>

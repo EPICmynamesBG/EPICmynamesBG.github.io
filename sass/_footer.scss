@@ -1,0 +1,33 @@
+$footer-height: 160px;
+
+@media screen and (max-width: 993px){
+  $footer-height: 270px;
+}
+
+footer.page-footer {
+  background-color: $primary-nav;
+  & > div.container {
+    overflow: hidden;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    &.ng-enter {
+      animation: enter 0.3s ease-in-out normal both;
+    }
+    @keyframes enter {
+      0% {
+        height: 0px;
+      }
+      90% {
+        height: $footer-height;
+      }
+      100% {
+        height: auto;
+      }
+    }
+    &.ng-leave {
+      animation: enter 0.3s ease-in-out reverse both;
+    }
+  }
+  
+  z-index: 0;
+}

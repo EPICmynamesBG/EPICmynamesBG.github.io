@@ -3,7 +3,7 @@
     "status": "Incomplete, not in Development",
     "link": "http://devpost.com/software/mcverilog",
     "linkText": "View on ChallengePost",
-    "linkImage": "/images/SocialMedia/ChallengePost_icon.png",
+    "linkImage": "",
     "start": "Oct 17, 2014",
     "end": "Oct 19, 2015",
     "event": "BoilerMake 2014",
@@ -15,8 +15,8 @@
                 "At the final demos, we got a lot of positive feedback on our project, and although we didn't win, we got the equivalent of an honarable mention when winners were being read off. At the end of this event, I felt like I hadn't contributed as much as my peers. I felt ashamed of what I offered to the group; but I held me head high because I had done something. I did contribute. And I was only a first semester sophmore; this was just one more reason to push myself to learn more about software development, and I have done since then to keep learning."
             ],
     "images": [
-                "/images/BoilerMake_2014/McVerilog1.png",
-                "/images/BoilerMake_2014/McVerilog2.png",
-                "/images/BoilerMake_2014/McVerilog3.png"
+                "/BoilerMake_2014/McVerilog1.png",
+                "/BoilerMake_2014/McVerilog2.png",
+                "/BoilerMake_2014/McVerilog3.png"
             ]
 }

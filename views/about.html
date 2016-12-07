@@ -1,0 +1,56 @@
+<div id="about">
+  <div class="row about">
+    <div class="col s12 m12">
+      <h2 class="header">About</h2>
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="./assets/images/bsu-logo.png" />
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+            <p>{{::generalInfo.about}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--
+  <div class="row history">
+    <div class="col s12 m12">
+      <h2 class="header">History</h2>
+      <div class="card horizontal">
+        <div class="card-stacked">
+          <div class="card-content">
+            <p>{{generalInfo.history}}</p>
+          </div>
+        </div>
+        <div class="card-image">
+          <img src="./assets/images/tiger.jpg" />
+        </div>
+      </div>
+    </div>
+  </div>
+-->
+  <div class="row school">
+    <div class="col s12 m12">
+      <h2 class="header">Education</h2>
+      <div class="card">
+        <div class="card-image">
+          <img src="./assets/images/bsu-logo.png">
+          <span class="card-title">Education</span>
+        </div>
+        <div class="card-content">
+          <h3><i class="material-icons mdi mdi-code-tags"></i>Major: {{::generalInfo.education.major}}</h3>
+          <h4><i class="material-icons mdi mdi-amazon-clouddrive"></i>Minor: {{::generalInfo.education.minor}}</h4>
+          <h3><i class="material-icons mdi mdi-school"></i>GPA: {{::generalInfo.education.gpa}}</h3>
+          <h4><i class="material-icons mdi mdi-calendar"></i>Expected Graduation: {{::generalInfo.education.graduation}}</h4>
+        </div>
+        <!--
+        <div class="card-action">
+          <a href="#">This is a link</a>
+        </div>
+-->
+      </div>
+    </div>
+  </div>
+</div>

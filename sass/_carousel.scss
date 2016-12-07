@@ -1,0 +1,111 @@
+$carousel-height: 450px;
+$max-carousel-width: 800px;
+$small-carousel-height: 280px;
+div.carousel {
+  height: $carousel-height;
+  margin: 20px auto;
+  padding: 5px;
+  transition: all 0.3s;
+  max-width: $max-carousel-width;
+  @media screen and (max-width: 600px) {
+    height: $small-carousel-height;
+  }
+  figure {
+    position: relative;
+    height: $carousel-height;
+    width: 100%;
+    margin: 0;
+    display: block;
+    border-radius: 3px;
+    transition: all 0.4s;
+    @media screen and (max-width: 600px) {
+      height: $small-carousel-height;
+    }
+    img {
+      margin: 1px;
+      transition: all 1s;
+      max-height: 100%;
+      max-width: 100%;
+      overflow: hidden;
+      vertical-align: middle;
+      text-align: center;
+      display: table-cell;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      &.active {
+        visibility: visible;
+        opacity: 1;
+      }
+      &.hidden {
+        visibility: hidden;
+        opacity: 0;
+      }
+    }
+    figcaption {
+      visibility: hidden;
+      opacity: 0;
+      transition: all 0.3s;
+      position: absolute;
+      height: 40px;
+      width: 100%;
+      background-color: rgba(black, 0.8);
+      color: white;
+      bottom: 0;
+      left: 0;
+      z-index: 2;
+      text-align: center;
+      transform: translateY(100%);
+      i {
+        cursor: pointer;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: inline-block;
+        padding: 10px;
+        //        &.right {
+        //          float: none !important;
+        //          position: absolute;
+        //          top: 50%;
+        //          right: 10px;
+        //          transform: translateY(-50%);
+        //        }
+      }
+    }
+    &:hover {
+      figcaption {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    div.paused-overlay {
+      opacity: 0;
+      visibility: hidden;
+      transition: 0.3s;
+      height: 100%;
+      width: 100%;
+      font-size: 2.4rem;
+      font-weight: 600;
+      text-align: center;
+      z-index: 3;
+      color: white;
+      background: radial-gradient(transparent, black);
+      &.visible {
+        opacity: 0.2;
+        visibility: visible;
+      }
+    }
+  }
+  div.carousel-placeholder {
+    height: $carousel-height;
+    margin: 20px auto;
+    padding: 5px;
+    width: 100%;
+    display: none;
+    position: relative;
+  }
+}

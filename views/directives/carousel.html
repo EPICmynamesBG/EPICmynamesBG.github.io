@@ -1,0 +1,18 @@
+<div class="carousel" ng-class="fullScreen ? 'full-screen':''">
+  <figure>
+    <img class="carousel-image" ng-click="togglePlayback()" ng-repeat="image in imageArray track by $index" ng-src="/assets/projects/{{image}}" alt="carousel image" ng-class="carouselIndex == $index ? 'active':'hidden'" />
+    <figcaption class="carousel-controls">
+      <i class="material-icons" ng-if="!paused" ng-click="togglePlayback()">play_arrow</i>
+      <i class="material-icons" ng-if="paused" ng-click="togglePlayback()">pause</i>
+<!--
+      <i class="material-icons right" ng-if="!fullScreen" ng-click="toggleFullscreen()">fullscreen</i>
+      <i class="material-icons right" ng-if="fullScreen" ng-click="toggleFullscreen()">fullscreen_exit</i>
+-->
+    </figcaption>
+    <div class="paused-overlay" ng-class="paused ? 'visible':''">
+      Paused
+    </div>
+  </figure>
+  <div class="carousel-placeholder">
+  </div>
+</div>

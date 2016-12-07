@@ -1,0 +1,57 @@
+#experience {
+  max-width: $content-width;
+  display: block;
+  margin: 0 auto;
+  h2.header {
+    text-align: center;
+  }
+  //  ul.collapsible {
+  //    //    max-width: 800px;
+  //    .collapsible-header {
+  //      .company {
+  //        float:right;
+  //      }
+  //      @media screen and (max-width: 550px) {
+  //        .company {
+  //          float: none;
+  //          display: block;
+  //          text-align: right;
+  //          line-height: 1.5rem;
+  //        }
+  //      }
+  //    }
+  //    
+  //    .collapsible-body {
+  //      .row {
+  //        &:first-child {
+  //          margin-top: 20px;
+  //        }
+  //        p {
+  //          padding: 0.6rem 2rem;
+  //        }
+  //      }
+  //    }
+  //  }
+  .card-more-animated {
+    transform: scale(0.9);
+    transition: 0.4s ease-in-out;
+    &:hover,
+    &:active,
+    &:focus {
+      transform: scale(1.0);
+    }
+  }
+  
+  .card {
+    font-smoothing: antialiased;
+    padding: 1rem 2rem 0.5rem 2rem;
+    .card-reveal .card-title {
+      cursor: default;
+    }
+    .activator-wrapper {
+      position: absolute;
+      top: 1.5rem;
+      right: 1.5rem;
+    }
+  }
+}

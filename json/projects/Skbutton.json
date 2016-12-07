@@ -3,7 +3,7 @@
 	"status": "Completed, Published on GitHub",
 	"link": "https://github.com/EPICmynamesBG/SKButton",
 	"linkText": "View on GitHub",
-	"linkImage": "/images/SocialMedia/github-1024-black.png",
+	"linkImage": "/assets/images/Social/Github_icon.svg",
 	"start": "Dec 8, 2015",
 	"end": "Version 1: Dec 10, 2015",
 	"event": "n/a",
@@ -15,12 +15,12 @@
 				"This project took a number of long hours to complete, and is under continual development for the sake of improvements, bug fixes, and feature additions. Of course, one feature I expect will be requested is that the SKButton be implemented in Objective-C, something I am capable of but do not see the need to do until I have heard from users. Lastly, I can only hope that my project will one day inspire Apple to include an SKButtonNode in SpriteKit so that developers will have even easier access to the power of buttons."
             ],
 	"images": [
-				"/images/SKButton/SKButton_1.png",
-				"/images/SKButton/SKButton_2.png",
-				"/images/SKButton/SKButton_3.png",
-				"/images/SKButton/SKButton_4.png",
-				"/images/SKButton/SKButton_5.png",
-				"/images/SKButton/SKButton_6.png",
-				"/images/SKButton/SKButton_7.png"
+				"/SKButton/SKButton_1.png",
+				"/SKButton/SKButton_2.png",
+				"/SKButton/SKButton_3.png",
+				"/SKButton/SKButton_4.png",
+				"/SKButton/SKButton_5.png",
+				"/SKButton/SKButton_6.png",
+				"/SKButton/SKButton_7.png"
             ]
 }
