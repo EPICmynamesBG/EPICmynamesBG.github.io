@@ -89,11 +89,11 @@ app.service("$preload", function ($templateCache, $http) {
             .then(function (response) {
               //Images
               var imgProm = loadImages(response.data);
-              imgProm.then(values => {
+              imgProm.then(function(values) {
                 //add this item or it won't get cached
                 values.push(response);
                 resolve(values);
-              }, err => {
+              }, function(err) {
                 reject(err);
               });
 
@@ -112,7 +112,7 @@ app.service("$preload", function ($templateCache, $http) {
       }
 
       //FINALLY -> save them ALLLL
-      Promise.all(promArray).then(values => {
+      Promise.all(promArray).then(function(values) {
         values.forEach(function (response) {
           if (Array.isArray(response)) {
             response.forEach(function (innerResponse) {
@@ -123,7 +123,7 @@ app.service("$preload", function ($templateCache, $http) {
           }
         });
         resolve('Success');
-      }, err => {
+      }, function(err) {
         console.log(err);
         resolve(err);
       });

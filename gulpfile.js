@@ -95,8 +95,8 @@ gulp.task('js-min', function () {
     .on('error', handleError)
     .pipe(uglify({
         mangle: false
-      })
-      .on('error', handleError))
+    })
+    .on('error', handleError))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('./dist'));
 });
