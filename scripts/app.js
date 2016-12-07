@@ -1,18 +1,30 @@
 var app = angular.module('app', ['ui.router', 'ngAnimate']);
 
-setTimeout(
-  function asyncBootstrap() {
-    angular.bootstrap(document, ["app"]);
-  }, (3.3 * 1000)
-);
+//setTimeout(
+//  function asyncBootstrap() {
+//    angular.bootstrap(document, ["app"]);
+//  }, (3.3 * 1000)
+//);
 
-app.run(function ($rootScope, $state) {
+app.run(function ($rootScope, $state, $timeout, $preload) {
+  $rootScope.endAnimation = false;
+
+  $timeout(function () {
+    $rootScope.endAnimation = true;
+  }, 3300); //3.3sec
+
   $rootScope.$state = $state;
   $rootScope.loading = false;
   $rootScope.modalData = {};
   $(".button-collapse").sideNav({
     closeOnClick: true
   });
+
+//  $preload.loadAll().then(function (success) {
+//    console.log("Preload", success);
+//  }, function (error) {
+//    console.log("Preload", error);
+//  });
 
   $rootScope.$on('$stateChangeStart', function (evt, to, params) {
     if (to.redirectTo) {
@@ -28,7 +40,7 @@ app.run(function ($rootScope, $state) {
 /* --- Routing --- */
 
 app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
-  
+
   $locationProvider.html5Mode({
     enabled: true,
     requireBase: true

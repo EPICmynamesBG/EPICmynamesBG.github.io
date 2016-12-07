@@ -28,6 +28,10 @@ $grid-tile-height: 300px;
         right: 0;
         top: 0;
         margin: 5px;
+        button {
+          width: 25%;
+          min-width: 80px;
+        }
       }
     }
   }

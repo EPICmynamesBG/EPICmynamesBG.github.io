@@ -8,12 +8,13 @@
         </div>
         <div class="card-stacked">
           <div class="card-content">
-            <p>{{generalInfo.about}}</p>
+            <p>{{::generalInfo.about}}</p>
           </div>
         </div>
       </div>
     </div>
   </div>
+<!--
   <div class="row history">
     <div class="col s12 m12">
       <h2 class="header">History</h2>
@@ -29,6 +30,7 @@
       </div>
     </div>
   </div>
+-->
   <div class="row school">
     <div class="col s12 m12">
       <h2 class="header">Education</h2>
@@ -38,9 +40,10 @@
           <span class="card-title">Education</span>
         </div>
         <div class="card-content">
-          <h3><i class="material-icons mdi mdi-code-tags"></i>Major: {{generalInfo.education.major}}</h3>
-          <h4><i class="material-icons mdi mdi-amazon-clouddrive"></i>Minor: {{generalInfo.education.minor}}</h4>
-          <h3><i class="material-icons mdi mdi-school"></i>GPA: {{generalInfo.education.gpa}}</h3>
+          <h3><i class="material-icons mdi mdi-code-tags"></i>Major: {{::generalInfo.education.major}}</h3>
+          <h4><i class="material-icons mdi mdi-amazon-clouddrive"></i>Minor: {{::generalInfo.education.minor}}</h4>
+          <h3><i class="material-icons mdi mdi-school"></i>GPA: {{::generalInfo.education.gpa}}</h3>
+          <h4><i class="material-icons mdi mdi-calendar"></i>Expected Graduation: {{::generalInfo.education.graduation}}</h4>
         </div>
         <!--
         <div class="card-action">

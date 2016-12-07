@@ -1,0 +1,16 @@
+.details-view {
+  * {
+    text-align: center;
+  }
+  
+  .link-icon {
+    max-height: 60px;
+    max-width: 60px;
+    padding: 7px;
+  }
+  
+  .col.s12 > p {
+    text-align: left;
+    margin: 0px auto;
+  }
+}

@@ -1,1 +1,40 @@
-<h2>{{::project.title}}</h2>
+<div class="details-view">
+  <div class="row">
+    <div class="col s12">
+      <h2 class="center">{{::project.title}}</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s12">
+      <div carousel image-array="project.images"></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s12">
+      <h3>{{::project.status}}</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s12">
+      <h4 ng-if="project.link">
+       <a href="{{::project.link}}">
+        <img ng-if="project.linkImage" class="link-icon z-index-1 hover-pulse" ng-src="{{::project.linkImage}}" alt="{{::project.linkText}}" />
+        <br />
+        {{::project.linkText}}
+       </a>
+      </h4>
+    </div>
+  </div>
+  <div class="row section" ng-repeat="desc in project.description">
+    <div class="col s12">
+      <p ng-bind-html="desc | rawHtml" class="flow-text"></p>
+    </div>
+  </div>
+  <div class="row section" ng-if="project.parts">
+    <h4 ng-if="project.title == 'GoDex'">Contributors</h4>
+    <h4 ng-if="project.title == 'Plex-Media Server'">Parts List</h4>
+    <div class="col s12 m6" ng-repeat="item in project.parts">
+      <a href="{{::item.link}}">{{::item.part}}</a>
+    </div>
+  </div>
+</div>

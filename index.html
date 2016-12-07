@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="app">
 
 <head>
   <base href="/" />
@@ -77,7 +77,9 @@
   <main ng-class="$state.current.parent != 'Projects' ? 'padded':''">
     <div ui-view></div>
   </main>
-
+  
+  <back-to-top></back-to-top>
+  
   <footer class="page-footer">
     <div class="container" ng-if="$state.current.name != 'Home'">
       <div class="row">

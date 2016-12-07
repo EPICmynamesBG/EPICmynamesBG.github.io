@@ -1,4 +1,4 @@
-app.directive("mAppLoading", function ($animate) {
+app.directive("mAppLoading", function ($animate, $rootScope) {
 
   function link(scope, element, attributes) {
     // Due to the way AngularJS prevents animation during the bootstrap
@@ -8,14 +8,20 @@ app.directive("mAppLoading", function ($animate) {
     // --
     // NOTE: Am using .eq(1) so that we don't animate the Style block.
     $animate.enabled(true);
-    $animate.leave(element.children().eq(1)).then(
-      function cleanupAfterAnimation() {
-        // Remove the root directive element.
-        element.remove();
-        // Clear the closed-over variable references.
-        scope = element = attributes = null;
+
+    $rootScope.$watch('endAnimation', function (newVal) {
+      if (newVal) {
+        $animate.leave(element.children().eq(1)).then(
+          function cleanupAfterAnimation() {
+            // Remove the root directive element.
+            element.remove();
+            // Clear the closed-over variable references.
+            scope = element = attributes = null;
+          }
+        );
       }
-    );
+    });
+
   };
 
 

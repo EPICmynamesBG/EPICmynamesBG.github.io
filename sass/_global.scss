@@ -3,8 +3,14 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Josefin Sans', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   &:focus {
     outline: none;
+  }
+  &::selection {
+    color: white;
+    background-color: $primary-nav;
   }
 }
 
@@ -28,6 +34,12 @@ img {
 
 p {
   max-width: 550px;
+  color: rgba(0, 0, 0, 0.71);
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  &.flow-text {
+    max-width: 750px;
+  }
 }
 
 .waves-effect.waves-blue .waves-ripple {
@@ -182,6 +194,22 @@ p {
   background-color: transparent !important;
   > i {
     color: black;
+  }
+}
+
+#goToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: $nav-item-active;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(40px);
+  transition: all 0.2s;
+  &.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
   }
 }
 
