@@ -25,7 +25,7 @@
         "showEvent": false,
         "event": "n/a",
         "description": "A wirelessly controllable USB power port",
-        "material-icon": "mdi-language-csharp",
+        "material-icon": "mdi-language-cpp",
         "images": [
 				"/WiFi-USB/IMG_2189.JPG",
                 "/WiFi-USB/IMG_2190.JPG",
