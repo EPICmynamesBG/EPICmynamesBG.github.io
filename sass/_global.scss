@@ -211,7 +211,15 @@ p {
     visibility: visible;
     transform: translateY(0);
   }
+  &.upfix {
+    bottom: 50px;
+    transform: translateY(60px);
+    &.show {
+      transform: translateY(0);
+    }
+  }
 }
+
 
 @media screen and (max-width: 600px) {
   .show-on-small-and-down {

@@ -20,11 +20,11 @@ app.run(function ($rootScope, $state, $timeout, $preload) {
     closeOnClick: true
   });
 
-  $preload.loadAll().then(function (success) {
-    console.log("Preload", success);
-  }, function (error) {
-    console.log("Preload", error);
-  });
+//  $preload.loadAll().then(function (success) {
+//    console.log("Preload", success);
+//  }, function (error) {
+//    console.log("Preload", error);
+//  });
 
   $rootScope.$on('$stateChangeStart', function (evt, to, params) {
     if (to.redirectTo) {
