@@ -1,12 +1,13 @@
 var app = angular.module('app', ['ui.router', 'ngAnimate']);
 
-//setTimeout(
-//  function asyncBootstrap() {
-//    angular.bootstrap(document, ["app"]);
-//  }, (3.3 * 1000)
-//);
+setTimeout(
+  function asyncBootstrap() {
+    angular.bootstrap(document, ["app"]);
+  }, (10)
+);
 
 app.run(function ($rootScope, $state, $timeout, $preload) {
+  
   $rootScope.endAnimation = false;
 
   $timeout(function () {

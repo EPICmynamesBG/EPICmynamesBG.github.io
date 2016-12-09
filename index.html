@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="app">
+<html lang="en">
 
 <head>
   <base href="/" />
@@ -15,6 +15,12 @@
   <meta name="description" content="Personal portfolio and resume of Brandon Groff, CS major at Ball State" />
   <meta name="keywords" content="Brandon Groff, mynamesbg, portfolio, Ball State, CS, Computer Science, Versailles, OH" />
 
+  
+
+
+</head>
+
+<body class="blue-grey lighten-5">
   <!-- Source Imports -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link rel="stylesheet" media="all" type="text/css" href="./node_modules/mdi/css/materialdesignicons.min.css" />
@@ -22,11 +28,12 @@
 
   <!-- Styling -->
   <link rel="stylesheet" href="./dist/index.min.css" />
-
-
-</head>
-
-<body class="blue-grey lighten-5">
+  
+   <noscript>
+     <h1>Warning: Javascript Disabled</h1>
+     <p>This site requires javascript to work.</p>
+   </noscript>
+ 
   <!-- BEGIN: App-Loading Screen. -->
   <div class="m-app-loading" ng-animate-children>
     <!--
@@ -118,17 +125,17 @@
 
   <!-- Sources -->
 
-  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./node_modules/jquery/dist/jquery.min.js" async></script>
   <!--  <script src="./node_modules/materialize-css/dist/js/materialize.min.js"></script>-->
-  <script src="./scripts-other/materialize-custom.js"></script>
-  <script src="./node_modules/angular/angular.min.js"></script>
-  <script src="./node_modules/angular-animate/angular-animate.min.js"></script>
-  <script src="./node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script src="./scripts-other/materialize-custom.js" async></script>
+  <script src="./node_modules/angular/angular.min.js" async></script>
+  <script src="./node_modules/angular-animate/angular-animate.min.js" async></script>
+  <script src="./node_modules/angular-ui-router/release/angular-ui-router.min.js" async></script>
 
   <!-- Scripts -->
-  <script src="./dist/app.min.js"></script>
+  <script src="./dist/app.min.js" async defer ></script>
 
-  <script type="text/javascript" src="scripts-other/googleAnalytics.js"></script>
+  <script type="text/javascript" src="scripts-other/googleAnalytics.js" async></script>
 </body>
 
 </html>
