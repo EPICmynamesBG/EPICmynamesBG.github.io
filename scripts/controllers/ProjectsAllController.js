@@ -15,7 +15,7 @@ app.controller('ProjectsAllController', function ($scope, $json, $stateParams, $
 
   $json.loadFile('projects')
     .then(function (data) {
-      $scope.projectList = data;
+      $scope.projectList = data.data;
     }, function (error) {
       console.log(error);
     });
