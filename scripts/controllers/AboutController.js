@@ -1,10 +1,9 @@
 app.controller('AboutController', function ($scope, $json) {
 
   $json.loadFile('information/general')
-    .success(function (data) {
+    .then(function (data) {
       $scope.generalInfo = data;
-    })
-    .error(function (error) {
+    }, function (error) {
       console.log(error);
     });
 

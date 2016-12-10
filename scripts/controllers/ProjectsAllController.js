@@ -14,10 +14,9 @@ app.controller('ProjectsAllController', function ($scope, $json, $stateParams, $
   $scope.gridStyle = $stateParams.style;
 
   $json.loadFile('projects')
-    .success(function (data) {
+    .then(function (data) {
       $scope.projectList = data;
-    })
-    .error(function (error) {
+    }, function (error) {
       console.log(error);
     });
 
