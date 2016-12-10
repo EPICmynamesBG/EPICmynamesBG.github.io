@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,700');
+@font-face {
+  font-family: 'Roboto';
+  src: url('../node_modules/materialize-css/dist/fonts/roboto/Roboto-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../node_modules/materialize-css/dist/fonts/roboto/Roboto-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../node_modules/materialize-css/dist/fonts/roboto/Roboto-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../node_modules/materialize-css/dist/fonts/roboto/Roboto-Medium.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../node_modules/materialize-css/dist/fonts/roboto/Roboto-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.block {
+  display: block;
+  position: relative;
+  margin: 10px auto;
+  max-height: 350px;
+  max-width: 350px;
+  width: 20vw;
+  height: 20vw;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.logo-container {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+svg {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.pulse {
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  -webkit-animation-name: hvr-pulse;
+  animation-name: hvr-pulse;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  box-shadow: 0 0 1px transparent;
+  transition: 0.5s;
+}
+
+@keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
