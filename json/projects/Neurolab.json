@@ -1,0 +1,50 @@
+{
+  "title": "NeuroLab",
+  "status": "Nearly Completed",
+  "link": "https://github.com/EPICmynamesBG/NeuroLab",
+  "linkText": "View on GitHub",
+  "linkImage": "/assets/images/Social/Github_icon.svg",
+  "start": "Feb 2016",
+  "end": "Feb 2017",
+  "event": "Honors Thesis",
+  "description": [
+            "As a core component of my Honors Thesis at Ball State Univeristy, NeuroLab is a web-gone-native application created for Ball State's Physiology department to replace an older DOS application. ",
+            "The core focus of my Honors Thesis was User-Experience. With the original lab application being a Windows DOS application from the 1990's, it did not very well meet todays standards of 'Good' User Experience. It's only task was to perform a simple calculation, but because of the old interface and difficulty of navigation, a simple task became time-consuming and difficult. Thus, my goal for NeuroLab was to provide a simpler way to do the same task, and my Thesis focused on just that. While I won't focus on the thesis here, at the bottom of this project page there will be a link to my final Thesis once it has been completed and published.",
+            "In building NeuroLab, my first objective was to collect data on what the application needed to do. At first, NeuroLab was supposed to replace multiple DOS applications; however, after complications, NeuroLab was shrunk to just replace the Nernst-Goldman equation. But note, this shrink factor did not happen until after development had begun, so initial designs were a little larger than the final application. Going with the initial intention of multiple applications replaced by one, the NeuroLab would have to perform the Nernst-Goldman calculation, the Action-Potential calculation and graphing, and a Summation & Accomodation calculation with graphing.",
+            "Initial data set collected, and having screenshots of the older applications, I was able to begin researching and conceptualizing the new application. It's important to note that at this point, I also began researching how to make native desktop applications using web technologies because my forte is web development, and I wasn't particularly interested in learning how to make a native Windows application. Key factors in mind, my first Google searches were all about web interfaces, including popular navigation structures, menu styles, form styles, and graph rendering.",
+            "Hours of research later, I began to sketch up what the application would look like, page by page. This included the main navigation menu, each function's screen, and how calculations would be displayed. In the end, I ended up with a column style main navigation screen (pictured in slide show) with a fixed header. The actual application forms would be large input boxes with easy to understand labels. For education purposes, when specific formulas were used, the formulas would be shown at the top of the screen reflecting variables as inputs were plugged in.",
+            "With crude paper sketches made, the application began to take shape. The next step was actually starting to develop is. Because I had decided to use web technologies, I began looking up things that would allow me to do that. After more Googling, I found and decided to use Electron. Formerly named Atom, Electron is an packaging framework that allows web applications to run as a native desktop application by essentially opening up a special sandboxed browser window with your app inside. Conveniently, Electron could build for Windows, Mac, and even Linux operating systems, so it could be used on other computers if the lab ever changed from Windows. With packager chosen, I began to follow demos and examples to learn how to use Electron.",
+            "At the time I began using Electron, it was still very much in its infancy, so finding examples proved difficult. Nonetheless, I found an example of an Electron application using Angular (my javascript framework of choice) and I ran with it. Building from that, I was slowly able to get the application up and running. I also leveraged Sass for styling in the application, as I hadn't fully decided on a color scheme and the Sass variables made swapping themes out pretty simple. Side note: for finding a color theme, I used <a href='http://paletton.com'>Paletton</a>, which can output Sass theme files. With the entire stack chosen and development under way, it was all uphill from here.",
+            "For the first month or so, I focused primarilly on the styling and Angular parts of development, getting my navigation, forms, and finally functionality in place. However, it finally came to the point where I really needed to leverage Electron for making pop-up windows and establishing application shortcuts. At this point, I again went back to Google to figure things out. It probably took weeks more of development to get these working (I was taking classes and working during the day), but eventually I was able to get windows to pop-up with the selected web pages in them, and that was about it.",
+            "Surprisingly, one of the hardest processes was figuring out how to export the final product. Looking back, the process is fairly simple, but finding examples online was difficult. Once I found a tool online (electron-builder), I was able to figure that out and export a Mac application that I could test. Exporting a Windows application wasn't much more difficult, but it didn't export an exe all-in-one file; rather, it exported the exe surrounded by some dlls and dependencies. Thus, I had to take a step back and figure out now how to make this install simple on Windows computers. Step ahead a bit, I found a tool called InnoSetup that would allow me to package everything into one install exe. Using this and its custom scripting, I was able to tell it what files to use, where they should be installed, and it built everything into an installer for me.",
+            "With final product builds complete, ..."
+            ],
+  "images": [
+                "/NeuroLab/NeuroLab_0.png",
+                "/NeuroLab/NeuroLab_1.png",
+                "/NeuroLab/Goldman.png",
+                "/NeuroLab/AP_1.png",
+                "/NeuroLab/AP_2.png",
+                "/NeuroLab/NeuroLab_6.png",
+                "/NeuroLab/NeuroLab_7.png",
+                "/NeuroLab/NeuroLab_8.png",
+                "/NeuroLab/NeuroLab_2.png",
+                "/NeuroLab/NeuroLab_3.png",
+                "/NeuroLab/NeuroLab_4.png",
+                "/NeuroLab/NeuroLab_5.png"
+            ],
+  "parts": [
+    {
+      "part": "Electron.io",
+      "link": "http://electron.atom.io"
+      },
+    {
+      "part": "Angular",
+      "link": "https://angularjs.org"
+      },
+    {
+      "part": "Sass",
+      "link": "http://sass-lang.com"
+    }
+  ]
+}
