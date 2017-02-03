@@ -1,5 +1,19 @@
     [
       {
+        "title": "NeuroLab",
+        "status": "Published on GitHub",
+        "link": "https://github.com/EPICmynamesBG/GoDex",
+        "start": "July 10, 2016",
+        "end": "July 15, 2016",
+        "showEvent": false,
+        "event": "n/a",
+        "description": "A web gone native application for my Honors Thesis",
+        "material-icon": "mdi-language-html5",
+        "images": [
+                "/NeuroLab/NeuroLab_0.png"
+            ]
+      },
+      {
         "title": "GoDex",
         "status": "Published on GitHub",
         "link": "https://github.com/EPICmynamesBG/GoDex",
@@ -11,7 +25,7 @@
         "material-icon": "mdi-apple-ios",
         "images": [
                 "/GoDex/icon.png",
-				"/GoDex/GoDex1.png",
+				        "/GoDex/GoDex1.png",
                 "/GoDex/GoDex2.png",
                 "/GoDex/GoDex3.png",
                 "/GoDex/GoDex0.png"
@@ -27,7 +41,7 @@
         "description": "A wirelessly controllable USB power port",
         "material-icon": "mdi-language-cpp",
         "images": [
-				"/WiFi-USB/IMG_2189.JPG",
+				        "/WiFi-USB/IMG_2189.JPG",
                 "/WiFi-USB/IMG_2190.JPG",
                 "/WiFi-USB/IMG_2193.JPG",
                 "/WiFi-USB/IMG_2194.JPG",
