@@ -59,12 +59,35 @@
         "description": "Made during my work at the Digital Corps, Virtual Commencement Admin is an administrative panel made for Ball State's Virtual Commencement.",
         "material-icon": "mdi-language-html5",
         "images": [
-				"/VirtualCommencement/VirtualCommencement0.png",
+                "/VirtualCommencement/VirtualCommencement0.png",
                 "/VirtualCommencement/VirtualCommencement1.png",
                 "/VirtualCommencement/VirtualCommencement2.png",
                 "/VirtualCommencement/VirtualCommencement3.png"
             ]
         }, {
+        "title": "Recreation Center Kiosk",
+        "status": "Published Online",
+        "link": "",
+        "start": "Oct 2015",
+        "end": "Feb 2016",
+        "showEvent": false,
+        "event": "n/a",
+        "description": "The Recreation Center Kiosk, or Helath and Well-Being Resource Station, is a kiosk in Ball State's Recreation Center that presents Helath and Wellness related information to users.",
+        "material-icon": "mdi-language-javascript",
+        "images": [
+				        "/RecCenterKiosk/Kiosk_1.JPG",
+                "/RecCenterKiosk/Kiosk_2.JPG",
+                "/RecCenterKiosk/Kiosk_3.JPG",
+                "/RecCenterKiosk/Kiosk_4.JPG",
+                "/RecCenterKiosk/Kiosk_5.JPG",
+                "/RecCenterKiosk/Kiosk_6.JPG",
+                "/RecCenterKiosk/Kiosk_7.JPG",
+                "/RecCenterKiosk/Kiosk_8.JPG",
+                "/RecCenterKiosk/Kiosk_9.JPG",
+                "/RecCenterKiosk/Kiosk_email.png"
+            ]
+        },
+      {
         "title": "SKButton",
         "status": "Completed, Published on GitHub",
         "link": "https://github.com/EPICmynamesBG/SKButton",

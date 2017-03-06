@@ -1,0 +1,35 @@
+{
+  "title": "Recreation Center Kiosk",
+  "status": "Published Online",
+  "link": "http://apso.bsu.edu/2016/rec_center_kiosk",
+  "linkText": "View Online",
+  "linkImage": "",
+  "start": "Oct 2015",
+  "end": "Feb 2016",
+  "event": "",
+  "description": [
+            "The Recreation Center Kiosk, or Helath and Well-Being Resource Station, is a kiosk in Ball State's Recreation Center that presents Helath and Wellness related information to users. Given entries usually contain description and links to helpful resources. Users can also compile a list of things they'd like to learn more about and email the list to themselves for later use. This application was built as a part of my work at the Digital Corps.",
+            "For an application build, there are two components. The main user interface was originally designed as a web application for an iPad using Angular. However, the client decided to use a touch screen computer, so they styling was updated a little to allow interface flexibility. Thus, the web application is fully scallable down to an iPad mini and up to a large TV screen.",
+            "The application data is managed by a Wordpress site backend, and the Wordpress API is used to get that data. The Advanced Custom Fields plugin is used to manage the application entries. One of the greatest challenges presented in this application is the ability for topics to have sub-topics. Because of the recursive logic involved in this, the frontend took a little extra routing logic.",
+            "The last big component of this application was the customized emails. Using Mandrill/MailChimp, I designed a custom html template with styling. In designing this, I learned a lot about how different email providers treat HTML emails. Testing and changes had to be made for many email services, including Apple (Mail and iOS), Google's Gmail, Yahoo email, and Microsoft Outlook.",
+            "In the end, this project was moderately challenging and was one of my first big projects using Angular. It was also my first experiene with HTML emails, and being able to see the application I made in use in the Rec Center was a great feeling."
+            ],
+  "images": [
+                "/RecCenterKiosk/Kiosk_1.JPG",
+                "/RecCenterKiosk/Kiosk_2.JPG",
+                "/RecCenterKiosk/Kiosk_3.JPG",
+                "/RecCenterKiosk/Kiosk_4.JPG",
+                "/RecCenterKiosk/Kiosk_5.JPG",
+                "/RecCenterKiosk/Kiosk_6.JPG",
+                "/RecCenterKiosk/Kiosk_7.JPG",
+                "/RecCenterKiosk/Kiosk_8.JPG",
+                "/RecCenterKiosk/Kiosk_9.JPG",
+                "/RecCenterKiosk/Kiosk_email.png"
+            ],
+  "parts": [
+    {
+      "part": "Angular",
+      "link": "https://angularjs.org"
+      }
+  ]
+}
