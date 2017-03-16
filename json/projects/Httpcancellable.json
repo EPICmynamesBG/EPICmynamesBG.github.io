@@ -1,0 +1,31 @@
+{
+  "title": "Http-Cancellable",
+  "status": "Published on NPM",
+  "linkText": "View On NPM",
+  "linkImage": "",
+  "link": "https://www.npmjs.com/package/angular-http-cancellable",
+  "start": "December 2016",
+  "end": "December 2016",
+  "event": "n/a",
+  "description": [
+            "Http-Cancellable (named angular-http-cancellable on npmjs.com) is a simple and sweet little Angular library that overlays the default $http request service to make requests cancellable. While this seems like a simple thing, I frequently ran into instances where I may need to cancel a network request in Angular, but there was no built in support for it. After numerous instances of this, and finding no easy solutions on npm, I finally decided to make my own and publish it for everyone else to benefit.",
+            "This project was an extremely difficult build as I had made requests cancellable a few times before; however, I did have to take extra time this time to make sure the code was as simple and clean as possible while still being readable. I even took extra time in this project to document all the code using jsdocs, and made testing for the code using mocha + chakram."
+        ],
+  "images": [
+        "/Http-Cancellable/npm.svg"
+    ],
+  "parts": [
+    {
+      "part": "npmjs.com",
+      "link": "https://npmjs.com"
+    },
+    {
+      "part": "jsdocs",
+      "link": "http://usejsdoc.org"
+    },
+    {
+      "part": "Mocha testing framework",
+      "link": "https://mochajs.org"
+    }
+  ]
+}

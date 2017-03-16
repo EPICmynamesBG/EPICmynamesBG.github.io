@@ -14,6 +14,19 @@
             ]
       },
       {
+        "title": "Heorot",
+        "status": "Hosted on Personal Site",
+        "link": "http://dev.brandongroff.com/Heorot",
+        "start": "October 2016",
+        "end": "January 2017",
+        "showEvent": false,
+        "event": "n/a",
+        "description": "An offline capable web app providing a searchable beer database for Muncie's Heorot.",
+        "material-icon": "mdi-angular",
+        "images": [
+                "/Heorot/icon.png"
+            ]
+      }, {
         "title": "GoDex",
         "status": "Published on GitHub",
         "link": "https://github.com/EPICmynamesBG/GoDex",
@@ -47,6 +60,19 @@
                 "/WiFi-USB/IMG_2194.JPG",
                 "/WiFi-USB/IMG_2195.png",
                 "/WiFi-USB/IMG_2196.png"
+            ]
+        }, {
+        "title": "Http-Cancellable",
+        "status": "Published on NPM",
+        "link": "https://www.npmjs.com/package/angular-http-cancellable",
+        "start": "December 2016",
+        "end": "December 2016",
+        "showEvent": false,
+        "event": "n/a",
+        "description": "A quick side project made to address my frequent need to make Angular $http requests cancellable, http-cancellable is a published npm module that accomplishes this task.",
+        "material-icon": "mdi-npm",
+        "images": [
+                "/Http-Cancellable/npm.svg"
             ]
         }, {
         "title": "Virtual Commencement Admin",
@@ -115,7 +141,7 @@
         "showEvent": false,
         "event": "",
         "description": "Asteroid Blaster is a simple iOS game create for my course on mobile application development. It was written using Swift 2.0 using SpriteKit. For this app, the course objectives stated that the game must have a 30 second timer, a score tracker, and that the actual gameplay should include tapping to fire an object from the bottom of the screen to a falling object.",
-        "material-icon": "mdi-language-html5",
+        "material-icon": "mdi-apple-ios",
         "images": [
 				"/AsteroidBlaster/AsteroidBlaster_icon.png",
                 "/AsteroidBlaster/AsteroidBlaster_start.png",

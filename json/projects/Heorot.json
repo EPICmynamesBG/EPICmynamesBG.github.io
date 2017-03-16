@@ -1,0 +1,47 @@
+{
+  "title": "Heorot",
+  "status": "Hosted on Personal Site",
+  "linkText": "View Online",
+  "linkImage": "",
+  "link": "http://dev.brandongroff.com/Heorot",
+  "start": "October 2016",
+  "end": "January 2017",
+  "event": "n/a",
+  "description": [
+            "The Heorot is a web app idea created by my own experience at a local Muncie tavern/pub named the Heorot. The Heorot is home to nearly 400 different craft brews, 50+ of which are on tap. While frequenting there with my roommate, I grew tired of looking over the large menu with small font of different beers. As I learned my tastes, I wanted to be able to easily find certain types of beers, or look ones up by name that I knew were good. Thus, the idea for this Heorot web app came to life.",
+            "Built in (many) hours of (not-so) spare time, the Heorot web app is a full stack website with a mySQL + Slim PHP backend and an AngularJS frontend. Because the site was designed mainly to be a beer/menu database rather than a full web site, there are only three pages. First, the home page, which is a simple intro to the site, but gives a good look at the nice beer bubble background. The create page is a web form that is used to input beers into the database. It features numerous autocomplete dropdowns to accelerate input, as well as prevent duplicate data.",
+            "The last but most important page is the beer page. This page contains the list of all the beers that the Heorot has or has had, including pricing, brewery information, beer style, and more. This page features a custom table designed to be mobile responsive (with the aid of materialize-css), and have filterable and sortable fields. The page url also updates with query parameters for these fields, so all filters/sorts will be applied even on page refresh.",
+            "Another key factor of this build was BreweryDB (link below). While a lot of information could be added from the Heorot's menu, I was able to integrate with BreweryDB on the backend to provide extra information on each beer. Thus, when a beer is clicked in the beer list, a modal appears with more detailed information on the beer, sometimes even including Brewery history and the optimal drinking glass.",
+            "With the massive beer list, it would be a shame if there was no global search feature. So I build a global search feature right into the navigation bar. This global search performs an autocomplete style search similar to how most search engines work: on each character change, a new request is made to the backend, and existing requests are cancelled. As it turns out, cancelling a request is as simple as request.cancel() in angular, so I had to come up with a solution for this. (Months later, I would actually create a more reusable solution that I published to NPM). This search query to my backend would try to find the 10 most compatible beers, breweries, and styles. Then, by clicking an autocomplete option, the beer page is automatically navigated to with the selected filter already applied. If the object selected is a beer, the modal of details for that beer even opens.",
+            "But more challenging than the extremely flexible beer table and the autocompleting global search is the web app's offline mode. That's right, an offline website. Leveraging web technology to it's max potential, I was able to integrate an offline app caching. Thus, so long as anything has been loaded within a recent time frame, if a user is offline, most of the web app is still usable: aka, users can still scroll, sort, and filter the beer list while offline. This app caching works in two ways: first, the manifest.appcache tells the browser what files to save for offline. Second, an Angular library called 'angular-cache' allows specified network requests to be cached for later use. Thus, most requests made in the app are saved for later offline use, including the beer list and any specific beer details that may be loaded for the modal.",
+            "To wrap things up, this project was really exciting to build. Not only did I get to create something myself (and friends) could use, but I got to test out some new things, including offline web apps, some custom UI interactions, and integrating with a public API. I would definitely take on this project again, and if I had to continue working on it, I would expand the site into a full CMS that hopefully the Heorot would be willing to use."
+        ],
+  "images": [
+        "/Heorot/Heorot_1.png",
+        "/Heorot/Heorot_2.png",
+        "/Heorot/Heorot_3.png",
+        "/Heorot/Heorot_4.png",
+        "/Heorot/Heorot_5.png",
+        "/Heorot/Heorot_6.png",
+        "/Heorot/Heorot_7.png",
+        "/Heorot/Heorot_8.png"
+    ],
+  "parts": [
+    {
+      "part": "Angular JS",
+      "link": "https://angularjs.org/"
+    },
+    {
+      "part": "Materialize-CSS",
+      "link": "http://materializecss.com/"
+    },
+    {
+      "part": "Slim PHP",
+      "link": "https://www.slimframework.com"
+    },
+    {
+      "part" : "BreweryDB",
+      "link" : "http://www.brewerydb.com"
+    }
+  ]
+}
