@@ -27,7 +27,7 @@
     "angular-animate": "^1.5.8",
     "angular-ui-router": "^0.3.1",
     "materialize-css": "^0.97.7",
-    "mdi": "^1.7.22"
+    "@mdi/font": "^3.5.95"
   },
   "devDependencies": {
     "gulp": "^3.9.1",

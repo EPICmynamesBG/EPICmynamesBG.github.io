@@ -1,5 +1,28 @@
     [
       {
+        "title": "Subito Bot",
+        "status": "Hosted",
+        "link": "https://github.com/EPICmynamesBG/subito-bot",
+        "start": "August 2017",
+        "end": "Ongoing",
+        "showEvent": false,
+        "event": "n/a",
+        "description": "A Slack slash command interface for the Indy local soup shop Subito.",
+        "material-icon": "mdi-slack",
+        "images": [
+                "/Subito-Bot/screenshot_1.png",
+                "/Subito-Bot/screenshot_2.png",
+                "/Subito-Bot/hello.png",
+                "/Subito-Bot/search.png",
+                "/Subito-Bot/subscribe_1.png",
+                "/Subito-Bot/subscribe_2.png",
+                "/Subito-Bot/subscribe_3.png",
+                "/Subito-Bot/unsubscribe.png",
+                "/Subito-Bot/week_view.png",
+                "/Subito-Bot/settings_time.png"
+            ]
+      },
+      {
         "title": "NeuroLab",
         "status": "Published on GitHub",
         "link": "https://github.com/EPICmynamesBG/GoDex",
@@ -112,112 +135,5 @@
                 "/RecCenterKiosk/Kiosk_9.JPG",
                 "/RecCenterKiosk/Kiosk_email.png"
             ]
-        },
-      {
-        "title": "SKButton",
-        "status": "Completed, Published on GitHub",
-        "link": "https://github.com/EPICmynamesBG/SKButton",
-        "start": "Dec 8, 2015",
-        "end": "Version 1: Dec 10, 2015",
-        "showEvent": false,
-        "event": "n/a",
-        "description": "SKButton is a project/add-on for developers using the iOS SpriteKit. In my experience developing with SpriteKit, I realized that there was no simple Button. Based on this, I decided to make my own implementation of a button that would act exactly like the SpriteKitNode and Label objects, with some similarities and added features like that of a regular UIButton. And thus, my SKButton came into existence. It is a single .Swift file that can simply be copied/imported into any iOS Swift app, and even comes with full documentation.",
-        "material-icon": "mdi-apple-ios",
-        "images": [
-				"/SKButton/SKButton_1.png",
-				"/SKButton/SKButton_2.png",
-				"/SKButton/SKButton_3.png",
-				"/SKButton/SKButton_4.png",
-				"/SKButton/SKButton_5.png",
-				"/SKButton/SKButton_6.png",
-				"/SKButton/SKButton_7.png"
-            ]
-        }, {
-        "title": "Asteroid Blaster",
-        "status": "Completed, Unpublished",
-        "link": "https://github.com/EPICmynamesBG/Asteroid-Blaster",
-        "start": "Dec 2015",
-        "end": "Dec 2015",
-        "showEvent": false,
-        "event": "",
-        "description": "Asteroid Blaster is a simple iOS game create for my course on mobile application development. It was written using Swift 2.0 using SpriteKit. For this app, the course objectives stated that the game must have a 30 second timer, a score tracker, and that the actual gameplay should include tapping to fire an object from the bottom of the screen to a falling object.",
-        "material-icon": "mdi-apple-ios",
-        "images": [
-				"/AsteroidBlaster/AsteroidBlaster_icon.png",
-                "/AsteroidBlaster/AsteroidBlaster_start.png",
-				"/AsteroidBlaster/AsteroidBlaster_game1.png",
-				"/AsteroidBlaster/AsteroidBlaster_game2.png",
-				"/AsteroidBlaster/AsteroidBlaster_pause.png",
-				"/AsteroidBlaster/AsteroidBlaster_game3.png",
-				"/AsteroidBlaster/AsteroidBlaster_gameover.png"
-            ]
-        }, {
-        "title": "PokemonDB",
-        "status": "Completed, Available on GitHub",
-        "link": "https://github.com/EPICmynamesBG/PokemonDB",
-        "start": "Nov 15, 2015",
-        "end": "Dev 22, 2015",
-        "showEvent": false,
-        "event": "n/a",
-        "description": "PokemonDB is a simple web application made by myself and 2 classmates in a Databases course. The course objectives were fairly simple and allowed us to do about anything, so we chose to do Pokemon (just the original 151). After many creations and edits to our database, we decided it was ready to create a user interface. The end result was a nifty, scalable UI that was editable by users.",
-        "material-icon": "mdi-language-html5",
-        "images": [
-				"/PokemonDB/PokemonDB_1.png",
-				"/PokemonDB/PokemonDB_2.png",
-				"/PokemonDB/PokemonDB_3.png",
-				"/PokemonDB/PokemonDB_4.png",
-				"/PokemonDB/PokemonDB_5.png",
-				"/PokemonDB/PokemonDB_6.png",
-				"/PokemonDB/PokemonDB_7.png",
-				"/PokemonDB/PokemonDB_8.png",
-				"/PokemonDB/PokemonDB_9.png",
-				"/PokemonDB/PokemonDB_10.png",
-				"/PokemonDB/PokemonDB_11.png",
-				"/PokemonDB/PokemonDB_12.png",
-				"/PokemonDB/PokemonDB_13.png",
-				"/PokemonDB/PokemonDB_14.png",
-				"/PokemonDB/PokemonDB_15.png",
-				"/PokemonDB/PokemonDB_16.png"
-
-            ]
-        }, {
-        "title": "Charlie Eats Worms",
-        "status": "Completed",
-        "link": "http://apso.bsu.edu/2015/charlie_cardinal_web/mutt_mwc_remake/",
-        "start": "August 2015",
-        "end": "October 2015",
-        "showEvent": true,
-        "event": "Project at the Digital Corps",
-        "description": "Charlie Eats Worms is a game developed for the custom 70in touchscreen located just outside the Digital Corps at Ball State University. The objectives of this game were simple: create something simple, quick, and Ball State themed. Charlie Eats Worms is a simple game where users tap the flying worms (opponent MAC schools) and Charlie Cardinal eats them. The game gets harder over time, and there is a local highscore system in place so everyone that plays at the big touchscreen can see how their score compares.",
-        "material-icon": "mdi-language-javascript",
-        "images": [
-             "/CharlieEatsWorms/Charlie_1.png",
-			"/CharlieEatsWorms/Charlie_3.png",
-			"/CharlieEatsWorms/Charlie_4.png",
-			"/CharlieEatsWorms/Charlie_2.png",
-			"/CharlieEatsWorms/Charlie_5.png"
-         ]
-        }, {
-        "title": "InBetween",
-        "status": "Published on Google Play Store",
-        "link": "https://play.google.com/store/apps/details?id=com.BSU.inbetween",
-        "start": "Sept 2014",
-        "end": "Present",
-        "showEvent": false,
-        "event": "",
-        "description": "In Between is a simple card game that is relatively unfound on app stores. For our group's final project in CS222 (Advanced Programming), we are creating an Android app of this game. Under my direction, we consistently met and achieved goals that brought us closer to having a final product. On 11/22/2014, version 1 of the app was released worldwide on the Google Play store. The current version is 1.1.1.",
-        "material-icon": "mdi-android",
-        "images": [
-             "/InBetween/icon.png",
-             "/InBetween/Default/main.png",
-             "/InBetween/Default/inGame.png",
-             "/InBetween/Default/EN_settings.png",
-             "/InBetween/Default/EN_help.png",
-             "/InBetween/Default/10in_main.png",
-             "/InBetween/Default/EN_10_settings.png",
-             "/InBetween/Default/EN_10in_inGame.png",
-             "/InBetween/Default/EN_10in_gameOver.png",
-             "/InBetween/Default/EN_10in_help.png"
-         ]
         }
  ]
